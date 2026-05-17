@@ -34,8 +34,8 @@ export default function HomePage() {
       {/* Bismillah — top of page */}
       <section className="py-8 px-4 text-center bg-gradient-to-b from-emerald-50/60 to-transparent dark:from-emerald-950/20">
         <span
-          className="arabic-text block text-center whitespace-nowrap text-emerald-700 dark:text-emerald-300 mb-1"
-          style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.3rem, 6vw, 3.2rem)' }}
+          className="arabic-text block whitespace-nowrap text-emerald-700 dark:text-emerald-300 mb-1"
+          style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.3rem, 6vw, 3.2rem)', textAlign: 'center' }}
         >
           بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
         </span>
@@ -68,9 +68,11 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            <ArabicText size="4xl" className="block text-center mb-4 text-emerald-700 dark:text-emerald-300 leading-none">
-              تَعَلَّمِ الْعَرَبِيَّةَ
-            </ArabicText>
+            <div style={{ textAlign: 'center' }}>
+              <ArabicText size="4xl" className="mb-4 text-emerald-700 dark:text-emerald-300 leading-none">
+                تَعَلَّمِ الْعَرَبِيَّةَ
+              </ArabicText>
+            </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
               Learn Arabic Grammar
             </h1>
@@ -145,8 +147,8 @@ export default function HomePage() {
           <div className="px-6 py-6 space-y-6">
             {/* Arabic */}
             <p
-              className="arabic-text text-foreground leading-loose text-center"
-              style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.15rem, 3.8vw, 1.6rem)' }}
+              className="arabic-text text-foreground leading-loose"
+              style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.15rem, 3.8vw, 1.6rem)', textAlign: 'center' }}
               dir="rtl"
             >
               الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، نَوَيْتُ التَّعَلُّمَ وَالتَّعْلِيمَ، وَالتَّذَكُّرَ وَالتَّذْكِيرَ، وَالنَّفْعَ وَالانْتِفَاعَ، وَالإِفَادَةَ وَالاسْتِفَادَةَ، وَالْحَثَّ عَلَى التَّمَسُّكِ بِكِتَابِ اللَّهِ، وَسُنَّةِ رَسُولِهِ ﷺ، وَالدُّعَاءَ إِلَى الْهُدَى، وَالدَّلَالَةَ عَلَى الْخَيْرِ، ابْتِغَاءَ وَجْهِ اللَّهِ، وَمَرْضَاتِهِ، وَقُرْبِهِ، وَثَوَابِهِ سُبْحَانَهُ وَتَعَالَى.
