@@ -200,6 +200,49 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      {/* Niyyah — Objectives for Learning and Teaching */}
+      <section className="max-w-3xl mx-auto px-4 pb-20">
+        <div className="bg-card border border-border rounded-2xl overflow-hidden">
+          {/* Header */}
+          <div className="bg-emerald-700 dark:bg-emerald-800 px-6 py-4 text-center">
+            <span
+              className="arabic-text block text-white mb-1"
+              style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1rem, 3.5vw, 1.5rem)' }}
+            >
+              نِيَّاتُ التَّعَلُّمِ وَالتَّعْلِيمِ لِلإِمَامِ الْحَدَّادِ
+            </span>
+            <p className="text-emerald-100 text-sm font-medium">
+              The Objectives for Learning and Teaching by Imām al-Ḥaddād
+            </p>
+          </div>
+
+          <div className="px-6 py-6 space-y-6">
+            {/* Arabic */}
+            <p
+              className="arabic-text text-foreground leading-loose text-right"
+              style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.15rem, 3.8vw, 1.6rem)' }}
+              dir="rtl"
+            >
+              الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، نَوَيْتُ التَّعَلُّمَ وَالتَّعْلِيمَ، وَالتَّذَكُّرَ وَالتَّذْكِيرَ، وَالنَّفْعَ وَالانْتِفَاعَ، وَالإِفَادَةَ وَالاسْتِفَادَةَ، وَالْحَثَّ عَلَى التَّمَسُّكِ بِكِتَابِ اللَّهِ، وَسُنَّةِ رَسُولِهِ ﷺ، وَالدُّعَاءَ إِلَى الْهُدَى، وَالدَّلَالَةَ عَلَى الْخَيْرِ، ابْتِغَاءَ وَجْهِ اللَّهِ، وَمَرْضَاتِهِ، وَقُرْبِهِ، وَثَوَابِهِ سُبْحَانَهُ وَتَعَالَى.
+            </p>
+
+            <hr className="border-border" />
+
+            {/* Transliteration */}
+            <p className="text-sm text-muted-foreground italic leading-relaxed" dir="ltr">
+              Alḥamdulillāhi rabbil ālamīn, nawaytut ta&apos;alluma watta&apos;līm, wattadhakkura wattadhkīra, wannaf&apos;a wal&apos;intifā&apos;a, wal&apos;ifādata wal&apos;istifādata, wal ḥath-tha &apos;alattamassuki bikitābillāhi, wa sunnati rasūlihī ﷺ, waddu&apos;ā&apos;a ilal hudā, waddalālata &apos;alal khayri, ibtighā&apos;a wajhillāhi wa marḍātihī wa qurbihī wa thawābihī subḥānahū wa ta&apos;ālā.
+            </p>
+
+            <hr className="border-border" />
+
+            {/* English */}
+            <p className="text-sm text-foreground leading-relaxed" dir="ltr">
+              All praise to Allāh, Lord of all the Worlds. I intend to learn and to teach; to remember and to remind; to benefit (myself) and to benefit others; to take and give advantage; to encourage observance of the Book of Allāh and the Sunnah of His Messenger ﷺ; to call towards guidance; to direct towards the good; to seek (thereby) the Countenance of Allāh and His satisfaction, proximity and reward. Transcendent and Exalted is He.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
