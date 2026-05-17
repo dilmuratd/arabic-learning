@@ -57,9 +57,9 @@ export default function HomePage() {
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="inline-flex items-center gap-2 bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 text-sm font-medium px-4 py-1.5 rounded-full mb-6"
+            className="inline-flex items-center gap-2 bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 text-base font-semibold px-5 py-2 rounded-full mb-6"
           >
-            <Star className="w-3.5 h-3.5 fill-current" />
+            <Star className="w-4 h-4 fill-current" />
             Based on "Ten Lessons of Arabic"
           </motion.div>
 
@@ -68,11 +68,6 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            <div style={{ textAlign: 'center' }}>
-              <ArabicText size="4xl" className="mb-4 text-emerald-700 dark:text-emerald-300 leading-none">
-                تَعَلَّمِ الْعَرَبِيَّةَ
-              </ArabicText>
-            </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
               Learn Arabic Grammar
             </h1>
