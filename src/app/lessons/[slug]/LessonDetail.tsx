@@ -119,7 +119,7 @@ export default function LessonDetail({ slug }: { slug: string }) {
           <div className="space-y-4">
             {lesson.examples.map((ex, i) => (
               <div key={i} className="bg-card border border-border rounded-xl p-5">
-                <div className="flex flex-wrap items-end justify-center gap-1 mb-4 py-2" dir="rtl" style={{ direction: 'rtl' }}>
+                <div className="flex flex-row-reverse flex-wrap items-end justify-center gap-1 mb-4 py-2">
                   {ex.breakdown.map((part, j) => (
                     <ColoredWord
                       key={j}
@@ -134,7 +134,7 @@ export default function LessonDetail({ slug }: { slug: string }) {
                   <p className="text-sm text-center text-muted-foreground italic mb-1">{ex.transliteration}</p>
                   <p className="text-sm text-center font-medium text-foreground">{ex.english}</p>
                 </div>
-                <div className="flex flex-wrap gap-2 mt-3 justify-center">
+                <div className="flex flex-row-reverse flex-wrap gap-2 mt-3 justify-center">
                   {ex.breakdown.map((part, j) => (
                     <span
                       key={j}

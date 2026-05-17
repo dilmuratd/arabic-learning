@@ -55,7 +55,7 @@ export function ColoredWord({ word, role, meaning, isArabic = false }: ColoredWo
         {word}
       </span>
       {meaning && (
-        <span className="text-[10px] text-muted-foreground max-w-20 text-center leading-tight">
+        <span className="text-[10px] text-muted-foreground max-w-20 text-center leading-tight" dir="ltr">
           {meaning}
         </span>
       )}
