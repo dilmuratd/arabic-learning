@@ -7,6 +7,7 @@ import { ArabicText } from '@/components/ArabicText';
 import { XPBar } from '@/components/XPBar';
 import { useProgress } from '@/hooks/useProgress';
 import lessonsData from '@/data/lessons.json';
+import { isLessonEnabled } from '@/config/lessons';
 
 const FEATURES = [
   { icon: BookOpen, title: '10 Structured Lessons', desc: 'From Mubtada-Khabar to plural forms, covering all foundational grammar.' },
@@ -15,14 +16,15 @@ const FEATURES = [
   { icon: Trophy, title: 'Quizzes & Flashcards', desc: 'Test your knowledge and build vocabulary with spaced repetition.' },
 ];
 
-const LESSON_HIGHLIGHTS = [
-  { arabic: 'مُبْتَدَأٌ وَخَبَرٌ', english: 'Subject & Predicate', href: '/lessons/mubtada-khabar' },
-  { arabic: 'مُضَافٌ وَمُضَافٌ إِلَيْهِ', english: 'Possessive Construction', href: '/lessons/mudaaf-mudaaf-ilayhi' },
-  { arabic: 'فِعْلٌ مَاضٍ', english: 'Past Tense Verb', href: '/lessons/past-tense' },
-  { arabic: 'فَاعِلٌ وَمَفْعُولٌ', english: 'Subject & Object', href: '/lessons/fail-mafool' },
-  { arabic: 'حُرُوفٌ جَارَّةٌ', english: 'Prepositions', href: '/lessons/prepositions' },
-  { arabic: 'الضَّمَائِرُ', english: 'Pronouns', href: '/lessons/pronouns' },
+const ALL_LESSON_HIGHLIGHTS = [
+  { arabic: 'مُبْتَدَأٌ وَخَبَرٌ', english: 'Subject & Predicate', href: '/lessons/mubtada-khabar', slug: 'mubtada-khabar' },
+  { arabic: 'مُضَافٌ وَمُضَافٌ إِلَيْهِ', english: 'Possessive Construction', href: '/lessons/mudaaf-mudaaf-ilayhi', slug: 'mudaaf-mudaaf-ilayhi' },
+  { arabic: 'فِعْلٌ مَاضٍ', english: 'Past Tense Verb', href: '/lessons/past-tense', slug: 'past-tense' },
+  { arabic: 'فَاعِلٌ وَمَفْعُولٌ', english: 'Subject & Object', href: '/lessons/fail-mafool', slug: 'fail-mafool' },
+  { arabic: 'حُرُوفٌ جَارَّةٌ', english: 'Prepositions', href: '/lessons/prepositions', slug: 'prepositions' },
+  { arabic: 'الضَّمَائِرُ', english: 'Pronouns', href: '/lessons/pronouns', slug: 'pronouns' },
 ];
+const LESSON_HIGHLIGHTS = ALL_LESSON_HIGHLIGHTS.filter(h => isLessonEnabled(h.slug));
 
 export default function HomePage() {
   const { progress, loaded } = useProgress();
