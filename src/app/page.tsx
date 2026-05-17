@@ -185,9 +185,12 @@ export default function HomePage() {
       {/* Quranic Examples callout */}
       <section className="max-w-3xl mx-auto px-4 py-16 text-center">
         <div className="bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-emerald-950/30 dark:to-teal-950/30 border border-emerald-200 dark:border-emerald-800 rounded-2xl p-8">
-          <ArabicText size="2xl" className="block mb-3 text-emerald-700 dark:text-emerald-300">
+          <span
+            className="arabic-text block mb-3 text-center whitespace-nowrap text-emerald-700 dark:text-emerald-300"
+            style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.1rem, 5.5vw, 3rem)' }}
+          >
             بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
-          </ArabicText>
+          </span>
           <p className="text-muted-foreground text-sm mb-6">
             In the name of Allah, the Most Gracious, the Most Merciful
           </p>
