@@ -30,41 +30,18 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen">
-      {/* Niyyah — Objectives for Learning and Teaching */}
-      <section className="max-w-3xl mx-auto px-4 pt-10 pb-2">
-        <div className="bg-card border border-border rounded-2xl overflow-hidden">
-          {/* Header */}
-          <div className="bg-emerald-700 dark:bg-emerald-800 px-6 py-5 text-center">
-            <p className="text-white text-xl sm:text-2xl font-semibold">
-              The Objectives for Learning and Teaching by Imām al-Ḥaddād
-            </p>
-          </div>
 
-          <div className="px-6 py-6 space-y-6">
-            {/* Arabic */}
-            <p
-              className="arabic-text text-foreground leading-loose text-right"
-              style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.15rem, 3.8vw, 1.6rem)' }}
-              dir="rtl"
-            >
-              الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، نَوَيْتُ التَّعَلُّمَ وَالتَّعْلِيمَ، وَالتَّذَكُّرَ وَالتَّذْكِيرَ، وَالنَّفْعَ وَالانْتِفَاعَ، وَالإِفَادَةَ وَالاسْتِفَادَةَ، وَالْحَثَّ عَلَى التَّمَسُّكِ بِكِتَابِ اللَّهِ، وَسُنَّةِ رَسُولِهِ ﷺ، وَالدُّعَاءَ إِلَى الْهُدَى، وَالدَّلَالَةَ عَلَى الْخَيْرِ، ابْتِغَاءَ وَجْهِ اللَّهِ، وَمَرْضَاتِهِ، وَقُرْبِهِ، وَثَوَابِهِ سُبْحَانَهُ وَتَعَالَى.
-            </p>
-
-            <hr className="border-border" />
-
-            {/* Transliteration */}
-            <p className="text-sm text-muted-foreground italic leading-relaxed" dir="ltr">
-              Alḥamdulillāhi rabbil ālamīn, nawaytut ta&apos;alluma watta&apos;līm, wattadhakkura wattadhkīra, wannaf&apos;a wal&apos;intifā&apos;a, wal&apos;ifādata wal&apos;istifādata, wal ḥath-tha &apos;alattamassuki bikitābillāhi, wa sunnati rasūlihī ﷺ, waddu&apos;ā&apos;a ilal hudā, waddalālata &apos;alal khayri, ibtighā&apos;a wajhillāhi wa marḍātihī wa qurbihī wa thawābihī subḥānahū wa ta&apos;ālā.
-            </p>
-
-            <hr className="border-border" />
-
-            {/* English */}
-            <p className="text-sm text-foreground leading-relaxed" dir="ltr">
-              All praise to Allāh, Lord of all the Worlds. I intend to learn and to teach; to remember and to remind; to benefit (myself) and to benefit others; to take and give advantage; to encourage observance of the Book of Allāh and the Sunnah of His Messenger ﷺ; to call towards guidance; to direct towards the good; to seek (thereby) the Countenance of Allāh and His satisfaction, proximity and reward. Transcendent and Exalted is He.
-            </p>
-          </div>
-        </div>
+      {/* Bismillah — top of page */}
+      <section className="py-8 px-4 text-center bg-gradient-to-b from-emerald-50/60 to-transparent dark:from-emerald-950/20">
+        <span
+          className="arabic-text block text-center whitespace-nowrap text-emerald-700 dark:text-emerald-300 mb-1"
+          style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.3rem, 6vw, 3.2rem)' }}
+        >
+          بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+        </span>
+        <p className="text-muted-foreground text-xs sm:text-sm">
+          In the name of Allah, the Most Gracious, the Most Merciful
+        </p>
       </section>
 
       {/* Hero */}
@@ -91,7 +68,7 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            <ArabicText size="4xl" className="block mb-4 text-emerald-700 dark:text-emerald-300 leading-none">
+            <ArabicText size="4xl" className="block text-center mb-4 text-emerald-700 dark:text-emerald-300 leading-none">
               تَعَلَّمِ الْعَرَبِيَّةَ
             </ArabicText>
             <h1 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">
@@ -156,6 +133,42 @@ export default function HomePage() {
         </section>
       )}
 
+      {/* Niyyah — Objectives for Learning and Teaching */}
+      <section className="max-w-3xl mx-auto px-4 py-12">
+        <div className="bg-card border border-border rounded-2xl overflow-hidden">
+          <div className="bg-emerald-700 dark:bg-emerald-800 px-6 py-5 text-center">
+            <p className="text-white text-xl sm:text-2xl font-semibold">
+              The Objectives for Learning and Teaching by Imām al-Ḥaddād
+            </p>
+          </div>
+
+          <div className="px-6 py-6 space-y-6">
+            {/* Arabic */}
+            <p
+              className="arabic-text text-foreground leading-loose text-center"
+              style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.15rem, 3.8vw, 1.6rem)' }}
+              dir="rtl"
+            >
+              الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، نَوَيْتُ التَّعَلُّمَ وَالتَّعْلِيمَ، وَالتَّذَكُّرَ وَالتَّذْكِيرَ، وَالنَّفْعَ وَالانْتِفَاعَ، وَالإِفَادَةَ وَالاسْتِفَادَةَ، وَالْحَثَّ عَلَى التَّمَسُّكِ بِكِتَابِ اللَّهِ، وَسُنَّةِ رَسُولِهِ ﷺ، وَالدُّعَاءَ إِلَى الْهُدَى، وَالدَّلَالَةَ عَلَى الْخَيْرِ، ابْتِغَاءَ وَجْهِ اللَّهِ، وَمَرْضَاتِهِ، وَقُرْبِهِ، وَثَوَابِهِ سُبْحَانَهُ وَتَعَالَى.
+            </p>
+
+            <hr className="border-border" />
+
+            {/* Transliteration */}
+            <p className="text-sm text-muted-foreground italic leading-relaxed text-center" dir="ltr">
+              Alḥamdulillāhi rabbil ālamīn, nawaytut ta&apos;alluma watta&apos;līm, wattadhakkura wattadhkīra, wannaf&apos;a wal&apos;intifā&apos;a, wal&apos;ifādata wal&apos;istifādata, wal ḥath-tha &apos;alattamassuki bikitābillāhi, wa sunnati rasūlihī ﷺ, waddu&apos;ā&apos;a ilal hudā, waddalālata &apos;alal khayri, ibtighā&apos;a wajhillāhi wa marḍātihī wa qurbihī wa thawābihī subḥānahū wa ta&apos;ālā.
+            </p>
+
+            <hr className="border-border" />
+
+            {/* English */}
+            <p className="text-sm text-foreground leading-relaxed text-center" dir="ltr">
+              All praise to Allāh, Lord of all the Worlds. I intend to learn and to teach; to remember and to remind; to benefit (myself) and to benefit others; to take and give advantage; to encourage observance of the Book of Allāh and the Sunnah of His Messenger ﷺ; to call towards guidance; to direct towards the good; to seek (thereby) the Countenance of Allāh and His satisfaction, proximity and reward. Transcendent and Exalted is He.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Features */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-10">
@@ -216,25 +229,6 @@ export default function HomePage() {
               </motion.div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Quranic Examples callout */}
-      <section className="max-w-3xl mx-auto px-4 py-16 text-center">
-        <div className="bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-emerald-950/30 dark:to-teal-950/30 border border-emerald-200 dark:border-emerald-800 rounded-2xl p-8">
-          <span
-            className="arabic-text block mb-3 text-center whitespace-nowrap text-emerald-700 dark:text-emerald-300"
-            style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: 'clamp(1.1rem, 5.5vw, 3rem)' }}
-          >
-            بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
-          </span>
-          <p className="text-muted-foreground text-sm mb-6">
-            In the name of Allah, the Most Gracious, the Most Merciful
-          </p>
-          <p className="text-foreground">
-            Each lesson includes <strong>Quranic examples</strong> to connect grammar rules
-            to the language of the Quran.
-          </p>
         </div>
       </section>
 
