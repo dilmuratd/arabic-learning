@@ -1,0 +1,118 @@
+{
+  "verbs": [
+    {
+      "root": "ن-ص-ر",
+      "pastBase": "نَصَرَ",
+      "presentBase": "يَنْصُرُ",
+      "english": "to help / to support",
+      "pattern": "فَعَلَ - يَفْعُلُ",
+      "type": "sound"
+    },
+    {
+      "root": "ذ-ه-ب",
+      "pastBase": "ذَهَبَ",
+      "presentBase": "يَذْهَبُ",
+      "english": "to go",
+      "pattern": "فَعَلَ - يَفْعَلُ",
+      "type": "sound"
+    },
+    {
+      "root": "ك-ت-ب",
+      "pastBase": "كَتَبَ",
+      "presentBase": "يَكْتُبُ",
+      "english": "to write",
+      "pattern": "فَعَلَ - يَفْعُلُ",
+      "type": "sound"
+    },
+    {
+      "root": "ق-ر-أ",
+      "pastBase": "قَرَأَ",
+      "presentBase": "يَقْرَأُ",
+      "english": "to read",
+      "pattern": "فَعَلَ - يَفْعَلُ",
+      "type": "hamza"
+    },
+    {
+      "root": "ج-ل-س",
+      "pastBase": "جَلَسَ",
+      "presentBase": "يَجْلِسُ",
+      "english": "to sit",
+      "pattern": "فَعَلَ - يَفْعِلُ",
+      "type": "sound"
+    },
+    {
+      "root": "ف-ت-ح",
+      "pastBase": "فَتَحَ",
+      "presentBase": "يَفْتَحُ",
+      "english": "to open",
+      "pattern": "فَعَلَ - يَفْعَلُ",
+      "type": "sound"
+    },
+    {
+      "root": "ض-ر-ب",
+      "pastBase": "ضَرَبَ",
+      "presentBase": "يَضْرِبُ",
+      "english": "to hit / to strike",
+      "pattern": "فَعَلَ - يَفْعِلُ",
+      "type": "sound"
+    },
+    {
+      "root": "س-م-ع",
+      "pastBase": "سَمِعَ",
+      "presentBase": "يَسْمَعُ",
+      "english": "to hear",
+      "pattern": "فَعِلَ - يَفْعَلُ",
+      "type": "sound"
+    },
+    {
+      "root": "أ-ك-ل",
+      "pastBase": "أَكَلَ",
+      "presentBase": "يَأْكُلُ",
+      "english": "to eat",
+      "pattern": "فَعَلَ - يَفْعُلُ",
+      "type": "hamza"
+    },
+    {
+      "root": "ش-ر-ب",
+      "pastBase": "شَرِبَ",
+      "presentBase": "يَشْرَبُ",
+      "english": "to drink",
+      "pattern": "فَعِلَ - يَفْعَلُ",
+      "type": "sound"
+    }
+  ],
+  "pastSuffixes": {
+    "active": [
+      { "pronoun": "هُوَ", "suffix": "", "english": "he", "person": "3rd", "gender": "m", "number": "singular" },
+      { "pronoun": "هِيَ", "suffix": "تْ", "english": "she", "person": "3rd", "gender": "f", "number": "singular" },
+      { "pronoun": "هُمَا (م)", "suffix": "ا", "english": "they two (m)", "person": "3rd", "gender": "m", "number": "dual" },
+      { "pronoun": "هُمَا (ف)", "suffix": "تَا", "english": "they two (f)", "person": "3rd", "gender": "f", "number": "dual" },
+      { "pronoun": "هُمْ", "suffix": "وا", "english": "they (m)", "person": "3rd", "gender": "m", "number": "plural" },
+      { "pronoun": "هُنَّ", "suffix": "نَ", "english": "they (f)", "person": "3rd", "gender": "f", "number": "plural" },
+      { "pronoun": "أَنْتَ", "suffix": "تَ", "english": "you (m)", "person": "2nd", "gender": "m", "number": "singular" },
+      { "pronoun": "أَنْتِ", "suffix": "تِ", "english": "you (f)", "person": "2nd", "gender": "f", "number": "singular" },
+      { "pronoun": "أَنْتُمَا", "suffix": "تُمَا", "english": "you two", "person": "2nd", "gender": "m/f", "number": "dual" },
+      { "pronoun": "أَنْتُمْ", "suffix": "تُمْ", "english": "you all (m)", "person": "2nd", "gender": "m", "number": "plural" },
+      { "pronoun": "أَنْتُنَّ", "suffix": "تُنَّ", "english": "you all (f)", "person": "2nd", "gender": "f", "number": "plural" },
+      { "pronoun": "أَنَا", "suffix": "تُ", "english": "I", "person": "1st", "gender": "m/f", "number": "singular" },
+      { "pronoun": "نَحْنُ", "suffix": "نَا", "english": "we", "person": "1st", "gender": "m/f", "number": "plural" }
+    ]
+  },
+  "presentPrefixes": {
+    "active": [
+      { "pronoun": "هُوَ", "prefix": "يَ", "suffix": "ُ", "english": "he", "person": "3rd", "gender": "m", "number": "singular" },
+      { "pronoun": "هِيَ", "prefix": "تَ", "suffix": "ُ", "english": "she", "person": "3rd", "gender": "f", "number": "singular" },
+      { "pronoun": "هُمَا (م)", "prefix": "يَ", "suffix": "َانِ", "english": "they two (m)", "person": "3rd", "gender": "m", "number": "dual" },
+      { "pronoun": "هُمَا (ف)", "prefix": "تَ", "suffix": "َانِ", "english": "they two (f)", "person": "3rd", "gender": "f", "number": "dual" },
+      { "pronoun": "هُمْ", "prefix": "يَ", "suffix": "ُونَ", "english": "they (m)", "person": "3rd", "gender": "m", "number": "plural" },
+      { "pronoun": "هُنَّ", "prefix": "يَ", "suffix": "ْنَ", "english": "they (f)", "person": "3rd", "gender": "f", "number": "plural" },
+      { "pronoun": "أَنْتَ", "prefix": "تَ", "suffix": "ُ", "english": "you (m)", "person": "2nd", "gender": "m", "number": "singular" },
+      { "pronoun": "أَنْتِ", "prefix": "تَ", "suffix": "ِينَ", "english": "you (f)", "person": "2nd", "gender": "f", "number": "singular" },
+      { "pronoun": "أَنْتُمَا", "prefix": "تَ", "suffix": "َانِ", "english": "you two", "person": "2nd", "gender": "m/f", "number": "dual" },
+      { "pronoun": "أَنْتُمْ", "prefix": "تَ", "suffix": "ُونَ", "english": "you all (m)", "person": "2nd", "gender": "m", "number": "plural" },
+      { "pronoun": "أَنْتُنَّ", "prefix": "تَ", "suffix": "ْنَ", "english": "you all (f)", "person": "2nd", "gender": "f", "number": "plural" },
+      { "pronoun": "أَنَا", "prefix": "أَ", "suffix": "ُ", "english": "I", "person": "1st", "gender": "m/f", "number": "singular" },
+      { "pronoun": "نَحْنُ", "prefix": "نَ", "suffix": "ُ", "english": "we", "person": "1st", "gender": "m/f", "number": "plural" }
+    ]
+  }
+}

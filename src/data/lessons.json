@@ -1,0 +1,913 @@
+[
+  {
+    "id": 1,
+    "slug": "mubtada-khabar",
+    "title": "Subject and Predicate",
+    "arabicTitle": "الْمُبْتَدَأُ وَالْخَبَرُ",
+    "arabicTitleSimple": "مُبْتَدَأٌ وَخَبَرٌ",
+    "lessonNumber": 1,
+    "description": "Learn the two core parts of a nominal sentence in Arabic: the subject (Mubtada) and the predicate (Khabar).",
+    "color": "emerald",
+    "icon": "BookOpen",
+    "concepts": [
+      {
+        "term": "مُبْتَدَأٌ",
+        "transliteration": "Mubtada",
+        "english": "Subject",
+        "color": "blue",
+        "description": "The topic of the sentence. It always has a dammah (ُ) or two dammahs (ٌ) at the end. It is always a noun or pronoun."
+      },
+      {
+        "term": "خَبَرٌ",
+        "transliteration": "Khabar",
+        "english": "Predicate",
+        "color": "green",
+        "description": "What is being said about the Mubtada. It also always has a dammah or two dammahs at the end. It tells us something about the subject."
+      }
+    ],
+    "rules": [
+      "Both Mubtada and Khabar end with a dammah (ُ) or two dammahs (ٌ).",
+      "A Mubtada is always a noun (اسم) or pronoun (ضمير).",
+      "The Khabar tells us information about the Mubtada.",
+      "In Arabic, the verb 'is/are' is not written — it is implied.",
+      "If the Mubtada has alif-laam (ال), it gets a single dammah. Without alif-laam, it usually gets two dammahs (tanween)."
+    ],
+    "examples": [
+      {
+        "arabic": "الْبَيْتُ كَبِيرٌ",
+        "transliteration": "al-baytu kabīrun",
+        "english": "The house is large.",
+        "breakdown": [
+          { "word": "الْبَيْتُ", "role": "mubtada", "meaning": "the house" },
+          { "word": "كَبِيرٌ", "role": "khabar", "meaning": "large" }
+        ]
+      },
+      {
+        "arabic": "مُحَمَّدٌ طَالِبٌ",
+        "transliteration": "Muḥammadun ṭālibun",
+        "english": "Muhammad is a student.",
+        "breakdown": [
+          { "word": "مُحَمَّدٌ", "role": "mubtada", "meaning": "Muhammad" },
+          { "word": "طَالِبٌ", "role": "khabar", "meaning": "a student" }
+        ]
+      },
+      {
+        "arabic": "الْمَسْجِدُ جَمِيلٌ",
+        "transliteration": "al-masjidu jamīlun",
+        "english": "The mosque is beautiful.",
+        "breakdown": [
+          { "word": "الْمَسْجِدُ", "role": "mubtada", "meaning": "the mosque" },
+          { "word": "جَمِيلٌ", "role": "khabar", "meaning": "beautiful" }
+        ]
+      },
+      {
+        "arabic": "الْكِتَابُ مُفِيدٌ",
+        "transliteration": "al-kitābu mufīdun",
+        "english": "The book is beneficial.",
+        "breakdown": [
+          { "word": "الْكِتَابُ", "role": "mubtada", "meaning": "the book" },
+          { "word": "مُفِيدٌ", "role": "khabar", "meaning": "beneficial" }
+        ]
+      },
+      {
+        "arabic": "زَيْدٌ عَالِمٌ",
+        "transliteration": "Zaydun ʿālimun",
+        "english": "Zayd is a scholar.",
+        "breakdown": [
+          { "word": "زَيْدٌ", "role": "mubtada", "meaning": "Zayd" },
+          { "word": "عَالِمٌ", "role": "khabar", "meaning": "a scholar" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "بَيْتٌ", "transliteration": "baytun", "english": "house" },
+      { "arabic": "كِتَابٌ", "transliteration": "kitābun", "english": "book" },
+      { "arabic": "مَسْجِدٌ", "transliteration": "masjidun", "english": "mosque" },
+      { "arabic": "طَالِبٌ", "transliteration": "ṭālibun", "english": "student" },
+      { "arabic": "عَالِمٌ", "transliteration": "ʿālimun", "english": "scholar" },
+      { "arabic": "كَبِيرٌ", "transliteration": "kabīrun", "english": "large/big" },
+      { "arabic": "صَغِيرٌ", "transliteration": "ṣaghīrun", "english": "small" },
+      { "arabic": "جَمِيلٌ", "transliteration": "jamīlun", "english": "beautiful" },
+      { "arabic": "مُفِيدٌ", "transliteration": "mufīdun", "english": "beneficial" },
+      { "arabic": "قَرِيبٌ", "transliteration": "qarībun", "english": "near/close" }
+    ],
+    "quranicExample": {
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allāhu Akbaru",
+      "english": "Allah is the Greatest.",
+      "source": "Adhan (Call to Prayer)"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "mudaaf-mudaaf-ilayhi",
+    "title": "Possessive Construction",
+    "arabicTitle": "الْمُضَافُ وَالْمُضَافُ إِلَيْهِ",
+    "arabicTitleSimple": "مُضَافٌ وَمُضَافٌ إِلَيْهِ",
+    "lessonNumber": 2,
+    "description": "Learn how to express possession and relationships between nouns using the Mudaaf and Mudaaf Ilayhi construction (Idaafah).",
+    "color": "blue",
+    "icon": "Link",
+    "concepts": [
+      {
+        "term": "مُضَافٌ",
+        "transliteration": "Mudaaf",
+        "english": "First noun (possessed)",
+        "color": "purple",
+        "description": "The possessed noun that comes first. It never has alif-laam (ال) and never takes tanween."
+      },
+      {
+        "term": "مُضَافٌ إِلَيْهِ",
+        "transliteration": "Mudaaf Ilayhi",
+        "english": "Second noun (possessor)",
+        "color": "orange",
+        "description": "The possessor noun that comes second. It always ends with a kasrah (ِ) or two kasrahs (ٍ)."
+      }
+    ],
+    "rules": [
+      "The Mudaaf (first noun) NEVER has alif-laam (ال) AND never has tanween.",
+      "The Mudaaf Ilayhi (second noun) always ends with kasrah (ِ) or two kasrahs (ٍ).",
+      "This construction expresses 'X of Y' or 'Y's X' in English.",
+      "Multiple nouns can be chained: A of B of C.",
+      "The Mudaaf can be in any grammatical state (rafa', nasb, or jarr) — this affects only its final vowel, not its structure."
+    ],
+    "examples": [
+      {
+        "arabic": "كِتَابُ الطَّالِبِ",
+        "transliteration": "kitābu al-ṭālibi",
+        "english": "The student's book / The book of the student",
+        "breakdown": [
+          { "word": "كِتَابُ", "role": "mudaaf", "meaning": "book (of)" },
+          { "word": "الطَّالِبِ", "role": "mudaaf-ilayhi", "meaning": "the student" }
+        ]
+      },
+      {
+        "arabic": "بَابُ الْبَيْتِ",
+        "transliteration": "bābu al-bayti",
+        "english": "The door of the house",
+        "breakdown": [
+          { "word": "بَابُ", "role": "mudaaf", "meaning": "door (of)" },
+          { "word": "الْبَيْتِ", "role": "mudaaf-ilayhi", "meaning": "the house" }
+        ]
+      },
+      {
+        "arabic": "مَسْجِدُ الْمَدِينَةِ",
+        "transliteration": "masjidu al-madīnati",
+        "english": "The mosque of the city",
+        "breakdown": [
+          { "word": "مَسْجِدُ", "role": "mudaaf", "meaning": "mosque (of)" },
+          { "word": "الْمَدِينَةِ", "role": "mudaaf-ilayhi", "meaning": "the city" }
+        ]
+      },
+      {
+        "arabic": "خَادِمُ مَسْجِدِ الْمَدِينَةِ",
+        "transliteration": "khādimu masjidi al-madīnati",
+        "english": "The servant of the mosque of the city",
+        "breakdown": [
+          { "word": "خَادِمُ", "role": "mudaaf", "meaning": "servant (of)" },
+          { "word": "مَسْجِدِ", "role": "mudaaf-ilayhi", "meaning": "mosque (of)" },
+          { "word": "الْمَدِينَةِ", "role": "mudaaf-ilayhi", "meaning": "the city" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "بَابٌ", "transliteration": "bābun", "english": "door/gate" },
+      { "arabic": "مَدِينَةٌ", "transliteration": "madīnatun", "english": "city" },
+      { "arabic": "خَادِمٌ", "transliteration": "khādimun", "english": "servant" },
+      { "arabic": "رَجُلٌ", "transliteration": "rajulun", "english": "man" },
+      { "arabic": "وَلَدٌ", "transliteration": "waladun", "english": "boy/child" },
+      { "arabic": "مَكْتَبٌ", "transliteration": "maktabun", "english": "office/desk" },
+      { "arabic": "مَدْرَسَةٌ", "transliteration": "madrasatun", "english": "school" },
+      { "arabic": "أُسْتَاذٌ", "transliteration": "ustādhun", "english": "teacher/professor" }
+    ],
+    "quranicExample": {
+      "arabic": "بِسْمِ اللَّهِ",
+      "transliteration": "Bismi-llāhi",
+      "english": "In the name of Allah",
+      "source": "Al-Fatiha 1:1 — 'اسم' is Mudaaf, 'الله' is Mudaaf Ilayhi"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "past-tense",
+    "title": "Past Tense Verb",
+    "arabicTitle": "الْفِعْلُ الْمَاضِي",
+    "arabicTitleSimple": "فِعْلٌ مَاضٍ",
+    "lessonNumber": 3,
+    "description": "Learn how to conjugate and use past tense verbs in Arabic in both active and passive voice across all persons, genders, and numbers.",
+    "color": "amber",
+    "icon": "Clock",
+    "concepts": [
+      {
+        "term": "فِعْلٌ مَاضٍ",
+        "transliteration": "Fiʿl Māḍī",
+        "english": "Past Tense Verb",
+        "color": "amber",
+        "description": "An action that has already been completed. The root form (3rd person masculine singular) is the base form."
+      },
+      {
+        "term": "مَعْرُوفٌ",
+        "transliteration": "Maʿrūf",
+        "english": "Active Voice",
+        "color": "green",
+        "description": "The subject is known and is performing the action."
+      },
+      {
+        "term": "مَجْهُولٌ",
+        "transliteration": "Majhūl",
+        "english": "Passive Voice",
+        "color": "red",
+        "description": "The subject is unknown. Formed by changing the vowels of the verb."
+      }
+    ],
+    "rules": [
+      "The base form of the past tense verb is the 3rd person masculine singular (هُوَ).",
+      "Suffixes are added to the base form to indicate person, gender, and number.",
+      "For passive voice, change the first vowel to dammah and the vowel before the last letter to kasrah.",
+      "The verb comes before its subject in a verbal sentence.",
+      "Feminine verbs add تْ at the end."
+    ],
+    "conjugationTable": {
+      "active": [
+        { "pronoun": "هُوَ", "form": "نَصَرَ", "transliteration": "naṣara", "english": "he helped", "person": "3rd", "gender": "m", "number": "singular" },
+        { "pronoun": "هِيَ", "form": "نَصَرَتْ", "transliteration": "naṣarat", "english": "she helped", "person": "3rd", "gender": "f", "number": "singular" },
+        { "pronoun": "هُمَا (م)", "form": "نَصَرَا", "transliteration": "naṣarā", "english": "they two helped (m)", "person": "3rd", "gender": "m", "number": "dual" },
+        { "pronoun": "هُمَا (ف)", "form": "نَصَرَتَا", "transliteration": "naṣaratā", "english": "they two helped (f)", "person": "3rd", "gender": "f", "number": "dual" },
+        { "pronoun": "هُمْ", "form": "نَصَرُوا", "transliteration": "naṣarū", "english": "they helped (m)", "person": "3rd", "gender": "m", "number": "plural" },
+        { "pronoun": "هُنَّ", "form": "نَصَرْنَ", "transliteration": "naṣarna", "english": "they helped (f)", "person": "3rd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنْتَ", "form": "نَصَرْتَ", "transliteration": "naṣarta", "english": "you helped (m)", "person": "2nd", "gender": "m", "number": "singular" },
+        { "pronoun": "أَنْتِ", "form": "نَصَرْتِ", "transliteration": "naṣarti", "english": "you helped (f)", "person": "2nd", "gender": "f", "number": "singular" },
+        { "pronoun": "أَنْتُمَا", "form": "نَصَرْتُمَا", "transliteration": "naṣartumā", "english": "you two helped", "person": "2nd", "gender": "m/f", "number": "dual" },
+        { "pronoun": "أَنْتُمْ", "form": "نَصَرْتُمْ", "transliteration": "naṣartum", "english": "you all helped (m)", "person": "2nd", "gender": "m", "number": "plural" },
+        { "pronoun": "أَنْتُنَّ", "form": "نَصَرْتُنَّ", "transliteration": "naṣartunna", "english": "you all helped (f)", "person": "2nd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنَا", "form": "نَصَرْتُ", "transliteration": "naṣartu", "english": "I helped", "person": "1st", "gender": "m/f", "number": "singular" },
+        { "pronoun": "نَحْنُ", "form": "نَصَرْنَا", "transliteration": "naṣarnā", "english": "we helped", "person": "1st", "gender": "m/f", "number": "plural" }
+      ],
+      "passive": [
+        { "pronoun": "هُوَ", "form": "نُصِرَ", "transliteration": "nuṣira", "english": "he was helped", "person": "3rd", "gender": "m", "number": "singular" },
+        { "pronoun": "هِيَ", "form": "نُصِرَتْ", "transliteration": "nuṣirat", "english": "she was helped", "person": "3rd", "gender": "f", "number": "singular" },
+        { "pronoun": "هُمَا (م)", "form": "نُصِرَا", "transliteration": "nuṣirā", "english": "they two were helped (m)", "person": "3rd", "gender": "m", "number": "dual" },
+        { "pronoun": "هُمَا (ف)", "form": "نُصِرَتَا", "transliteration": "nuṣiratā", "english": "they two were helped (f)", "person": "3rd", "gender": "f", "number": "dual" },
+        { "pronoun": "هُمْ", "form": "نُصِرُوا", "transliteration": "nuṣirū", "english": "they were helped (m)", "person": "3rd", "gender": "m", "number": "plural" },
+        { "pronoun": "هُنَّ", "form": "نُصِرْنَ", "transliteration": "nuṣirna", "english": "they were helped (f)", "person": "3rd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنْتَ", "form": "نُصِرْتَ", "transliteration": "nuṣirta", "english": "you were helped (m)", "person": "2nd", "gender": "m", "number": "singular" },
+        { "pronoun": "أَنْتِ", "form": "نُصِرْتِ", "transliteration": "nuṣirti", "english": "you were helped (f)", "person": "2nd", "gender": "f", "number": "singular" },
+        { "pronoun": "أَنْتُمَا", "form": "نُصِرْتُمَا", "transliteration": "nuṣirtumā", "english": "you two were helped", "person": "2nd", "gender": "m/f", "number": "dual" },
+        { "pronoun": "أَنْتُمْ", "form": "نُصِرْتُمْ", "transliteration": "nuṣirtum", "english": "you all were helped (m)", "person": "2nd", "gender": "m", "number": "plural" },
+        { "pronoun": "أَنْتُنَّ", "form": "نُصِرْتُنَّ", "transliteration": "nuṣirtunna", "english": "you all were helped (f)", "person": "2nd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنَا", "form": "نُصِرْتُ", "transliteration": "nuṣirtu", "english": "I was helped", "person": "1st", "gender": "m/f", "number": "singular" },
+        { "pronoun": "نَحْنُ", "form": "نُصِرْنَا", "transliteration": "nuṣirnā", "english": "we were helped", "person": "1st", "gender": "m/f", "number": "plural" }
+      ]
+    },
+    "examples": [
+      {
+        "arabic": "نَصَرَ حَامِدٌ مَحْمُوداً",
+        "transliteration": "naṣara Ḥāmidun Maḥmūdan",
+        "english": "Hamid helped Mahmood.",
+        "breakdown": [
+          { "word": "نَصَرَ", "role": "verb", "meaning": "helped" },
+          { "word": "حَامِدٌ", "role": "faail", "meaning": "Hamid (subject)" },
+          { "word": "مَحْمُوداً", "role": "mafool", "meaning": "Mahmood (object)" }
+        ]
+      },
+      {
+        "arabic": "ذَهَبَ الطَّالِبُ إِلَى الْمَسْجِدِ",
+        "transliteration": "dhahaba al-ṭālibu ilā al-masjidi",
+        "english": "The student went to the mosque.",
+        "breakdown": [
+          { "word": "ذَهَبَ", "role": "verb", "meaning": "went" },
+          { "word": "الطَّالِبُ", "role": "faail", "meaning": "the student" },
+          { "word": "إِلَى الْمَسْجِدِ", "role": "jar-majroor", "meaning": "to the mosque" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "نَصَرَ", "transliteration": "naṣara", "english": "he helped" },
+      { "arabic": "ذَهَبَ", "transliteration": "dhahaba", "english": "he went" },
+      { "arabic": "جَلَسَ", "transliteration": "jalasa", "english": "he sat" },
+      { "arabic": "كَتَبَ", "transliteration": "kataba", "english": "he wrote" },
+      { "arabic": "قَرَأَ", "transliteration": "qaraʾa", "english": "he read" },
+      { "arabic": "فَتَحَ", "transliteration": "fataḥa", "english": "he opened" },
+      { "arabic": "ضَرَبَ", "transliteration": "ḍaraba", "english": "he hit/struck" },
+      { "arabic": "سَمِعَ", "transliteration": "samiʿa", "english": "he heard" }
+    ],
+    "quranicExample": {
+      "arabic": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ",
+      "transliteration": "wa mā Muḥammadun illā rasūlun",
+      "english": "And Muhammad is not but a messenger.",
+      "source": "Surah Al-Imran 3:144"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "fail-mafool",
+    "title": "Verb, Subject, Object",
+    "arabicTitle": "الْفِعْلُ وَالْفَاعِلُ وَالْمَفْعُولُ",
+    "arabicTitleSimple": "فِعْلٌ، فَاعِلٌ، مَفْعُولٌ",
+    "lessonNumber": 4,
+    "description": "Learn how to structure a complete verbal sentence with a verb, a subject (Fa'il), and an object (Maf'ool).",
+    "color": "violet",
+    "icon": "Layers",
+    "concepts": [
+      {
+        "term": "فِعْلٌ",
+        "transliteration": "Fiʿl",
+        "english": "Verb",
+        "color": "amber",
+        "description": "The action being performed. In Arabic, the verb comes FIRST in a verbal sentence."
+      },
+      {
+        "term": "فَاعِلٌ",
+        "transliteration": "Fāʿil",
+        "english": "Subject / Doer",
+        "color": "blue",
+        "description": "The person or thing performing the action. Always ends with dammah (ُ) or two dammahs (ٌ). Comes second."
+      },
+      {
+        "term": "مَفْعُولٌ",
+        "transliteration": "Mafʿūl",
+        "english": "Object",
+        "color": "red",
+        "description": "The person or thing to which the action is done. Always ends with fathah (َ) or two fathahs (ً). Comes third."
+      }
+    ],
+    "rules": [
+      "Arabic verbal sentence order: Verb → Fa'il → Maf'ool (opposite to English).",
+      "The Fa'il always ends with dammah (ُ) or two dammahs (ٌ) — it is in the rafa' state.",
+      "The Maf'ool always ends with fathah (َ) or two fathahs (ً) — it is in the nasb state.",
+      "If a word has alif-laam (ال), it takes single dammah/fathah; without it, two dammahs/fathahs (tanween).",
+      "Mudaaf-Mudaaf Ilayhi combinations can serve as Fa'il or Maf'ool."
+    ],
+    "examples": [
+      {
+        "arabic": "نَصَرَ حَامِدٌ مَحْمُوداً",
+        "transliteration": "naṣara Ḥāmidun Maḥmūdan",
+        "english": "Hamid helped Mahmood.",
+        "breakdown": [
+          { "word": "نَصَرَ", "role": "verb", "meaning": "helped" },
+          { "word": "حَامِدٌ", "role": "faail", "meaning": "Hamid (doer)" },
+          { "word": "مَحْمُوداً", "role": "mafool", "meaning": "Mahmood (receiver)" }
+        ]
+      },
+      {
+        "arabic": "فَتَحَ خَادِمٌ بَاباً",
+        "transliteration": "fataḥa khādimun bāban",
+        "english": "A servant opened a door.",
+        "breakdown": [
+          { "word": "فَتَحَ", "role": "verb", "meaning": "opened" },
+          { "word": "خَادِمٌ", "role": "faail", "meaning": "a servant" },
+          { "word": "بَاباً", "role": "mafool", "meaning": "a door" }
+        ]
+      },
+      {
+        "arabic": "فَتَحَ خَادِمُ مَحْمُودٍ بَابَ الْبَيْتِ",
+        "transliteration": "fataḥa khādimu Maḥmūdin bāba al-bayti",
+        "english": "Mahmood's servant opened the door of the house.",
+        "breakdown": [
+          { "word": "فَتَحَ", "role": "verb", "meaning": "opened" },
+          { "word": "خَادِمُ مَحْمُودٍ", "role": "faail", "meaning": "Mahmood's servant" },
+          { "word": "بَابَ الْبَيْتِ", "role": "mafool", "meaning": "the door of the house" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "ضَرَبَ", "transliteration": "ḍaraba", "english": "he hit/beat" },
+      { "arabic": "نَصَرَ", "transliteration": "naṣara", "english": "he helped" },
+      { "arabic": "فَتَحَ", "transliteration": "fataḥa", "english": "he opened" },
+      { "arabic": "كَسَرَ", "transliteration": "kasara", "english": "he broke" },
+      { "arabic": "أَكَلَ", "transliteration": "akala", "english": "he ate" },
+      { "arabic": "شَرِبَ", "transliteration": "shariba", "english": "he drank" },
+      { "arabic": "خَادِمٌ", "transliteration": "khādimun", "english": "servant" },
+      { "arabic": "بَابٌ", "transliteration": "bābun", "english": "door" }
+    ],
+    "quranicExample": {
+      "arabic": "كَتَبَ اللَّهُ لَأَغْلِبَنَّ",
+      "transliteration": "kataba Allāhu la-aghlibanna",
+      "english": "Allah has decreed: 'I will surely overcome...'",
+      "source": "Surah Al-Mujadila 58:21"
+    }
+  },
+  {
+    "id": 5,
+    "slug": "prepositions",
+    "title": "Prepositions",
+    "arabicTitle": "الْحُرُوفُ الْجَارَّةُ",
+    "arabicTitleSimple": "حُرُوفٌ جَارَّةٌ",
+    "lessonNumber": 5,
+    "description": "Learn the Arabic prepositions (huroof jaarra) that cause the following noun to take a kasrah ending.",
+    "color": "rose",
+    "icon": "ArrowRight",
+    "concepts": [
+      {
+        "term": "حُرُوفٌ جَارَّةٌ",
+        "transliteration": "Ḥurūf Jārra",
+        "english": "Prepositions (jarring letters)",
+        "color": "rose",
+        "description": "Letters/words that cause the noun following them to become majroor (ending with kasrah or two kasrahs). Together called Jar-Majroor."
+      },
+      {
+        "term": "مَجْرُورٌ",
+        "transliteration": "Majrūr",
+        "english": "The governed noun",
+        "color": "orange",
+        "description": "The noun following a preposition. It always ends with kasrah (ِ) or two kasrahs (ٍ)."
+      }
+    ],
+    "rules": [
+      "Any noun following a preposition becomes Majroor (ends with kasrah ِ or ٍ).",
+      "If the noun has alif-laam (ال), it gets single kasrah; without it, two kasrahs.",
+      "The preposition + noun together form a Jar-Majroor phrase.",
+      "Jar-Majroor can function as a Khabar in a nominal sentence.",
+      "Some prepositions attach directly to the following word (like بِ and لِ)."
+    ],
+    "prepositionList": [
+      { "arabic": "فِي", "transliteration": "fī", "english": "in, inside", "example": "فِي الْبَيْتِ", "exampleEnglish": "in the house" },
+      { "arabic": "إِلَى", "transliteration": "ilā", "english": "to, towards", "example": "إِلَى الْمَسْجِدِ", "exampleEnglish": "to the mosque" },
+      { "arabic": "مِنْ", "transliteration": "min", "english": "from, of", "example": "مِنَ الْمَدِينَةِ", "exampleEnglish": "from the city" },
+      { "arabic": "عَلَى", "transliteration": "ʿalā", "english": "on, upon", "example": "عَلَى الطَّاوِلَةِ", "exampleEnglish": "on the table" },
+      { "arabic": "عَنْ", "transliteration": "ʿan", "english": "from, about", "example": "عَنِ الْحَقِّ", "exampleEnglish": "about the truth" },
+      { "arabic": "بِ", "transliteration": "bi", "english": "by, with, in", "example": "بِالْقَلَمِ", "exampleEnglish": "with the pen" },
+      { "arabic": "لِ", "transliteration": "li", "english": "for, belonging to", "example": "لِلطَّالِبِ", "exampleEnglish": "for the student" },
+      { "arabic": "كَ", "transliteration": "ka", "english": "like, as", "example": "كَالْأَسَدِ", "exampleEnglish": "like a lion" }
+    ],
+    "examples": [
+      {
+        "arabic": "الْكِتَابُ عَلَى الطَّاوِلَةِ",
+        "transliteration": "al-kitābu ʿalā al-ṭāwilati",
+        "english": "The book is on the table.",
+        "breakdown": [
+          { "word": "الْكِتَابُ", "role": "mubtada", "meaning": "the book" },
+          { "word": "عَلَى الطَّاوِلَةِ", "role": "khabar", "meaning": "on the table (jar-majroor)" }
+        ]
+      },
+      {
+        "arabic": "ذَهَبَ الرَّجُلُ إِلَى الْمَسْجِدِ",
+        "transliteration": "dhahaba al-rajulu ilā al-masjidi",
+        "english": "The man went to the mosque.",
+        "breakdown": [
+          { "word": "ذَهَبَ", "role": "verb", "meaning": "went" },
+          { "word": "الرَّجُلُ", "role": "faail", "meaning": "the man" },
+          { "word": "إِلَى الْمَسْجِدِ", "role": "jar-majroor", "meaning": "to the mosque" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "طَاوِلَةٌ", "transliteration": "ṭāwilatun", "english": "table" },
+      { "arabic": "قَلَمٌ", "transliteration": "qalamun", "english": "pen" },
+      { "arabic": "كُرْسِيٌّ", "transliteration": "kursiyyun", "english": "chair" },
+      { "arabic": "غُرْفَةٌ", "transliteration": "ghurfatun", "english": "room" },
+      { "arabic": "أَمَامَ", "transliteration": "amāma", "english": "in front of" },
+      { "arabic": "خَلْفَ", "transliteration": "khalfa", "english": "behind" },
+      { "arabic": "تَحْتَ", "transliteration": "taḥta", "english": "under" },
+      { "arabic": "فَوْقَ", "transliteration": "fawqa", "english": "above/over" }
+    ],
+    "quranicExample": {
+      "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "transliteration": "al-ḥamdu lillāhi rabbi al-ʿālamīna",
+      "english": "All praise is for Allah, the Lord of all worlds.",
+      "source": "Surah Al-Fatiha 1:2 — 'لِ' is the preposition, 'لَّهِ' is majroor"
+    }
+  },
+  {
+    "id": 6,
+    "slug": "pronouns",
+    "title": "Pronouns",
+    "arabicTitle": "الضَّمَائِرُ",
+    "arabicTitleSimple": "ضَمَائِرُ",
+    "lessonNumber": 6,
+    "description": "Learn both detached (munfasil) and attached (muttasil) pronouns in Arabic for all persons, genders, and numbers.",
+    "color": "cyan",
+    "icon": "User",
+    "concepts": [
+      {
+        "term": "مُنْفَصِلٌ",
+        "transliteration": "Munfaṣil",
+        "english": "Detached/Unattached Pronoun",
+        "color": "cyan",
+        "description": "Standalone pronouns that appear as separate words (e.g., هُوَ, هِيَ, أَنَا)."
+      },
+      {
+        "term": "مُتَّصِلٌ",
+        "transliteration": "Muttaṣil",
+        "english": "Attached Pronoun",
+        "color": "indigo",
+        "description": "Pronouns that attach to the end of nouns, verbs, or prepositions (e.g., كِتَابُهُ = his book)."
+      }
+    ],
+    "rules": [
+      "Detached pronouns are used as Mubtada or to bring emphasis.",
+      "Attached pronouns attach to nouns (showing possession), verbs (as object), or prepositions.",
+      "When attached to a noun, they function like Mudaaf Ilayhi (causing the noun to lose tanween).",
+      "Arabic has separate pronouns for masculine/feminine and singular/dual/plural — 14 pronouns total.",
+      "First and second person pronouns are gender-neutral in the first person."
+    ],
+    "pronounTable": {
+      "detached": [
+        { "pronoun": "هُوَ", "transliteration": "huwa", "english": "he", "person": "3rd", "gender": "m", "number": "singular" },
+        { "pronoun": "هِيَ", "transliteration": "hiya", "english": "she", "person": "3rd", "gender": "f", "number": "singular" },
+        { "pronoun": "هُمَا", "transliteration": "humā", "english": "they two (m)", "person": "3rd", "gender": "m", "number": "dual" },
+        { "pronoun": "هُمَا", "transliteration": "humā", "english": "they two (f)", "person": "3rd", "gender": "f", "number": "dual" },
+        { "pronoun": "هُمْ", "transliteration": "hum", "english": "they (m)", "person": "3rd", "gender": "m", "number": "plural" },
+        { "pronoun": "هُنَّ", "transliteration": "hunna", "english": "they (f)", "person": "3rd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنْتَ", "transliteration": "anta", "english": "you (m)", "person": "2nd", "gender": "m", "number": "singular" },
+        { "pronoun": "أَنْتِ", "transliteration": "anti", "english": "you (f)", "person": "2nd", "gender": "f", "number": "singular" },
+        { "pronoun": "أَنْتُمَا", "transliteration": "antumā", "english": "you two", "person": "2nd", "gender": "m/f", "number": "dual" },
+        { "pronoun": "أَنْتُمْ", "transliteration": "antum", "english": "you all (m)", "person": "2nd", "gender": "m", "number": "plural" },
+        { "pronoun": "أَنْتُنَّ", "transliteration": "antunna", "english": "you all (f)", "person": "2nd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنَا", "transliteration": "anā", "english": "I", "person": "1st", "gender": "m/f", "number": "singular" },
+        { "pronoun": "نَحْنُ", "transliteration": "naḥnu", "english": "we", "person": "1st", "gender": "m/f", "number": "plural" }
+      ],
+      "attached": [
+        { "suffix": "ـهُ", "transliteration": "-hu", "english": "his / him", "person": "3rd", "gender": "m", "number": "singular", "nounExample": "كِتَابُهُ", "nounMeaning": "his book" },
+        { "suffix": "ـهَا", "transliteration": "-hā", "english": "her", "person": "3rd", "gender": "f", "number": "singular", "nounExample": "كِتَابُهَا", "nounMeaning": "her book" },
+        { "suffix": "ـهُمَا", "transliteration": "-humā", "english": "their two", "person": "3rd", "gender": "m/f", "number": "dual", "nounExample": "كِتَابُهُمَا", "nounMeaning": "their (two) book" },
+        { "suffix": "ـهُمْ", "transliteration": "-hum", "english": "their (m)", "person": "3rd", "gender": "m", "number": "plural", "nounExample": "كِتَابُهُمْ", "nounMeaning": "their book (m)" },
+        { "suffix": "ـهُنَّ", "transliteration": "-hunna", "english": "their (f)", "person": "3rd", "gender": "f", "number": "plural", "nounExample": "كِتَابُهُنَّ", "nounMeaning": "their book (f)" },
+        { "suffix": "ـكَ", "transliteration": "-ka", "english": "your (m)", "person": "2nd", "gender": "m", "number": "singular", "nounExample": "كِتَابُكَ", "nounMeaning": "your book (m)" },
+        { "suffix": "ـكِ", "transliteration": "-ki", "english": "your (f)", "person": "2nd", "gender": "f", "number": "singular", "nounExample": "كِتَابُكِ", "nounMeaning": "your book (f)" },
+        { "suffix": "ـكُمَا", "transliteration": "-kumā", "english": "your two", "person": "2nd", "gender": "m/f", "number": "dual", "nounExample": "كِتَابُكُمَا", "nounMeaning": "your (two) book" },
+        { "suffix": "ـكُمْ", "transliteration": "-kum", "english": "your (m pl)", "person": "2nd", "gender": "m", "number": "plural", "nounExample": "كِتَابُكُمْ", "nounMeaning": "your book (m pl)" },
+        { "suffix": "ـكُنَّ", "transliteration": "-kunna", "english": "your (f pl)", "person": "2nd", "gender": "f", "number": "plural", "nounExample": "كِتَابُكُنَّ", "nounMeaning": "your book (f pl)" },
+        { "suffix": "ـي", "transliteration": "-ī", "english": "my", "person": "1st", "gender": "m/f", "number": "singular", "nounExample": "كِتَابِي", "nounMeaning": "my book" },
+        { "suffix": "ـنَا", "transliteration": "-nā", "english": "our", "person": "1st", "gender": "m/f", "number": "plural", "nounExample": "كِتَابُنَا", "nounMeaning": "our book" }
+      ]
+    },
+    "examples": [
+      {
+        "arabic": "هُوَ طَالِبٌ",
+        "transliteration": "huwa ṭālibun",
+        "english": "He is a student.",
+        "breakdown": [
+          { "word": "هُوَ", "role": "mubtada", "meaning": "he (detached pronoun)" },
+          { "word": "طَالِبٌ", "role": "khabar", "meaning": "a student" }
+        ]
+      },
+      {
+        "arabic": "كِتَابُهُ جَمِيلٌ",
+        "transliteration": "kitābuhu jamīlun",
+        "english": "His book is beautiful.",
+        "breakdown": [
+          { "word": "كِتَابُهُ", "role": "mubtada", "meaning": "his book (noun + attached pronoun)" },
+          { "word": "جَمِيلٌ", "role": "khabar", "meaning": "beautiful" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "هُوَ", "transliteration": "huwa", "english": "he" },
+      { "arabic": "هِيَ", "transliteration": "hiya", "english": "she" },
+      { "arabic": "هُمْ", "transliteration": "hum", "english": "they (m)" },
+      { "arabic": "أَنَا", "transliteration": "anā", "english": "I" },
+      { "arabic": "نَحْنُ", "transliteration": "naḥnu", "english": "we" },
+      { "arabic": "أَنْتَ", "transliteration": "anta", "english": "you (m)" },
+      { "arabic": "أَنْتِ", "transliteration": "anti", "english": "you (f)" }
+    ],
+    "quranicExample": {
+      "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "transliteration": "iyyāka naʿbudu wa-iyyāka nastaʿīnu",
+      "english": "You alone we worship, and You alone we ask for help.",
+      "source": "Surah Al-Fatiha 1:5 — إِيَّاكَ is an emphatic detached pronoun"
+    }
+  },
+  {
+    "id": 7,
+    "slug": "present-tense",
+    "title": "Present & Future Tense Verb",
+    "arabicTitle": "الْفِعْلُ الْمُضَارِعُ",
+    "arabicTitleSimple": "فِعْلٌ مُضَارِعٌ",
+    "lessonNumber": 7,
+    "description": "Learn how to conjugate and use present/future tense verbs in Arabic, including active and passive voice forms.",
+    "color": "teal",
+    "icon": "Zap",
+    "concepts": [
+      {
+        "term": "فِعْلٌ مُضَارِعٌ",
+        "transliteration": "Fiʿl Muḍāriʿ",
+        "english": "Present/Future Tense Verb",
+        "color": "teal",
+        "description": "Verbs expressing ongoing or future actions. Formed by adding prefixes (and sometimes suffixes) to the root."
+      }
+    ],
+    "rules": [
+      "Present tense verbs always begin with one of four prefixes: أَ (ana), نَ (nahnu), يَ (huwa/hum), تَ (anta/hiya).",
+      "Mnemonic for the four prefixes: أَنَيْتُ (I came).",
+      "For passive voice, change the prefix vowel to dammah and the vowel before the last letter to fathah.",
+      "The present tense can refer to actions happening now OR actions that will happen in the future.",
+      "To specify future, add سَ or سَوْفَ before the verb."
+    ],
+    "conjugationTable": {
+      "active": [
+        { "pronoun": "هُوَ", "form": "يَنْصُرُ", "transliteration": "yanṣuru", "english": "he helps", "person": "3rd", "gender": "m", "number": "singular" },
+        { "pronoun": "هِيَ", "form": "تَنْصُرُ", "transliteration": "tanṣuru", "english": "she helps", "person": "3rd", "gender": "f", "number": "singular" },
+        { "pronoun": "هُمَا (م)", "form": "يَنْصُرَانِ", "transliteration": "yanṣurāni", "english": "they two help (m)", "person": "3rd", "gender": "m", "number": "dual" },
+        { "pronoun": "هُمَا (ف)", "form": "تَنْصُرَانِ", "transliteration": "tanṣurāni", "english": "they two help (f)", "person": "3rd", "gender": "f", "number": "dual" },
+        { "pronoun": "هُمْ", "form": "يَنْصُرُونَ", "transliteration": "yanṣurūna", "english": "they help (m)", "person": "3rd", "gender": "m", "number": "plural" },
+        { "pronoun": "هُنَّ", "form": "يَنْصُرْنَ", "transliteration": "yanṣurna", "english": "they help (f)", "person": "3rd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنْتَ", "form": "تَنْصُرُ", "transliteration": "tanṣuru", "english": "you help (m)", "person": "2nd", "gender": "m", "number": "singular" },
+        { "pronoun": "أَنْتِ", "form": "تَنْصُرِينَ", "transliteration": "tanṣurīna", "english": "you help (f)", "person": "2nd", "gender": "f", "number": "singular" },
+        { "pronoun": "أَنْتُمَا", "form": "تَنْصُرَانِ", "transliteration": "tanṣurāni", "english": "you two help", "person": "2nd", "gender": "m/f", "number": "dual" },
+        { "pronoun": "أَنْتُمْ", "form": "تَنْصُرُونَ", "transliteration": "tanṣurūna", "english": "you all help (m)", "person": "2nd", "gender": "m", "number": "plural" },
+        { "pronoun": "أَنْتُنَّ", "form": "تَنْصُرْنَ", "transliteration": "tanṣurna", "english": "you all help (f)", "person": "2nd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنَا", "form": "أَنْصُرُ", "transliteration": "anṣuru", "english": "I help", "person": "1st", "gender": "m/f", "number": "singular" },
+        { "pronoun": "نَحْنُ", "form": "نَنْصُرُ", "transliteration": "nanṣuru", "english": "we help", "person": "1st", "gender": "m/f", "number": "plural" }
+      ],
+      "passive": [
+        { "pronoun": "هُوَ", "form": "يُنْصَرُ", "transliteration": "yunṣaru", "english": "he is helped", "person": "3rd", "gender": "m", "number": "singular" },
+        { "pronoun": "هِيَ", "form": "تُنْصَرُ", "transliteration": "tunṣaru", "english": "she is helped", "person": "3rd", "gender": "f", "number": "singular" },
+        { "pronoun": "هُمَا (م)", "form": "يُنْصَرَانِ", "transliteration": "yunṣarāni", "english": "they two are helped (m)", "person": "3rd", "gender": "m", "number": "dual" },
+        { "pronoun": "هُمَا (ف)", "form": "تُنْصَرَانِ", "transliteration": "tunṣarāni", "english": "they two are helped (f)", "person": "3rd", "gender": "f", "number": "dual" },
+        { "pronoun": "هُمْ", "form": "يُنْصَرُونَ", "transliteration": "yunṣarūna", "english": "they are helped (m)", "person": "3rd", "gender": "m", "number": "plural" },
+        { "pronoun": "هُنَّ", "form": "يُنْصَرْنَ", "transliteration": "yunṣarna", "english": "they are helped (f)", "person": "3rd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنْتَ", "form": "تُنْصَرُ", "transliteration": "tunṣaru", "english": "you are helped (m)", "person": "2nd", "gender": "m", "number": "singular" },
+        { "pronoun": "أَنْتِ", "form": "تُنْصَرِينَ", "transliteration": "tunṣarīna", "english": "you are helped (f)", "person": "2nd", "gender": "f", "number": "singular" },
+        { "pronoun": "أَنْتُمَا", "form": "تُنْصَرَانِ", "transliteration": "tunṣarāni", "english": "you two are helped", "person": "2nd", "gender": "m/f", "number": "dual" },
+        { "pronoun": "أَنْتُمْ", "form": "تُنْصَرُونَ", "transliteration": "tunṣarūna", "english": "you all are helped (m)", "person": "2nd", "gender": "m", "number": "plural" },
+        { "pronoun": "أَنْتُنَّ", "form": "تُنْصَرْنَ", "transliteration": "tunṣarna", "english": "you all are helped (f)", "person": "2nd", "gender": "f", "number": "plural" },
+        { "pronoun": "أَنَا", "form": "أُنْصَرُ", "transliteration": "unṣaru", "english": "I am helped", "person": "1st", "gender": "m/f", "number": "singular" },
+        { "pronoun": "نَحْنُ", "form": "نُنْصَرُ", "transliteration": "nunṣaru", "english": "we are helped", "person": "1st", "gender": "m/f", "number": "plural" }
+      ]
+    },
+    "examples": [
+      {
+        "arabic": "يَذْهَبُ الطَّالِبُ إِلَى الْمَدْرَسَةِ",
+        "transliteration": "yadhhabu al-ṭālibu ilā al-madrasati",
+        "english": "The student goes to school.",
+        "breakdown": [
+          { "word": "يَذْهَبُ", "role": "verb", "meaning": "goes" },
+          { "word": "الطَّالِبُ", "role": "faail", "meaning": "the student" },
+          { "word": "إِلَى الْمَدْرَسَةِ", "role": "jar-majroor", "meaning": "to school" }
+        ]
+      },
+      {
+        "arabic": "سَيَكْتُبُ الرَّجُلُ رِسَالَةً",
+        "transliteration": "sa-yaktubu al-rajulu risālatan",
+        "english": "The man will write a letter.",
+        "breakdown": [
+          { "word": "سَيَكْتُبُ", "role": "verb", "meaning": "will write (سَ + verb)" },
+          { "word": "الرَّجُلُ", "role": "faail", "meaning": "the man" },
+          { "word": "رِسَالَةً", "role": "mafool", "meaning": "a letter" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "يَذْهَبُ", "transliteration": "yadhhabu", "english": "he goes" },
+      { "arabic": "يَكْتُبُ", "transliteration": "yaktubu", "english": "he writes" },
+      { "arabic": "يَقْرَأُ", "transliteration": "yaqraʾu", "english": "he reads" },
+      { "arabic": "يَجْلِسُ", "transliteration": "yajlisu", "english": "he sits" },
+      { "arabic": "يَأْكُلُ", "transliteration": "yaʾkulu", "english": "he eats" },
+      { "arabic": "يَشْرَبُ", "transliteration": "yashrabu", "english": "he drinks" },
+      { "arabic": "سَوْفَ", "transliteration": "sawfa", "english": "will (future marker)" },
+      { "arabic": "رِسَالَةٌ", "transliteration": "risālatun", "english": "letter/message" }
+    ],
+    "quranicExample": {
+      "arabic": "وَاللَّهُ يَرْزُقُ مَن يَشَاءُ بِغَيْرِ حِسَابٍ",
+      "transliteration": "wa-llāhu yarzuqu man yashāʾu bi-ghayri ḥisābin",
+      "english": "And Allah provides for whom He wills without account.",
+      "source": "Surah Al-Baqarah 2:212 — يَرْزُقُ and يَشَاءُ are present tense verbs"
+    }
+  },
+  {
+    "id": 8,
+    "slug": "adjectives",
+    "title": "Adjective",
+    "arabicTitle": "الصِّفَةُ وَالْمَوْصُوفُ",
+    "arabicTitleSimple": "صِفَةٌ وَمَوْصُوفٌ",
+    "lessonNumber": 8,
+    "description": "Learn how adjectives work in Arabic — they follow the noun they describe and must agree in gender, number, and definiteness.",
+    "color": "orange",
+    "icon": "Palette",
+    "concepts": [
+      {
+        "term": "صِفَةٌ",
+        "transliteration": "Ṣifa",
+        "english": "Adjective",
+        "color": "orange",
+        "description": "Describes the noun. In Arabic, adjectives come AFTER the noun they describe."
+      },
+      {
+        "term": "مَوْصُوفٌ",
+        "transliteration": "Mawṣūf",
+        "english": "The described noun",
+        "color": "blue",
+        "description": "The noun being described. The adjective must agree with it in gender, number, and definiteness."
+      }
+    ],
+    "rules": [
+      "The adjective (Sifa) ALWAYS comes AFTER the noun it describes.",
+      "Both noun and adjective must agree in gender (masculine/feminine) and number.",
+      "Both must agree in definiteness: both have alif-laam (ال) or both are indefinite.",
+      "Both take the same harakah at the end (dammah, fathah, or kasrah).",
+      "Three grammatical states: Rafa' (ُ/ٌ), Nasb (َ/ً), Jarr (ِ/ٍ)."
+    ],
+    "examples": [
+      {
+        "arabic": "مُسْلِمٌ صَادِقٌ",
+        "transliteration": "muslimun ṣādiqun",
+        "english": "A truthful Muslim",
+        "breakdown": [
+          { "word": "مُسْلِمٌ", "role": "mawsoof", "meaning": "a Muslim (m, indefinite)" },
+          { "word": "صَادِقٌ", "role": "sifa", "meaning": "truthful (m, indefinite)" }
+        ]
+      },
+      {
+        "arabic": "الرَّجُلُ الصَّالِحُ",
+        "transliteration": "al-rajulu al-ṣāliḥu",
+        "english": "The righteous man",
+        "breakdown": [
+          { "word": "الرَّجُلُ", "role": "mawsoof", "meaning": "the man (definite)" },
+          { "word": "الصَّالِحُ", "role": "sifa", "meaning": "the righteous (definite)" }
+        ]
+      },
+      {
+        "arabic": "الْكِتَابُ الْكَبِيرُ مُفِيدٌ",
+        "transliteration": "al-kitābu al-kabīru mufīdun",
+        "english": "The large book is beneficial.",
+        "breakdown": [
+          { "word": "الْكِتَابُ الْكَبِيرُ", "role": "mubtada", "meaning": "the large book" },
+          { "word": "مُفِيدٌ", "role": "khabar", "meaning": "beneficial" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "صَادِقٌ", "transliteration": "ṣādiqun", "english": "truthful" },
+      { "arabic": "صَالِحٌ", "transliteration": "ṣāliḥun", "english": "righteous/pious" },
+      { "arabic": "كَرِيمٌ", "transliteration": "karīmun", "english": "generous/noble" },
+      { "arabic": "عَظِيمٌ", "transliteration": "ʿaẓīmun", "english": "great/magnificent" },
+      { "arabic": "جَدِيدٌ", "transliteration": "jadīdun", "english": "new" },
+      { "arabic": "قَدِيمٌ", "transliteration": "qadīmun", "english": "old/ancient" },
+      { "arabic": "طَوِيلٌ", "transliteration": "ṭawīlun", "english": "tall/long" },
+      { "arabic": "قَصِيرٌ", "transliteration": "qaṣīrun", "english": "short" }
+    ],
+    "quranicExample": {
+      "arabic": "الصِّرَاطَ الْمُسْتَقِيمَ",
+      "transliteration": "al-ṣirāṭa al-mustaqīma",
+      "english": "The straight path",
+      "source": "Surah Al-Fatiha 1:6 — الصِّرَاطَ (Mawsoof) + الْمُسْتَقِيمَ (Sifa), both in nasb state"
+    }
+  },
+  {
+    "id": 9,
+    "slug": "imperatives",
+    "title": "Imperative & Prohibitive",
+    "arabicTitle": "الْأَمْرُ وَالنَّهْيُ",
+    "arabicTitleSimple": "أَمْرٌ وَنَهْيٌ",
+    "lessonNumber": 9,
+    "description": "Learn how to form command (Amr) and prohibition (Nahy) forms from present tense verbs.",
+    "color": "red",
+    "icon": "AlertCircle",
+    "concepts": [
+      {
+        "term": "أَمْرٌ",
+        "transliteration": "Amr",
+        "english": "Imperative / Command",
+        "color": "green",
+        "description": "A command telling someone to do something. Derived from the 2nd person present tense."
+      },
+      {
+        "term": "نَهْيٌ",
+        "transliteration": "Nahy",
+        "english": "Prohibitive",
+        "color": "red",
+        "description": "A prohibition telling someone NOT to do something. Formed with لَا + jazm (sukoon) form of verb."
+      }
+    ],
+    "rules": [
+      "To form the imperative: take the 2nd person present tense → remove the prefix تَ → apply sukoon to last letter → add hamza if needed.",
+      "If removing the prefix leaves a sukoon on the first letter, add a hamza (أَ, إِ, or أُ) at the beginning.",
+      "To form the prohibitive: add لَا before the 2nd person present tense verb in the jazm (sukoon) form.",
+      "The imperative addresses only the 2nd person (أَنْتَ, أَنْتِ, etc.).",
+      "For plural masculine: add وا at end; for feminine: use يَ form."
+    ],
+    "imperativeTable": [
+      { "pronoun": "أَنْتَ", "presentForm": "تَنْصُرُ", "imperative": "اُنْصُرْ", "transliteration": "unṣur", "english": "Help! (m sing)", "prohibitive": "لَا تَنْصُرْ", "prohibitiveEnglish": "Don't help! (m sing)" },
+      { "pronoun": "أَنْتِ", "presentForm": "تَنْصُرِينَ", "imperative": "اُنْصُرِي", "transliteration": "unṣurī", "english": "Help! (f sing)", "prohibitive": "لَا تَنْصُرِي", "prohibitiveEnglish": "Don't help! (f sing)" },
+      { "pronoun": "أَنْتُمَا", "presentForm": "تَنْصُرَانِ", "imperative": "اُنْصُرَا", "transliteration": "unṣurā", "english": "Help! (dual)", "prohibitive": "لَا تَنْصُرَا", "prohibitiveEnglish": "Don't help! (dual)" },
+      { "pronoun": "أَنْتُمْ", "presentForm": "تَنْصُرُونَ", "imperative": "اُنْصُرُوا", "transliteration": "unṣurū", "english": "Help! (m pl)", "prohibitive": "لَا تَنْصُرُوا", "prohibitiveEnglish": "Don't help! (m pl)" },
+      { "pronoun": "أَنْتُنَّ", "presentForm": "تَنْصُرْنَ", "imperative": "اُنْصُرْنَ", "transliteration": "unṣurna", "english": "Help! (f pl)", "prohibitive": "لَا تَنْصُرْنَ", "prohibitiveEnglish": "Don't help! (f pl)" }
+    ],
+    "examples": [
+      {
+        "arabic": "اِذْهَبْ إِلَى الْمَسْجِدِ",
+        "transliteration": "idhdhab ilā al-masjidi",
+        "english": "Go to the mosque!",
+        "breakdown": [
+          { "word": "اِذْهَبْ", "role": "verb", "meaning": "go! (imperative from ذَهَبَ)" },
+          { "word": "إِلَى الْمَسْجِدِ", "role": "jar-majroor", "meaning": "to the mosque" }
+        ]
+      },
+      {
+        "arabic": "لَا تَذْهَبْ إِلَى السُّوقِ",
+        "transliteration": "lā tadhdhab ilā al-sūqi",
+        "english": "Don't go to the market!",
+        "breakdown": [
+          { "word": "لَا", "role": "nahy-particle", "meaning": "don't (prohibitive لَا)" },
+          { "word": "تَذْهَبْ", "role": "verb", "meaning": "go (jazm form)" },
+          { "word": "إِلَى السُّوقِ", "role": "jar-majroor", "meaning": "to the market" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "اِذْهَبْ", "transliteration": "idhdhab", "english": "go! (command)" },
+      { "arabic": "اِجْلِسْ", "transliteration": "ijlis", "english": "sit! (command)" },
+      { "arabic": "اِكْتُبْ", "transliteration": "uktub", "english": "write! (command)" },
+      { "arabic": "اِقْرَأْ", "transliteration": "iqraʾ", "english": "read! (command)" },
+      { "arabic": "قُلْ", "transliteration": "qul", "english": "say! (command)" },
+      { "arabic": "لَا تَكْذِبْ", "transliteration": "lā takdhib", "english": "don't lie!" },
+      { "arabic": "سُوقٌ", "transliteration": "sūqun", "english": "market/bazaar" },
+      { "arabic": "جَوَابٌ", "transliteration": "jawābun", "english": "answer/reply" }
+    ],
+    "quranicExample": {
+      "arabic": "اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ",
+      "transliteration": "iqraʾ bi-smi rabbika alladhī khalaqa",
+      "english": "Read in the name of your Lord who created!",
+      "source": "Surah Al-Alaq 96:1 — اقْرَأْ is the imperative of قَرَأَ"
+    }
+  },
+  {
+    "id": 10,
+    "slug": "singular-dual-plural",
+    "title": "Singular, Dual & Plural",
+    "arabicTitle": "الْوَاحِدُ وَالتَّثْنِيَةُ وَالْجَمْعُ",
+    "arabicTitleSimple": "وَاحِدٌ، تَثْنِيَةٌ، جَمْعٌ",
+    "lessonNumber": 10,
+    "description": "Learn how to form dual and plural forms of nouns in Arabic, including sound plurals and broken plurals.",
+    "color": "indigo",
+    "icon": "Users",
+    "concepts": [
+      {
+        "term": "مُفْرَدٌ",
+        "transliteration": "Mufrad",
+        "english": "Singular",
+        "color": "blue",
+        "description": "One person or thing."
+      },
+      {
+        "term": "مُثَنَّى",
+        "transliteration": "Muthannā",
+        "english": "Dual",
+        "color": "green",
+        "description": "Exactly two persons or things. Formed by adding ـَانِ (rafa') or ـَيْنِ (nasb/jarr) to the singular."
+      },
+      {
+        "term": "جَمْعٌ",
+        "transliteration": "Jamʿ",
+        "english": "Plural",
+        "color": "purple",
+        "description": "Three or more persons or things. Can be sound masculine plural, sound feminine plural, or broken plural."
+      }
+    ],
+    "rules": [
+      "Dual: add ـَانِ in rafa' state, ـَيْنِ in nasb and jarr states.",
+      "Sound masculine plural (جمع مذكر سالم): add ـُونَ (rafa') or ـِينَ (nasb/jarr) to masculine noun.",
+      "Sound feminine plural (جمع مؤنث سالم): replace ة with ـَاتٌ (rafa') or ـَاتٍ (nasb/jarr).",
+      "Broken plural (جمع تكسير): internal vowel pattern changes — must be memorized.",
+      "Non-rational plurals (things/animals) are treated grammatically as feminine singular."
+    ],
+    "pluralTable": [
+      { "singular": "طَالِبٌ", "singularEnglish": "student (m)", "dual": "طَالِبَانِ / طَالِبَيْنِ", "soundMascPlural": "طَالِبُونَ / طَالِبِينَ", "brokenPlural": "طُلَّابٌ / طَلَبَةٌ" },
+      { "singular": "طَالِبَةٌ", "singularEnglish": "student (f)", "dual": "طَالِبَتَانِ / طَالِبَتَيْنِ", "soundFemPlural": "طَالِبَاتٌ / طَالِبَاتٍ" },
+      { "singular": "كِتَابٌ", "singularEnglish": "book", "dual": "كِتَابَانِ / كِتَابَيْنِ", "brokenPlural": "كُتُبٌ" },
+      { "singular": "مَسْجِدٌ", "singularEnglish": "mosque", "dual": "مَسْجِدَانِ / مَسْجِدَيْنِ", "brokenPlural": "مَسَاجِدُ" },
+      { "singular": "رَجُلٌ", "singularEnglish": "man", "dual": "رَجُلَانِ / رَجُلَيْنِ", "brokenPlural": "رِجَالٌ" },
+      { "singular": "بَيْتٌ", "singularEnglish": "house", "dual": "بَيْتَانِ / بَيْتَيْنِ", "brokenPlural": "بُيُوتٌ" },
+      { "singular": "مَدْرَسَةٌ", "singularEnglish": "school (f)", "dual": "مَدْرَسَتَانِ / مَدْرَسَتَيْنِ", "soundFemPlural": "مَدَارِسُ" },
+      { "singular": "مُسْلِمٌ", "singularEnglish": "Muslim (m)", "dual": "مُسْلِمَانِ / مُسْلِمَيْنِ", "soundMascPlural": "مُسْلِمُونَ / مُسْلِمِينَ" }
+    ],
+    "examples": [
+      {
+        "arabic": "الطَّالِبَانِ فِي الْمَدْرَسَةِ",
+        "transliteration": "al-ṭālibāni fī al-madrasati",
+        "english": "The two students are in the school.",
+        "breakdown": [
+          { "word": "الطَّالِبَانِ", "role": "mubtada", "meaning": "the two students (dual rafa')" },
+          { "word": "فِي الْمَدْرَسَةِ", "role": "khabar", "meaning": "in the school" }
+        ]
+      },
+      {
+        "arabic": "الْمُسْلِمُونَ يَنْصُرُونَ الْحَقَّ",
+        "transliteration": "al-muslimūna yanṣurūna al-ḥaqqa",
+        "english": "The Muslims help (support) the truth.",
+        "breakdown": [
+          { "word": "الْمُسْلِمُونَ", "role": "faail", "meaning": "the Muslims (sound masc plural)" },
+          { "word": "يَنْصُرُونَ", "role": "verb", "meaning": "they help (plural verb)" },
+          { "word": "الْحَقَّ", "role": "mafool", "meaning": "the truth" }
+        ]
+      }
+    ],
+    "vocabulary": [
+      { "arabic": "طُلَّابٌ", "transliteration": "ṭullābun", "english": "students (broken plural)" },
+      { "arabic": "كُتُبٌ", "transliteration": "kutubun", "english": "books (broken plural)" },
+      { "arabic": "رِجَالٌ", "transliteration": "rijālun", "english": "men (broken plural)" },
+      { "arabic": "مَسَاجِدُ", "transliteration": "masājidu", "english": "mosques (broken plural)" },
+      { "arabic": "بُيُوتٌ", "transliteration": "buyūtun", "english": "houses (broken plural)" },
+      { "arabic": "مُسْلِمُونَ", "transliteration": "muslimūna", "english": "Muslims (sound masc plural)" },
+      { "arabic": "مُسْلِمَاتٌ", "transliteration": "muslimātun", "english": "Muslim women (sound fem plural)" },
+      { "arabic": "حَقٌّ", "transliteration": "ḥaqqun", "english": "truth/right" }
+    ],
+    "quranicExample": {
+      "arabic": "وَالْمُسْلِمُونَ وَالْمُسْلِمَاتُ",
+      "transliteration": "wa-l-muslimūna wa-l-muslimātu",
+      "english": "And the Muslim men and Muslim women",
+      "source": "Surah Al-Ahzab 33:35 — sound masculine and feminine plurals"
+    }
+  }
+]

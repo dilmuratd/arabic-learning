@@ -1,0 +1,258 @@
+[
+  {
+    "id": "q1",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What is the Arabic term for 'Subject' in a nominal sentence?",
+    "options": ["خَبَرٌ", "مُبْتَدَأٌ", "فَاعِلٌ", "مَفْعُولٌ"],
+    "correct": 1,
+    "explanation": "مُبْتَدَأٌ (Mubtada) is the subject/topic of a nominal sentence. It always ends with dammah or two dammahs."
+  },
+  {
+    "id": "q2",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "In the sentence 'الْبَيْتُ كَبِيرٌ', what is the Khabar?",
+    "options": ["الْبَيْتُ", "كَبِيرٌ", "الْ", "بَيْتٌ"],
+    "correct": 1,
+    "explanation": "كَبِيرٌ (large) is the Khabar — it tells us information about the Mubtada (الْبَيْتُ = the house)."
+  },
+  {
+    "id": "q3",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which ending do both Mubtada and Khabar always have?",
+    "options": ["Fathah (َ)", "Kasrah (ِ)", "Dammah (ُ)", "Sukoon (ْ)"],
+    "correct": 2,
+    "explanation": "Both Mubtada and Khabar always end with dammah (ُ) or two dammahs (ٌ — tanween)."
+  },
+  {
+    "id": "q4",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "In the phrase 'كِتَابُ الطَّالِبِ', what is the Mudaaf Ilayhi?",
+    "options": ["كِتَابُ", "الطَّالِبِ", "الطَّالِبُ", "كِتَابٌ"],
+    "correct": 1,
+    "explanation": "الطَّالِبِ is the Mudaaf Ilayhi (possessor) — it ends with kasrah (ِ). The Mudaaf is كِتَابُ (book)."
+  },
+  {
+    "id": "q5",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Which statement about Mudaaf is correct?",
+    "options": [
+      "It always has alif-laam (ال)",
+      "It always has tanween",
+      "It never has alif-laam AND never has tanween",
+      "It ends with kasrah"
+    ],
+    "correct": 2,
+    "explanation": "The Mudaaf (first noun in idaafah) NEVER has alif-laam AND NEVER has tanween — these are the two rules."
+  },
+  {
+    "id": "q6",
+    "lessonId": 3,
+    "type": "multiple-choice",
+    "question": "What is the past tense form of نَصَرَ for 'هُمْ' (they, masculine)?",
+    "options": ["نَصَرُوا", "نَصَرَا", "نَصَرْنَ", "نَصَرَتَا"],
+    "correct": 0,
+    "explanation": "For هُمْ (they, masculine plural), the past tense of نَصَرَ is نَصَرُوا (naṣarū)."
+  },
+  {
+    "id": "q7",
+    "lessonId": 3,
+    "type": "multiple-choice",
+    "question": "How is the passive voice (Majhool) of past tense formed?",
+    "options": [
+      "Add تْ to the end",
+      "Change first vowel to dammah, vowel before last letter to kasrah",
+      "Add وا to the end",
+      "Remove the final vowel"
+    ],
+    "correct": 1,
+    "explanation": "Passive voice: change the first vowel to dammah (ُ) and the vowel before the last letter to kasrah (ِ). E.g., نَصَرَ → نُصِرَ."
+  },
+  {
+    "id": "q8",
+    "lessonId": 4,
+    "type": "multiple-choice",
+    "question": "What is the correct word order in an Arabic verbal sentence?",
+    "options": [
+      "Subject → Verb → Object",
+      "Object → Verb → Subject",
+      "Verb → Subject → Object",
+      "Subject → Object → Verb"
+    ],
+    "correct": 2,
+    "explanation": "Arabic verbal sentence order is: Verb (فِعْل) → Subject/Fa'il (فَاعِل) → Object/Maf'ool (مَفْعُول)."
+  },
+  {
+    "id": "q9",
+    "lessonId": 4,
+    "type": "multiple-choice",
+    "question": "The Fa'il (subject) always ends with which harakah?",
+    "options": ["Fathah (َ/ً)", "Kasrah (ِ/ٍ)", "Dammah (ُ/ٌ)", "Sukoon (ْ)"],
+    "correct": 2,
+    "explanation": "The Fa'il always ends with dammah (ُ) or two dammahs (ٌ) — it is in the Rafa' state."
+  },
+  {
+    "id": "q10",
+    "lessonId": 5,
+    "type": "multiple-choice",
+    "question": "What does a preposition (حَرْفُ جَرٍّ) do to the noun following it?",
+    "options": [
+      "Gives it dammah (Rafa')",
+      "Gives it fathah (Nasb)",
+      "Gives it kasrah (Jarr/Majroor)",
+      "Removes its vowel (Sukoon)"
+    ],
+    "correct": 2,
+    "explanation": "Prepositions cause the following noun to become Majroor — ending with kasrah (ِ) or two kasrahs (ٍ)."
+  },
+  {
+    "id": "q11",
+    "lessonId": 5,
+    "type": "multiple-choice",
+    "question": "Which preposition means 'in' or 'inside'?",
+    "options": ["إِلَى", "مِنْ", "فِي", "عَلَى"],
+    "correct": 2,
+    "explanation": "فِي means 'in' or 'inside'. E.g., فِي الْبَيْتِ = in the house."
+  },
+  {
+    "id": "q12",
+    "lessonId": 6,
+    "type": "multiple-choice",
+    "question": "What is the attached pronoun for 'his' when added to a noun?",
+    "options": ["ـكَ", "ـهُ", "ـهَا", "ـي"],
+    "correct": 1,
+    "explanation": "ـهُ (-hu) is the attached pronoun for 'his'. E.g., كِتَابُهُ = his book."
+  },
+  {
+    "id": "q13",
+    "lessonId": 6,
+    "type": "multiple-choice",
+    "question": "What is the Arabic detached pronoun for 'we'?",
+    "options": ["أَنَا", "هُمْ", "نَحْنُ", "أَنْتُمْ"],
+    "correct": 2,
+    "explanation": "نَحْنُ (naḥnu) means 'we'. It is the 1st person plural detached pronoun."
+  },
+  {
+    "id": "q14",
+    "lessonId": 7,
+    "type": "multiple-choice",
+    "question": "Which prefix does NOT belong to the present tense prefixes (أَنَيْتُ)?",
+    "options": ["أَ", "نَ", "يَ/تَ", "سَ"],
+    "correct": 3,
+    "explanation": "سَ is not a present tense prefix — it is a future marker added before a present tense verb. The four prefixes are: أَ، نَ، يَ، تَ."
+  },
+  {
+    "id": "q15",
+    "lessonId": 7,
+    "type": "multiple-choice",
+    "question": "What is يَنْصُرُ in passive voice (Majhool)?",
+    "options": ["يُنْصِرُ", "يُنْصَرُ", "يَنْصَرُ", "يُنْصُرُ"],
+    "correct": 1,
+    "explanation": "Passive present tense: change prefix vowel to dammah AND vowel before last letter to fathah → يُنْصَرُ."
+  },
+  {
+    "id": "q16",
+    "lessonId": 8,
+    "type": "multiple-choice",
+    "question": "In Arabic, where does the adjective (Sifa) come relative to the noun?",
+    "options": ["Before the noun", "After the noun", "Either before or after", "Separated from the noun"],
+    "correct": 1,
+    "explanation": "In Arabic, the adjective (Sifa) ALWAYS comes AFTER the noun it describes, opposite to English."
+  },
+  {
+    "id": "q17",
+    "lessonId": 8,
+    "type": "multiple-choice",
+    "question": "Which phrase correctly means 'the righteous man' in Arabic?",
+    "options": [
+      "الصَّالِحُ الرَّجُلُ",
+      "صَالِحٌ رَجُلٌ",
+      "الرَّجُلُ الصَّالِحُ",
+      "رَجُلٌ صَالِحُ"
+    ],
+    "correct": 2,
+    "explanation": "الرَّجُلُ الصَّالِحُ — noun first (الرَّجُلُ), then adjective (الصَّالِحُ), both definite with alif-laam."
+  },
+  {
+    "id": "q18",
+    "lessonId": 9,
+    "type": "multiple-choice",
+    "question": "How is the prohibitive (Nahy) formed in Arabic?",
+    "options": [
+      "Add لَنْ before the verb",
+      "Add لَا before the 2nd person present tense in jazm form",
+      "Remove the prefix from the present tense",
+      "Add مَا before the past tense"
+    ],
+    "correct": 1,
+    "explanation": "Prohibitive: لَا + 2nd person present tense verb in jazm (sukoon) form. E.g., لَا تَذْهَبْ = Don't go!"
+  },
+  {
+    "id": "q19",
+    "lessonId": 9,
+    "type": "multiple-choice",
+    "question": "What is the imperative (command) form of يَذْهَبُ for أَنْتَ?",
+    "options": ["يَذْهَبْ", "تَذْهَبْ", "اِذْهَبْ", "ذَهَبَ"],
+    "correct": 2,
+    "explanation": "Remove تَ prefix from تَذْهَبُ → ذْهَبْ → add hamza at start → اِذْهَبْ. The connecting hamza gets kasrah when the next letter has sukoon."
+  },
+  {
+    "id": "q20",
+    "lessonId": 10,
+    "type": "multiple-choice",
+    "question": "How is the dual (Muthanna) formed in the Rafa' state?",
+    "options": [
+      "Add ـُونَ to the singular",
+      "Add ـَانِ to the singular",
+      "Add ـَاتٌ to the singular",
+      "Change internal vowels"
+    ],
+    "correct": 1,
+    "explanation": "Dual in Rafa' state: add ـَانِ to the singular noun. E.g., طَالِبٌ → طَالِبَانِ (two students)."
+  },
+  {
+    "id": "q21",
+    "lessonId": 10,
+    "type": "multiple-choice",
+    "question": "What is the plural of كِتَابٌ (book)?",
+    "options": ["كِتَابَانِ", "كِتَابُونَ", "كُتُبٌ", "كِتَابَاتٌ"],
+    "correct": 2,
+    "explanation": "كُتُبٌ is the broken plural of كِتَابٌ. Broken plurals change internal vowel patterns and must be memorized."
+  },
+  {
+    "id": "q22",
+    "lessonId": 1,
+    "type": "arabic-to-english",
+    "question": "Translate: مُحَمَّدٌ طَالِبٌ",
+    "options": ["Muhammad is a teacher.", "Muhammad is a student.", "The student is Muhammad.", "Muhammad studied."],
+    "correct": 1,
+    "explanation": "مُحَمَّدٌ (Muhammad) is the Mubtada, طَالِبٌ (student) is the Khabar. Together: 'Muhammad is a student.'"
+  },
+  {
+    "id": "q23",
+    "lessonId": 2,
+    "type": "arabic-to-english",
+    "question": "Translate: بَابُ الْبَيْتِ",
+    "options": ["The house of the door", "The door of the house", "A door and a house", "Inside the house"],
+    "correct": 1,
+    "explanation": "بَابُ = door (Mudaaf), الْبَيْتِ = the house (Mudaaf Ilayhi). Together: 'the door of the house.'"
+  },
+  {
+    "id": "q24",
+    "lessonId": 5,
+    "type": "arabic-to-english",
+    "question": "Translate: الْكِتَابُ عَلَى الطَّاوِلَةِ",
+    "options": [
+      "The table is in the book.",
+      "The book is under the table.",
+      "The book is on the table.",
+      "A book and a table."
+    ],
+    "correct": 2,
+    "explanation": "الْكِتَابُ = the book (Mubtada), عَلَى الطَّاوِلَةِ = on the table (Khabar as Jar-Majroor)."
+  }
+]

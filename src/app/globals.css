@@ -1,26 +1,143 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: oklch(0.99 0.005 90);
+  --foreground: oklch(0.18 0.02 250);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.02 250);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.02 250);
+  --primary: oklch(0.52 0.18 150);
+  --primary-foreground: oklch(0.99 0 0);
+  --secondary: oklch(0.96 0.01 90);
+  --secondary-foreground: oklch(0.18 0.02 250);
+  --muted: oklch(0.96 0.005 90);
+  --muted-foreground: oklch(0.5 0.015 250);
+  --accent: oklch(0.96 0.02 90);
+  --accent-foreground: oklch(0.18 0.02 250);
+  --destructive: oklch(0.55 0.22 25);
+  --border: oklch(0.9 0.01 90);
+  --input: oklch(0.9 0.01 90);
+  --ring: oklch(0.52 0.18 150);
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: oklch(0.12 0.02 250);
+  --foreground: oklch(0.95 0.005 90);
+  --card: oklch(0.17 0.025 250);
+  --card-foreground: oklch(0.95 0.005 90);
+  --popover: oklch(0.17 0.025 250);
+  --popover-foreground: oklch(0.95 0.005 90);
+  --primary: oklch(0.6 0.18 150);
+  --primary-foreground: oklch(0.1 0.02 250);
+  --secondary: oklch(0.22 0.03 250);
+  --secondary-foreground: oklch(0.95 0.005 90);
+  --muted: oklch(0.22 0.025 250);
+  --muted-foreground: oklch(0.65 0.015 250);
+  --accent: oklch(0.22 0.03 250);
+  --accent-foreground: oklch(0.95 0.005 90);
+  --destructive: oklch(0.6 0.22 25);
+  --border: oklch(0.28 0.03 250);
+  --input: oklch(0.25 0.03 250);
+  --ring: oklch(0.6 0.18 150);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+* { border-color: var(--color-border); }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
 }
+
+/* Arabic typography */
+.arabic-text {
+  font-family: 'Amiri', 'Traditional Arabic', 'Arabic Typesetting', serif;
+  direction: rtl;
+  text-align: right;
+  line-height: 2;
+}
+
+/* Grammar role colors — light */
+.role-mubtada  { color: oklch(0.45 0.18 240); }
+.role-khabar   { color: oklch(0.42 0.18 145); }
+.role-verb     { color: oklch(0.48 0.18 55);  }
+.role-faail    { color: oklch(0.45 0.18 240); }
+.role-mafool   { color: oklch(0.47 0.20 25);  }
+.role-mudaaf   { color: oklch(0.44 0.18 290); }
+.role-mudaaf-ilayhi { color: oklch(0.46 0.18 30); }
+.role-jar-majroor   { color: oklch(0.44 0.16 185); }
+.role-sifa     { color: oklch(0.45 0.18 55);  }
+.role-mawsoof  { color: oklch(0.45 0.18 240); }
+.role-nahy-particle { color: oklch(0.47 0.20 25); }
+
+.bg-role-mubtada  { background-color: oklch(0.92 0.06 240); }
+.bg-role-khabar   { background-color: oklch(0.92 0.06 145); }
+.bg-role-verb     { background-color: oklch(0.94 0.07 55);  }
+.bg-role-faail    { background-color: oklch(0.92 0.06 240); }
+.bg-role-mafool   { background-color: oklch(0.93 0.07 25);  }
+.bg-role-mudaaf   { background-color: oklch(0.93 0.06 290); }
+.bg-role-mudaaf-ilayhi { background-color: oklch(0.94 0.06 30); }
+.bg-role-jar-majroor   { background-color: oklch(0.92 0.06 185); }
+.bg-role-sifa    { background-color: oklch(0.94 0.07 55);  }
+.bg-role-mawsoof { background-color: oklch(0.92 0.06 240); }
+
+.dark .bg-role-mubtada  { background-color: oklch(0.25 0.10 240); }
+.dark .bg-role-khabar   { background-color: oklch(0.24 0.09 145); }
+.dark .bg-role-verb     { background-color: oklch(0.27 0.10 55);  }
+.dark .bg-role-faail    { background-color: oklch(0.25 0.10 240); }
+.dark .bg-role-mafool   { background-color: oklch(0.26 0.10 25);  }
+.dark .bg-role-mudaaf   { background-color: oklch(0.26 0.09 290); }
+.dark .bg-role-mudaaf-ilayhi { background-color: oklch(0.27 0.09 30); }
+.dark .bg-role-jar-majroor   { background-color: oklch(0.25 0.09 185); }
+.dark .bg-role-sifa    { background-color: oklch(0.27 0.10 55);  }
+.dark .bg-role-mawsoof { background-color: oklch(0.25 0.10 240); }
+
+/* Flashcard flip */
+.flashcard-container { perspective: 1000px; }
+.flashcard-inner {
+  transition: transform 0.6s cubic-bezier(0.4,0,0.2,1);
+  transform-style: preserve-3d;
+  position: relative;
+}
+.flashcard-inner.flipped { transform: rotateY(180deg); }
+.flashcard-front,
+.flashcard-back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flashcard-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  inset: 0;
+}
+
+html { scroll-behavior: smooth; }
