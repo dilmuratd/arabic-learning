@@ -151,7 +151,7 @@ export default function GrammarLabPage() {
                   {/* Color-coded breakdown */}
                   <div className="mb-6">
                     <p className="text-xs text-muted-foreground mb-3 font-medium">WORD-BY-WORD BREAKDOWN</p>
-                    <div className="flex flex-wrap items-end gap-2 justify-center" dir="rtl">
+                    <div className="flex flex-wrap items-end gap-2 justify-center" dir="rtl" style={{ direction: 'rtl' }}>
                       {selectedExample.breakdown.map((part, j) => (
                         <ColoredWord
                           key={j}
