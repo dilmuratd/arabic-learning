@@ -6,8 +6,11 @@ import { LessonCard } from '@/components/LessonCard';
 import { XPBar } from '@/components/XPBar';
 import { useProgress } from '@/hooks/useProgress';
 import lessonsData from '@/data/lessons.json';
-import type { Lesson } from '@/types';
+import vocabularyData from '@/data/vocabulary.json';
+import type { Lesson, FlashCard } from '@/types';
 import { isLessonEnabled } from '@/config/lessons';
+
+const vocabulary = vocabularyData as FlashCard[];
 
 const lessons = lessonsData as Lesson[];
 
@@ -51,6 +54,7 @@ export default function LessonsPage() {
                 lesson={lesson}
                 completed={progress.completedLessons.includes(lesson.id)}
                 index={index}
+                wordCount={vocabulary.filter(w => w.lesson === lesson.id).length}
               />
             ) : (
               <motion.div

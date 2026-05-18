@@ -25,9 +25,10 @@ interface LessonCardProps {
   completed?: boolean;
   locked?: boolean;
   index?: number;
+  wordCount?: number;
 }
 
-export function LessonCard({ lesson, completed = false, locked = false, index = 0 }: LessonCardProps) {
+export function LessonCard({ lesson, completed = false, locked = false, index = 0, wordCount }: LessonCardProps) {
   const colors = COLOR_MAP[lesson.color] ?? COLOR_MAP.emerald;
 
   return (
@@ -63,7 +64,7 @@ export function LessonCard({ lesson, completed = false, locked = false, index = 
           </div>
         </div>
         <div className="mt-3 flex items-center gap-2 text-xs text-muted-foreground">
-          <span>{lesson.vocabulary.length} words</span>
+          <span>{wordCount ?? lesson.vocabulary.length} words</span>
           <span>•</span>
           <span>{lesson.examples.length} examples</span>
           <span>•</span>
