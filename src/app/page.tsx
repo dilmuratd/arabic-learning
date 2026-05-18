@@ -110,7 +110,7 @@ export default function HomePage() {
             {[
               { icon: BookOpen, label: '10 Lessons' },
               { icon: Users, label: '94 Vocabulary Words' },
-              { icon: Clock, label: '110 Quiz Questions' },
+              { icon: Clock, label: '94 Quiz Questions' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-1.5">
                 <Icon className="w-3.5 h-3.5" />
