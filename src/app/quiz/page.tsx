@@ -38,7 +38,7 @@ export default function QuizPage() {
   );
 
   const startQuiz = () => {
-    setQuestions(shuffle(filtered).slice(0, Math.min(10, filtered.length)));
+    setQuestions(shuffle(filtered));
     setCurrentIdx(0);
     setSelected(null);
     setAnswers({});
@@ -142,7 +142,7 @@ export default function QuizPage() {
                 <Trophy className="w-12 h-12 text-primary mx-auto mb-4" />
                 <h2 className="text-xl font-bold text-foreground mb-2">Ready to be tested?</h2>
                 <p className="text-muted-foreground mb-6">
-                  {Math.min(10, filtered.length)} questions •{' '}
+                  {filtered.length} questions •{' '}
                   {selectedLesson === 'all' ? 'All grammar topics' : lessons.find(l => l.id === selectedLesson)?.title}
                 </p>
                 <button
