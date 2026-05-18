@@ -15,6 +15,7 @@ const NAV_LINKS = [
   { href: '/grammar-lab', label: 'Grammar Lab' },
   { href: '/quiz', label: 'Quiz' },
   { href: '/textbook', label: 'Textbook' },
+  { href: '/feedback', label: 'Feedback' },
 ];
 
 export function Navbar() {
