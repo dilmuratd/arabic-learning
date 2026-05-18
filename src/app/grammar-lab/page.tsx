@@ -8,43 +8,55 @@ import { MixedText } from '@/components/MixedText';
 import { ColoredWord } from '@/components/GrammarBadge';
 import lessonsData from '@/data/lessons.json';
 import type { Lesson, Example } from '@/types';
+import { isLessonEnabled } from '@/config/lessons';
 
-const lessons = lessonsData as Lesson[];
+const lessons = (lessonsData as Lesson[]).filter(l => isLessonEnabled(l.slug));
 
-// Collect all examples from all lessons
+// Collect examples only from enabled lessons
 const ALL_EXAMPLES: (Example & { lessonTitle: string; lessonId: number })[] = lessons.flatMap(l =>
   l.examples.map(ex => ({ ...ex, lessonTitle: l.title, lessonId: l.id }))
 );
 
-const GRAMMAR_ROLES = [
+// Roles used in enabled lessons
+const ENABLED_ROLES = new Set(
+  ALL_EXAMPLES.flatMap(ex => ex.breakdown.map(b => b.role))
+);
+
+const ALL_GRAMMAR_ROLES = [
   { role: 'mubtada', label: 'Mubtada (Subject)', arabic: 'مُبْتَدَأٌ' },
   { role: 'khabar', label: 'Khabar (Predicate)', arabic: 'خَبَرٌ' },
+  { role: 'mudaaf', label: 'Muḍāf', arabic: 'مُضَافٌ' },
+  { role: 'mudaaf-ilayhi', label: 'Muḍāf Ilayhi', arabic: 'مُضَافٌ إِلَيْهِ' },
   { role: 'verb', label: "Fiʿl (Verb)", arabic: 'فِعْلٌ' },
   { role: 'faail', label: "Fā'il (Subject of verb)", arabic: 'فَاعِلٌ' },
   { role: 'mafool', label: "Maf'ūl (Object)", arabic: 'مَفْعُولٌ' },
-  { role: 'mudaaf', label: 'Muḍāf', arabic: 'مُضَافٌ' },
-  { role: 'mudaaf-ilayhi', label: 'Muḍāf Ilayhi', arabic: 'مُضَافٌ إِلَيْهِ' },
   { role: 'jar-majroor', label: 'Jār-Majrūr', arabic: 'جَارٌّ وَمَجْرُورٌ' },
   { role: 'sifa', label: 'Ṣifa (Adjective)', arabic: 'صِفَةٌ' },
   { role: 'mawsoof', label: 'Mawṣūf (Described noun)', arabic: 'مَوْصُوفٌ' },
 ];
+const GRAMMAR_ROLES = ALL_GRAMMAR_ROLES.filter(r => ENABLED_ROLES.has(r.role));
 
-// Sentence builder word bank
-const WORD_BANK = [
-  { arabic: 'ذَهَبَ', role: 'verb', english: 'went' },
-  { arabic: 'كَتَبَ', role: 'verb', english: 'wrote' },
-  { arabic: 'الطَّالِبُ', role: 'faail', english: 'the student' },
-  { arabic: 'مُحَمَّدٌ', role: 'faail', english: 'Muhammad' },
-  { arabic: 'رِسَالَةً', role: 'mafool', english: 'a letter' },
-  { arabic: 'كِتَاباً', role: 'mafool', english: 'a book' },
-  { arabic: 'إِلَى الْمَسْجِدِ', role: 'jar-majroor', english: 'to the mosque' },
-  { arabic: 'إِلَى الْمَدْرَسَةِ', role: 'jar-majroor', english: 'to school' },
-  { arabic: 'الْبَيْتُ', role: 'mubtada', english: 'the house' },
-  { arabic: 'كَبِيرٌ', role: 'khabar', english: 'large' },
-  { arabic: 'جَمِيلٌ', role: 'khabar', english: 'beautiful' },
-  { arabic: 'كِتَابُ', role: 'mudaaf', english: 'book of' },
-  { arabic: 'الطَّالِبِ', role: 'mudaaf-ilayhi', english: 'the student\'s' },
+// Sentence builder word bank — roles mapped to the lesson they belong to
+const ALL_WORD_BANK = [
+  { arabic: 'الْبَيْتُ', role: 'mubtada', english: 'the house', lesson: 'mubtada-khabar' },
+  { arabic: 'الرَّجُلُ', role: 'mubtada', english: 'the man', lesson: 'mubtada-khabar' },
+  { arabic: 'كَبِيرٌ', role: 'khabar', english: 'large', lesson: 'mubtada-khabar' },
+  { arabic: 'جَمِيلٌ', role: 'khabar', english: 'beautiful', lesson: 'mubtada-khabar' },
+  { arabic: 'صَالِحٌ', role: 'khabar', english: 'pious', lesson: 'mubtada-khabar' },
+  { arabic: 'كِتَابُ', role: 'mudaaf', english: 'book of', lesson: 'mudaaf-mudaaf-ilayhi' },
+  { arabic: 'بَابُ', role: 'mudaaf', english: 'door of', lesson: 'mudaaf-mudaaf-ilayhi' },
+  { arabic: 'الطَّالِبِ', role: 'mudaaf-ilayhi', english: "the student's", lesson: 'mudaaf-mudaaf-ilayhi' },
+  { arabic: 'الْبَيْتِ', role: 'mudaaf-ilayhi', english: 'the house (gen.)', lesson: 'mudaaf-mudaaf-ilayhi' },
+  { arabic: 'ذَهَبَ', role: 'verb', english: 'went', lesson: 'past-tense' },
+  { arabic: 'كَتَبَ', role: 'verb', english: 'wrote', lesson: 'past-tense' },
+  { arabic: 'الطَّالِبُ', role: 'faail', english: 'the student', lesson: 'fail-mafool' },
+  { arabic: 'مُحَمَّدٌ', role: 'faail', english: 'Muhammad', lesson: 'fail-mafool' },
+  { arabic: 'رِسَالَةً', role: 'mafool', english: 'a letter', lesson: 'fail-mafool' },
+  { arabic: 'كِتَاباً', role: 'mafool', english: 'a book', lesson: 'fail-mafool' },
+  { arabic: 'إِلَى الْمَسْجِدِ', role: 'jar-majroor', english: 'to the mosque', lesson: 'prepositions' },
+  { arabic: 'إِلَى الْمَدْرَسَةِ', role: 'jar-majroor', english: 'to school', lesson: 'prepositions' },
 ];
+const WORD_BANK = ALL_WORD_BANK.filter(w => isLessonEnabled(w.lesson));
 
 interface BuiltWord {
   arabic: string;
