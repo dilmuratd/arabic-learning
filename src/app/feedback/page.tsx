@@ -178,10 +178,7 @@ export default function FeedbackPage() {
               {status === 'error' && (
                 <div className="flex items-center gap-2 text-sm text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-800 rounded-xl px-4 py-3">
                   <AlertCircle className="w-4 h-4 shrink-0" />
-                  Failed to send. Please try again or email directly at{' '}
-                  <a href="mailto:dilmuratd@gmail.com" className="underline font-medium">
-                    dilmuratd@gmail.com
-                  </a>
+                  Failed to send. Please try again later.
                 </div>
               )}
 
