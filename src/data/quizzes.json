@@ -1,15 +1,124 @@
 [
+
   {
-    "id": "q1",
+    "id": "l1-g01",
     "lessonId": 1,
     "type": "multiple-choice",
     "question": "What is the Arabic term for 'Subject' in a nominal sentence?",
     "options": ["خَبَرٌ", "مُبْتَدَأٌ", "فَاعِلٌ", "مَفْعُولٌ"],
     "correct": 1,
-    "explanation": "مُبْتَدَأٌ (Mubtada) is the subject/topic of a nominal sentence. It always ends with dammah or two dammahs."
+    "explanation": "مُبْتَدَأٌ (Mubtada) is the subject/topic of a nominal sentence — it is what we are talking about."
   },
   {
-    "id": "q2",
+    "id": "l1-g02",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What is the Arabic term for 'Predicate' — the information given about the subject?",
+    "options": ["مُبْتَدَأٌ", "مُضَافٌ", "خَبَرٌ", "فَاعِلٌ"],
+    "correct": 2,
+    "explanation": "خَبَرٌ (Khabar) is the predicate — it provides information about the Mubtada."
+  },
+  {
+    "id": "l1-g03",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which ending do BOTH the Mubtada and the Khabar always carry?",
+    "options": ["Fathah (َ) or tanween fathah (ً)", "Kasrah (ِ) or tanween kasrah (ٍ)", "Dammah (ُ) or tanween dammah (ٌ)", "Sukoon (ْ)"],
+    "correct": 2,
+    "explanation": "Both Mubtada and Khabar are in the Rafa' state — they end with dammah (ُ) or tanween dammah (ٌ)."
+  },
+  {
+    "id": "l1-g04",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What is the FIRST step when translating 'Khalid is brave' into Arabic?",
+    "options": ["Add alif-laam to the subject", "Remove 'is' from the sentence", "Add ة to make it feminine", "Reverse the word order"],
+    "correct": 1,
+    "explanation": "Step 1: Remove 'is'. Step 2: Translate the words. Step 3: Give both words dammah/tanween dammah."
+  },
+  {
+    "id": "l1-g05",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which of the following is the correct Arabic translation of 'Haamid is pious'?",
+    "options": ["حَامِدٌ صَالِحَةٌ", "الْحَامِدُ صَالِحٌ", "حَامِدٌ صَالِحٌ", "حَامِدَ صَالِحٌ"],
+    "correct": 2,
+    "explanation": "حَامِدٌ (Mubtada) + صَالِحٌ (Khabar) — both with tanween dammah (ٌ). No alif-laam needed since Haamid is a proper name."
+  },
+  {
+    "id": "l1-g06",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "When alif-laam (ال) is added to a word that has tanween, what happens to the tanween?",
+    "options": ["Tanween is doubled", "Tanween remains the same", "Tanween drops and becomes a single vowel", "A sukoon is added"],
+    "correct": 2,
+    "explanation": "When alif-laam is added, tanween drops and becomes a single dammah, kasrah, or fathah. E.g., رَجُلٌ → الرَّجُلُ."
+  },
+  {
+    "id": "l1-g07",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "In the sentence 'الْبِنْتُ عَالِمَةٌ', why does عَالِم have ة at the end?",
+    "options": ["Because كبير is the Mubtada", "Because البنت (girl) is feminine, so the Khabar must also be feminine", "Because alif-laam requires ة", "No special reason — ة is always added"],
+    "correct": 1,
+    "explanation": "If the Mubtada is feminine, the Khabar must also agree in gender. البِنتُ = girl (feminine) → عَالِمَةٌ."
+  },
+  {
+    "id": "l1-g08",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "How do you make the word صَالِحٌ (pious, masculine) into its feminine form?",
+    "options": ["Remove the tanween", "Add alif-laam before it", "Add the round taa (ة) to the end → صَالِحَةٌ", "Change the first vowel"],
+    "correct": 2,
+    "explanation": "To make any adjective feminine in Arabic, add the round taa (ة) to the end: صَالِحٌ → صَالِحَةٌ."
+  },
+  {
+    "id": "l1-g09",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "The Mubtada of a nominal sentence is always a...",
+    "options": ["Common noun without alif-laam", "Definite noun (proper name or with alif-laam)", "Verb in the past tense", "Noun with two kasrahs"],
+    "correct": 1,
+    "explanation": "The Mubtada must be definite — either a proper name (like Mahmood) or a common noun with alif-laam (like الرَّجُلُ)."
+  },
+  {
+    "id": "l1-g10",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does alif-laam (ال) primarily indicate in Arabic?",
+    "options": ["Two dammahs (tanween)", "The definite article 'the'", "Feminine gender", "Plural form"],
+    "correct": 1,
+    "explanation": "Alif-laam is the definite article — like 'the' in English. رَجُلٌ = a man; الرَّجُلُ = the man."
+  },
+  {
+    "id": "l1-g11",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Identify the Mubtada in: الْقَائِدُ شُجَاعٌ",
+    "options": ["شُجَاعٌ", "الْقَائِدُ", "الْ", "قَائِدٌ"],
+    "correct": 1,
+    "explanation": "الْقَائِدُ (the leader) is the Mubtada — it comes first and is definite. شُجَاعٌ (brave) is the Khabar."
+  },
+  {
+    "id": "l1-g12",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Identify the Khabar in: مُحَمَّدٌ رَسُولٌ",
+    "options": ["مُحَمَّدٌ", "رَسُولٌ", "Both words", "Neither word"],
+    "correct": 1,
+    "explanation": "رَسُولٌ (messenger) is the Khabar — it tells us what Muhammad is. مُحَمَّدٌ is the Mubtada."
+  },
+  {
+    "id": "l1-g13",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which sentence correctly says 'The woman is knowledgeable' in Arabic?",
+    "options": ["الْمَرْأَةُ عَالِمٌ", "الْمَرْأَةُ عَالِمَةٌ", "امْرَأَةٌ عَالِمٌ", "الْمَرْأَةَ عَالِمَةٌ"],
+    "correct": 1,
+    "explanation": "الْمَرْأَةُ (the woman) is feminine, so the Khabar عَالِمٌ must become عَالِمَةٌ (with ة)."
+  },
+  {
+    "id": "l1-g14",
     "lessonId": 1,
     "type": "multiple-choice",
     "question": "In the sentence 'الْبَيْتُ كَبِيرٌ', what is the Khabar?",
@@ -18,99 +127,795 @@
     "explanation": "كَبِيرٌ (large) is the Khabar — it tells us information about the Mubtada (الْبَيْتُ = the house)."
   },
   {
-    "id": "q3",
+    "id": "l1-g15",
     "lessonId": 1,
     "type": "multiple-choice",
-    "question": "Which ending do both Mubtada and Khabar always have?",
-    "options": ["Fathah (َ)", "Kasrah (ِ)", "Dammah (ُ)", "Sukoon (ْ)"],
-    "correct": 2,
-    "explanation": "Both Mubtada and Khabar always end with dammah (ُ) or two dammahs (ٌ — tanween)."
+    "question": "What does اللَّهُ رَبٌّ mean in English?",
+    "options": ["Allah is a messenger", "Allah is the Lord", "The Lord is great", "Allah is One"],
+    "correct": 1,
+    "explanation": "اللَّهُ (Allah) is the Mubtada; رَبٌّ (Lord) is the Khabar. Together: 'Allah is (the) Lord.'"
   },
   {
-    "id": "q4",
+    "id": "l1-g16",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does الْإِنْسَانُ عَبْدٌ mean in English?",
+    "options": ["The slave is a human", "Mankind is a slave (servant of Allah)", "The man is brave", "A human is free"],
+    "correct": 1,
+    "explanation": "الْإِنْسَانُ (mankind/human) is Mubtada; عَبْدٌ (slave/servant) is Khabar: 'Mankind is a slave/servant.'"
+  },
+  {
+    "id": "l1-g17",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which is the correct Arabic for 'The path is straight'?",
+    "options": ["صِرَاطٌ مُسْتَقِيمٌ", "الصِّرَاطُ مُسْتَقِيمٌ", "الصِّرَاطَ مُسْتَقِيمٌ", "الصِّرَاطُ مُسْتَقِيمَةٌ"],
+    "correct": 1,
+    "explanation": "الصِّرَاطُ (the path, Mubtada) + مُسْتَقِيمٌ (straight, Khabar). Path is masculine so no ة needed."
+  },
+
+  {
+    "id": "l1-v01",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does أَبٌ mean?",
+    "options": ["mother", "son", "father", "brother"],
+    "correct": 2,
+    "explanation": "أَبٌ (abun) = father. Its plural is آبَاءٌ."
+  },
+  {
+    "id": "l1-v02",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does أُمٌّ mean?",
+    "options": ["sister", "mother", "grandmother", "aunt"],
+    "correct": 1,
+    "explanation": "أُمٌّ (ummun) = mother. Its plural is أُمَّهَاتٌ."
+  },
+  {
+    "id": "l1-v03",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does أَخٌ mean?",
+    "options": ["father", "uncle", "son", "brother"],
+    "correct": 3,
+    "explanation": "أَخٌ (akhun) = brother. Its plural is إِخْوَةٌ."
+  },
+  {
+    "id": "l1-v04",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does أُخْتٌ mean?",
+    "options": ["aunt", "grandmother", "sister", "daughter"],
+    "correct": 2,
+    "explanation": "أُخْتٌ (ukhtun) = sister. Its plural is أَخَوَاتٌ."
+  },
+  {
+    "id": "l1-v05",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does عَمٌّ mean?",
+    "options": ["maternal uncle", "paternal uncle", "maternal aunt", "paternal aunt"],
+    "correct": 1,
+    "explanation": "عَمٌّ (ʿammun) = paternal uncle (father's brother). Maternal uncle is خَالٌ."
+  },
+  {
+    "id": "l1-v06",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does خَالٌ mean?",
+    "options": ["paternal uncle", "grandfather", "maternal uncle", "brother"],
+    "correct": 2,
+    "explanation": "خَالٌ (khālun) = maternal uncle (mother's brother). Paternal uncle is عَمٌّ."
+  },
+  {
+    "id": "l1-v07",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does جَدٌّ mean?",
+    "options": ["father", "grandfather", "grandson", "uncle"],
+    "correct": 1,
+    "explanation": "جَدٌّ (jaddun) = grandfather. Its plural is أَجْدَادٌ. Grandmother is جَدَّةٌ."
+  },
+  {
+    "id": "l1-v08",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does حَفِيدٌ mean?",
+    "options": ["son", "nephew", "grandson", "brother"],
+    "correct": 2,
+    "explanation": "حَفِيدٌ (ḥafīdun) = grandson. Its plural is أَحْفَادٌ. Granddaughter is حَفِيدَةٌ."
+  },
+  {
+    "id": "l1-v09",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does طِفْلٌ mean?",
+    "options": ["boy, child", "man", "youth", "student"],
+    "correct": 0,
+    "explanation": "طِفْلٌ (ṭiflun) = male child, infant, toddler. Plural: أَطْفَالٌ. Feminine: طِفْلَةٌ."
+  },
+  {
+    "id": "l1-v10",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does نَبِيٌّ mean?",
+    "options": ["messenger", "prophet", "scholar", "leader"],
+    "correct": 1,
+    "explanation": "نَبِيٌّ (nabiyyun) = prophet. Plural: أَنْبِيَاءٌ. Messenger is رَسُولٌ."
+  },
+  {
+    "id": "l1-v11",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does عَبْدٌ mean?",
+    "options": ["leader", "slave, servant", "worshipper", "scholar"],
+    "correct": 1,
+    "explanation": "عَبْدٌ (ʿabdun) = slave, servant. Plural: عِبَادٌ. It often refers to a servant of Allah."
+  },
+  {
+    "id": "l1-v12",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does قَائِدٌ mean?",
+    "options": ["scholar", "worshipper", "leader, commander", "messenger"],
+    "correct": 2,
+    "explanation": "قَائِدٌ (qā'idun) = leader, commander. Plural: قَادَةٌ."
+  },
+  {
+    "id": "l1-v13",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does عَالِمٌ mean?",
+    "options": ["knowledgeable person, scholar", "student", "teacher", "worshipper"],
+    "correct": 0,
+    "explanation": "عَالِمٌ (ʿālimun) = knowledgeable, scholar. Plural: عُلَمَاءٌ."
+  },
+  {
+    "id": "l1-v14",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does صَالِحٌ mean?",
+    "options": ["truthful", "pious, righteous", "brave", "generous"],
+    "correct": 1,
+    "explanation": "صَالِحٌ (ṣāliḥun) = pious, righteous. It is both an adjective and a proper name."
+  },
+  {
+    "id": "l1-v15",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does صَادِقٌ mean?",
+    "options": ["generous", "brave", "truthful, honest", "hardworking"],
+    "correct": 2,
+    "explanation": "صَادِقٌ (ṣādiqun) = truthful, honest. Plural: صَادِقُونَ."
+  },
+  {
+    "id": "l1-v16",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does شُجَاعٌ mean?",
+    "options": ["generous", "brave", "pious", "smart"],
+    "correct": 1,
+    "explanation": "شُجَاعٌ (shujāʿun) = brave, courageous."
+  },
+  {
+    "id": "l1-v17",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does كَرِيمٌ mean?",
+    "options": ["truthful", "brave", "pious", "generous, noble"],
+    "correct": 3,
+    "explanation": "كَرِيمٌ (karīmun) = generous, noble. Plural: كِرَامٌ."
+  },
+  {
+    "id": "l1-v18",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does ذَكِيٌّ mean?",
+    "options": ["hardworking", "intelligent, smart", "beautiful", "strong"],
+    "correct": 1,
+    "explanation": "ذَكِيٌّ (dhakiyyun) = intelligent, smart. Plural: أَذْكِيَاءٌ."
+  },
+  {
+    "id": "l1-v19",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does مُجْتَهِدٌ mean?",
+    "options": ["beautiful", "brave", "hardworking, diligent", "small"],
+    "correct": 2,
+    "explanation": "مُجْتَهِدٌ (mujtahidun) = hardworking, diligent. Plural: مُجْتَهِدُونَ."
+  },
+  {
+    "id": "l1-v20",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does رَحِيمٌ mean?",
+    "options": ["Lord", "merciful", "messenger", "truthful"],
+    "correct": 1,
+    "explanation": "رَحِيمٌ (raḥīmun) = merciful. One of the Names of Allah: الرَّحِيمُ."
+  },
+  {
+    "id": "l1-v21",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does مَاءٌ mean?",
+    "options": ["ice", "fire", "water", "wind"],
+    "correct": 2,
+    "explanation": "مَاءٌ (mā'un) = water. Plural: مِيَاهٌ."
+  },
+  {
+    "id": "l1-v22",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does ثَلْجٌ mean?",
+    "options": ["water", "ice, snow", "cold", "winter"],
+    "correct": 1,
+    "explanation": "ثَلْجٌ (thaljun) = ice, snow."
+  },
+  {
+    "id": "l1-v23",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does قَوِيٌّ mean?",
+    "options": ["weak", "small", "strong", "fat"],
+    "correct": 2,
+    "explanation": "قَوِيٌّ (qawiyyun) = strong. Its opposite is ضَعِيفٌ (weak). Plural: أَقْوِيَاءٌ."
+  },
+  {
+    "id": "l1-v24",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does ضَعِيفٌ mean?",
+    "options": ["strong", "weak", "brave", "small"],
+    "correct": 1,
+    "explanation": "ضَعِيفٌ (ḍaʿīfun) = weak. Its opposite is قَوِيٌّ (strong). Plural: ضُعَفَاءٌ."
+  },
+  {
+    "id": "l1-v25",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does جَمِيلٌ mean?",
+    "options": ["generous", "pious", "beautiful", "truthful"],
+    "correct": 2,
+    "explanation": "جَمِيلٌ (jamīlun) = beautiful."
+  },
+
+  {
+    "id": "l1-e01",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which Arabic word means 'son'?",
+    "options": ["وَلَدٌ", "ابْنٌ", "أَخٌ", "حَفِيدٌ"],
+    "correct": 1,
+    "explanation": "ابْنٌ (ibnun) = son. وَلَدٌ = boy/child; أَخٌ = brother; حَفِيدٌ = grandson."
+  },
+  {
+    "id": "l1-e02",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which Arabic word means 'daughter / girl'?",
+    "options": ["أُخْتٌ", "بِنْتٌ", "جَدَّةٌ", "عَمَّةٌ"],
+    "correct": 1,
+    "explanation": "بِنْتٌ (bintun) = daughter, girl. Plural: بَنَاتٌ."
+  },
+  {
+    "id": "l1-e03",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which Arabic word means 'man'?",
+    "options": ["وَلَدٌ", "طِفْلٌ", "رَجُلٌ", "ابْنٌ"],
+    "correct": 2,
+    "explanation": "رَجُلٌ (rajulun) = man. Plural: رِجَالٌ."
+  },
+  {
+    "id": "l1-e04",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which Arabic word means 'worshipper'?",
+    "options": ["عَابِدٌ", "عَبْدٌ", "عَالِمٌ", "عَاقِلٌ"],
+    "correct": 0,
+    "explanation": "عَابِدٌ (ʿābidun) = worshipper. Plural: عُبَّادٌ. عَبْدٌ = slave/servant; عَالِمٌ = scholar; عَاقِلٌ = wise."
+  },
+  {
+    "id": "l1-e05",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which Arabic word means 'Muslim'?",
+    "options": ["مُؤْمِنٌ", "مُسْلِمٌ", "مُجْتَهِدٌ", "مُؤَدَّبٌ"],
+    "correct": 1,
+    "explanation": "مُسْلِمٌ (muslimun) = Muslim. Plural: مُسْلِمُونَ."
+  },
+  {
+    "id": "l1-e06",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which Arabic word means 'small'?",
+    "options": ["كَبِيرٌ", "قَوِيٌّ", "صَغِيرٌ", "بَارِدٌ"],
+    "correct": 2,
+    "explanation": "صَغِيرٌ (ṣaghīrun) = small. Its opposite is كَبِيرٌ (large)."
+  },
+  {
+    "id": "l1-e07",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which Arabic word means 'cold'?",
+    "options": ["عَذْبٌ", "بَارِدٌ", "سَمِينٌ", "صَغِيرٌ"],
+    "correct": 1,
+    "explanation": "بَارِدٌ (bāridun) = cold. It appeared in Lesson 1 describing: 'The ice is cold' (الثَّلْجُ بَارِدٌ)."
+  },
+  {
+    "id": "l1-e08",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Which Arabic word means 'sweet'?",
+    "options": ["بَارِدٌ", "عَذْبٌ", "صَغِيرٌ", "سَمِينٌ"],
+    "correct": 1,
+    "explanation": "عَذْبٌ (ʿadhbun) = sweet. E.g., الْمَاءُ عَذْبٌ = The water is sweet."
+  },
+
+  {
+    "id": "l1-t01",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Translate into Arabic: 'The man is strong.'",
+    "options": ["رَجُلٌ قَوِيٌّ", "الرَّجُلُ قَوِيٌّ", "الرَّجُلُ قَوِيَّةٌ", "الرَّجُلِ قَوِيٌّ"],
+    "correct": 1,
+    "explanation": "الرَّجُلُ (the man, definite Mubtada) + قَوِيٌّ (strong, Khabar). Both carry dammah/tanween dammah."
+  },
+  {
+    "id": "l1-t02",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Translate into Arabic: 'The child is weak.'",
+    "options": ["الطِّفْلُ ضَعِيفَةٌ", "الطِّفْلَ ضَعِيفٌ", "الطِّفْلُ ضَعِيفٌ", "طِفْلٌ ضَعِيفٌ"],
+    "correct": 2,
+    "explanation": "الطِّفْلُ (the child, M) + ضَعِيفٌ (weak). طِفْل is masculine so no ة on the khabar."
+  },
+  {
+    "id": "l1-t03",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "Translate into Arabic: 'The sister is beautiful.'",
+    "options": ["الْأُخْتُ جَمِيلٌ", "الْأُخْتُ جَمِيلَةٌ", "أُخْتٌ جَمِيلٌ", "الْأُخْتَ جَمِيلَةٌ"],
+    "correct": 1,
+    "explanation": "الْأُخْتُ (the sister) is feminine → Khabar must be جَمِيلَةٌ (with ة). Both take dammah."
+  },
+  {
+    "id": "l1-t04",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does الصِّرَاطُ مُسْتَقِيمٌ mean?",
+    "options": ["The straight path", "The path is straight", "A straight road", "The path is long"],
+    "correct": 1,
+    "explanation": "Mubtada-Khabar sentence: الصِّرَاطُ (the path) + مُسْتَقِيمٌ (straight) = 'The path is straight.'"
+  },
+  {
+    "id": "l1-t05",
+    "lessonId": 1,
+    "type": "multiple-choice",
+    "question": "What does السَّاعَةُ آتِيَةٌ mean?",
+    "options": ["The hour has passed", "The Hour (Day of Judgment) is coming", "Time is running out", "The clock is broken"],
+    "correct": 1,
+    "explanation": "السَّاعَةُ = the Hour (Day of Resurrection); آتِيَةٌ = coming (feminine Khabar matching the feminine Mubtada)."
+  },
+
+
+  {
+    "id": "l2-g01",
     "lessonId": 2,
     "type": "multiple-choice",
-    "question": "In the phrase 'كِتَابُ الطَّالِبِ', what is the Mudaaf Ilayhi?",
-    "options": ["كِتَابُ", "الطَّالِبِ", "الطَّالِبُ", "كِتَابٌ"],
+    "question": "In the idaafah construction, what is the Mudaaf?",
+    "options": ["The possessor (second noun)", "The possessed (first noun)", "The verb in the sentence", "The adjective"],
     "correct": 1,
-    "explanation": "الطَّالِبِ is the Mudaaf Ilayhi (possessor) — it ends with kasrah (ِ). The Mudaaf is كِتَابُ (book)."
+    "explanation": "The Mudaaf is the first noun — the possessed or the one attributed to another. E.g., in 'Khalid's book,' 'book' is Mudaaf."
   },
   {
-    "id": "q5",
+    "id": "l2-g02",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What is the Mudaaf Ilayhi?",
+    "options": ["The first noun in idaafah", "The verb", "The possessor — second noun in idaafah", "The adjective describing the first noun"],
+    "correct": 2,
+    "explanation": "Mudaaf Ilayhi is the second noun — the possessor. E.g., in 'Khalid's book,' Khalid is Mudaaf Ilayhi."
+  },
+  {
+    "id": "l2-g03",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What ending does the Mudaaf (first noun) take?",
+    "options": ["Two kasrahs (ٍ)", "Single dammah (ُ)", "Two dammahs (ٌ)", "Single fathah (َ)"],
+    "correct": 1,
+    "explanation": "The Mudaaf takes a single dammah (ُ). It drops both alif-laam AND tanween."
+  },
+  {
+    "id": "l2-g04",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What ending does the Mudaaf Ilayhi (second noun) take when it has NO alif-laam?",
+    "options": ["Single dammah (ُ)", "Two dammahs (ٌ)", "Two kasrahs (ٍ)", "Single fathah (َ)"],
+    "correct": 2,
+    "explanation": "Mudaaf Ilayhi takes two kasrahs (ٍ) — tanween kasrah — when it has no alif-laam. E.g., قَلَمُ خَالِدٍ."
+  },
+  {
+    "id": "l2-g05",
     "lessonId": 2,
     "type": "multiple-choice",
     "question": "Which statement about Mudaaf is correct?",
-    "options": [
-      "It always has alif-laam (ال)",
-      "It always has tanween",
-      "It never has alif-laam AND never has tanween",
-      "It ends with kasrah"
-    ],
+    "options": ["It always has alif-laam (ال)", "It always has tanween", "It NEVER has alif-laam AND NEVER has tanween", "It ends with kasrah"],
     "correct": 2,
-    "explanation": "The Mudaaf (first noun in idaafah) NEVER has alif-laam AND NEVER has tanween — these are the two rules."
+    "explanation": "Key rule: The Mudaaf NEVER accepts alif-laam AND NEVER accepts tanween. Both are forbidden."
   },
   {
-    "id": "q6",
+    "id": "l2-g06",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "If the Mudaaf Ilayhi has alif-laam (ال), its ending changes to...",
+    "options": ["Two kasrahs (ٍ)", "Single kasrah (ِ)", "Single dammah (ُ)", "Two dammahs (ٌ)"],
+    "correct": 1,
+    "explanation": "When Mudaaf Ilayhi has alif-laam, tanween drops: two kasrahs become one kasrah. E.g., خَاتَمُ الذَّهَبِ."
+  },
+  {
+    "id": "l2-g07",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "In 'كِتَابُ الطَّالِبِ', what is the Mudaaf Ilayhi?",
+    "options": ["كِتَابُ", "الطَّالِبِ", "الطَّالِبُ", "كِتَابٌ"],
+    "correct": 1,
+    "explanation": "الطَّالِبِ is the Mudaaf Ilayhi — it ends with kasrah because it has alif-laam. كِتَابُ is the Mudaaf."
+  },
+  {
+    "id": "l2-g08",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "In 'قَلَمُ مَحْمُودٍ', what is the Mudaaf?",
+    "options": ["مَحْمُودٍ", "قَلَمُ", "قَلَمٌ", "مَحْمُودٌ"],
+    "correct": 1,
+    "explanation": "قَلَمُ (pen) is the Mudaaf — it has a single dammah and no tanween. مَحْمُودٍ is the Mudaaf Ilayhi."
+  },
+  {
+    "id": "l2-g09",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What is the FIRST step to translate 'Fatimah's pen' into Arabic?",
+    "options": ["Add alif-laam to Fatimah", "Remove the apostrophe-s and reverse the word order", "Give both words dammah", "Translate directly word for word"],
+    "correct": 1,
+    "explanation": "For 'Fatimah's pen': remove 's → 'Fatimah pen' → reverse to 'pen Fatimah' → translate → apply endings: قَلَمُ فَاطِمَةَ."
+  },
+  {
+    "id": "l2-g10",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Which is the correct Arabic for 'door of the house' (بَابُ الْبَيْتِ)? Why does الْبَيْتِ have one kasrah not two?",
+    "options": [
+      "Because بَيْت is plural",
+      "Because alif-laam on the Mudaaf Ilayhi causes tanween to drop to a single kasrah",
+      "Because the Mudaaf is feminine",
+      "It is a mistake — it should have two kasrahs"
+    ],
+    "correct": 1,
+    "explanation": "When Mudaaf Ilayhi has alif-laam, tanween (ٍ) drops to a single kasrah (ِ): الْبَيْتِ (not الْبَيْتٍ)."
+  },
+  {
+    "id": "l2-g11",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Which phrase correctly says 'the pen of the grandfather'?",
+    "options": ["قَلَمٌ الْجَدِّ", "قَلَمُ الْجَدِّ", "قَلَمُ الْجَدٍّ", "الْقَلَمُ الْجَدِّ"],
+    "correct": 1,
+    "explanation": "قَلَمُ (Mudaaf — single dammah, no tanween, no alif-laam) + الْجَدِّ (Mudaaf Ilayhi — single kasrah because of alif-laam)."
+  },
+  {
+    "id": "l2-g12",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What relationship does the idaafah (Mudaaf-Mudaaf Ilayhi) construction typically express?",
+    "options": ["Verb-subject relation", "Possession or attribution of one noun to another", "Subject-predicate relation", "Adjective-noun agreement"],
+    "correct": 1,
+    "explanation": "Idaafah expresses possession or attribution — 'the X of Y' or 'Y's X'. E.g., كِتَابُ خَالِدٍ = Khalid's book."
+  },
+
+  {
+    "id": "l2-v01",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does جِدَارٌ mean?",
+    "options": ["door", "ceiling", "window", "wall"],
+    "correct": 3,
+    "explanation": "جِدَارٌ (jidārun) = wall. Plural: جُدْرَانٌ."
+  },
+  {
+    "id": "l2-v02",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does بَيْتٌ mean?",
+    "options": ["room", "house", "door", "window"],
+    "correct": 1,
+    "explanation": "بَيْتٌ (baytun) = house. Plural: بُيُوتٌ. Another word for house/home is دَارٌ."
+  },
+  {
+    "id": "l2-v03",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does شُبَّاكٌ mean?",
+    "options": ["door", "window", "ceiling", "roof"],
+    "correct": 1,
+    "explanation": "شُبَّاكٌ (shabbākun) = window. Plural: شَبَابِيكُ."
+  },
+  {
+    "id": "l2-v04",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does سَقْفٌ mean?",
+    "options": ["floor", "roof", "ceiling", "wall"],
+    "correct": 2,
+    "explanation": "سَقْفٌ (saqfun) = ceiling. Plural: سُقُوفٌ. Roof is سَطْحٌ."
+  },
+  {
+    "id": "l2-v05",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does سَرِيرٌ mean?",
+    "options": ["chair", "table", "bed", "desk"],
+    "correct": 2,
+    "explanation": "سَرِيرٌ (sarīrun) = bed. Plural: سُرُرٌ."
+  },
+  {
+    "id": "l2-v06",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does قَلَمٌ mean?",
+    "options": ["book", "notebook", "pen", "paper"],
+    "correct": 2,
+    "explanation": "قَلَمٌ (qalamun) = pen. Plural: أَقْلَامٌ."
+  },
+  {
+    "id": "l2-v07",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does ضَوْءٌ mean?",
+    "options": ["darkness", "light", "lamp", "sun"],
+    "correct": 1,
+    "explanation": "ضَوْءٌ (ḍaw'un) = light. Plural: أَضْوَاءٌ. Darkness is ظُلْمَةٌ."
+  },
+  {
+    "id": "l2-v08",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does ظُلْمَةٌ mean?",
+    "options": ["light", "lamp", "darkness", "shadow"],
+    "correct": 2,
+    "explanation": "ظُلْمَةٌ (ẓulmatun) = darkness. Plural: ظُلُمَاتٌ. E.g., ظُلْمَةُ اللَّيْلِ = darkness of the night."
+  },
+  {
+    "id": "l2-v09",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does سِرَاجٌ mean?",
+    "options": ["sun", "lamp, lantern", "star", "candle"],
+    "correct": 1,
+    "explanation": "سِرَاجٌ (sirājun) = lamp, lantern. Plural: سُرُجٌ."
+  },
+  {
+    "id": "l2-v10",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does صَلَاةٌ mean?",
+    "options": ["fasting", "pilgrimage", "prayer (salah)", "alms"],
+    "correct": 2,
+    "explanation": "صَلَاةٌ (ṣalātun) = prayer, salah — one of the five pillars of Islam."
+  },
+  {
+    "id": "l2-v11",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does زَكَاةٌ mean?",
+    "options": ["prayer", "fasting", "alms, zakah", "pilgrimage"],
+    "correct": 2,
+    "explanation": "زَكَاةٌ (zakātun) = obligatory alms/charity (zakah) — one of the five pillars of Islam."
+  },
+  {
+    "id": "l2-v12",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does مَدِينَةٌ mean?",
+    "options": ["country", "village", "city", "town square"],
+    "correct": 2,
+    "explanation": "مَدِينَةٌ (madīnatun) = city. Plural: مُدُنٌ."
+  },
+  {
+    "id": "l2-v13",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does شِتَاءٌ mean?",
+    "options": ["summer", "autumn", "spring", "winter"],
+    "correct": 3,
+    "explanation": "شِتَاءٌ (shitā'un) = winter. The four seasons: شِتَاءٌ (winter), رَبِيعٌ (spring), صَيْفٌ (summer), خَرِيفٌ (autumn)."
+  },
+  {
+    "id": "l2-v14",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does صَيْفٌ mean?",
+    "options": ["winter", "spring", "summer", "autumn"],
+    "correct": 2,
+    "explanation": "صَيْفٌ (ṣayfun) = summer."
+  },
+  {
+    "id": "l2-v15",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does خَرِيفٌ mean?",
+    "options": ["spring", "winter", "summer", "autumn, fall"],
+    "correct": 3,
+    "explanation": "خَرِيفٌ (kharīfun) = autumn, fall."
+  },
+  {
+    "id": "l2-v16",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does طَوِيلٌ mean?",
+    "options": ["short", "tall, long", "expensive", "new"],
+    "correct": 1,
+    "explanation": "طَوِيلٌ (ṭawīlun) = tall, long. Its opposite is قَصِيرٌ (short)."
+  },
+  {
+    "id": "l2-v17",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does ثَمِينٌ mean?",
+    "options": ["new", "old", "expensive", "large"],
+    "correct": 2,
+    "explanation": "ثَمِينٌ (thamīnun) = expensive, precious."
+  },
+  {
+    "id": "l2-v18",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does كُرَّاسَةٌ mean?",
+    "options": ["book", "pen", "notebook", "paper"],
+    "correct": 2,
+    "explanation": "كُرَّاسَةٌ (kurrāsatun) = notebook, exercise book."
+  },
+  {
+    "id": "l2-v19",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does سَفَرٌ mean?",
+    "options": ["river", "journey, travel", "sea", "road"],
+    "correct": 1,
+    "explanation": "سَفَرٌ (safarun) = journey, travel. E.g., صَلَاةُ السَّفَرِ = the prayer of travel (shortened prayer)."
+  },
+  {
+    "id": "l2-v20",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "What does أَمِيرٌ mean?",
+    "options": ["scholar", "leader, governor, prince", "messenger", "commander"],
+    "correct": 1,
+    "explanation": "أَمِيرٌ (amīrun) = leader, governor, prince. E.g., أَمِيرُ الْمَدِينَةِ = leader of the city."
+  },
+
+  {
+    "id": "l2-t01",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Translate: يَوْمُ الدِّينِ",
+    "options": ["The day is long", "Day of Judgment / Religion", "Days of the week", "A religious day"],
+    "correct": 1,
+    "explanation": "يَوْمُ = day (Mudaaf) + الدِّينِ = of the religion/judgment (Mudaaf Ilayhi). Together: 'Day of Judgment.'"
+  },
+  {
+    "id": "l2-t02",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Translate: ظُلْمَةُ اللَّيْلِ",
+    "options": ["The night is dark", "Darkness of the night", "Light of the night", "The dark lamp"],
+    "correct": 1,
+    "explanation": "ظُلْمَةُ (darkness, Mudaaf) + اللَّيْلِ (of the night, Mudaaf Ilayhi with alif-laam → single kasrah)."
+  },
+  {
+    "id": "l2-t03",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Translate: أَمِيرُ الْمَدِينَةِ",
+    "options": ["A city and a leader", "The city's prize", "Leader/governor of the city", "The leader is in the city"],
+    "correct": 2,
+    "explanation": "أَمِيرُ (leader, Mudaaf) + الْمَدِينَةِ (of the city, Mudaaf Ilayhi) = 'leader of the city.'"
+  },
+  {
+    "id": "l2-t04",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Translate: إِقَامَةُ الصَّلَاةِ",
+    "options": ["Performing the prayer", "Leaving the prayer", "The prayer is short", "Prayer time"],
+    "correct": 0,
+    "explanation": "إِقَامَةُ (establishing, Mudaaf) + الصَّلَاةِ (of the prayer, Mudaaf Ilayhi) = 'establishing of the prayer.'"
+  },
+  {
+    "id": "l2-t05",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Which is the correct Arabic for 'Mahmood's pen is expensive'?",
+    "options": [
+      "قَلَمٌ مَحْمُودٍ ثَمِينٌ",
+      "قَلَمُ مَحْمُودٍ ثَمِينٌ",
+      "الْقَلَمُ مَحْمُودٍ ثَمِينٌ",
+      "قَلَمُ مَحْمُودٌ ثَمِينٌ"
+    ],
+    "correct": 1,
+    "explanation": "قَلَمُ (Mudaaf — single dammah, no tanween) + مَحْمُودٍ (Mudaaf Ilayhi — two kasrahs) + ثَمِينٌ (Khabar). The whole phrase قَلَمُ مَحْمُودٍ acts as the Mubtada."
+  },
+  {
+    "id": "l2-t06",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Translate: 'Days of summer are long.'",
+    "options": [
+      "يَوْمٌ الصَّيْفِ طَوِيلٌ",
+      "أَيَّامُ الصَّيْفِ طَوِيلَةٌ",
+      "أَيَّامُ الصَّيْفِ طَوِيلٌ",
+      "يَوْمُ صَيْفٍ طَوِيلٌ"
+    ],
+    "correct": 1,
+    "explanation": "أَيَّامُ (days, plural Mudaaf) + الصَّيْفِ (of summer, Mudaaf Ilayhi) = Mubtada; طَوِيلَةٌ = Khabar (feminine because أَيَّام is treated as feminine plural)."
+  },
+  {
+    "id": "l2-t07",
+    "lessonId": 2,
+    "type": "multiple-choice",
+    "question": "Translate: ضَوْءُ سِرَاجٍ",
+    "options": ["A bright lamp", "Light of a lamp", "The lamp is bright", "A lantern and light"],
+    "correct": 1,
+    "explanation": "ضَوْءُ (light, Mudaaf) + سِرَاجٍ (of a lamp — no alif-laam so two kasrahs) = 'light of a lamp.'"
+  },
+
+  {
+    "id": "l3-g01",
     "lessonId": 3,
     "type": "multiple-choice",
-    "question": "What is the past tense form of نَصَرَ for 'هُمْ' (they, masculine)?",
+    "question": "What is the past tense form of نَصَرَ for 'هُمْ' (they, masculine plural)?",
     "options": ["نَصَرُوا", "نَصَرَا", "نَصَرْنَ", "نَصَرَتَا"],
     "correct": 0,
-    "explanation": "For هُمْ (they, masculine plural), the past tense of نَصَرَ is نَصَرُوا (naṣarū)."
+    "explanation": "For هُمْ (they, masculine plural), the past tense is نَصَرُوا (naṣarū)."
   },
   {
-    "id": "q7",
+    "id": "l3-g02",
     "lessonId": 3,
     "type": "multiple-choice",
     "question": "How is the passive voice (Majhool) of past tense formed?",
-    "options": [
-      "Add تْ to the end",
-      "Change first vowel to dammah, vowel before last letter to kasrah",
-      "Add وا to the end",
-      "Remove the final vowel"
-    ],
+    "options": ["Add تْ to the end", "Change first vowel to dammah and vowel before last letter to kasrah", "Add وا to the end", "Remove the final vowel"],
     "correct": 1,
     "explanation": "Passive voice: change the first vowel to dammah (ُ) and the vowel before the last letter to kasrah (ِ). E.g., نَصَرَ → نُصِرَ."
   },
   {
-    "id": "q8",
+    "id": "l4-g01",
     "lessonId": 4,
     "type": "multiple-choice",
     "question": "What is the correct word order in an Arabic verbal sentence?",
-    "options": [
-      "Subject → Verb → Object",
-      "Object → Verb → Subject",
-      "Verb → Subject → Object",
-      "Subject → Object → Verb"
-    ],
+    "options": ["Subject → Verb → Object", "Object → Verb → Subject", "Verb → Subject → Object", "Subject → Object → Verb"],
     "correct": 2,
-    "explanation": "Arabic verbal sentence order is: Verb (فِعْل) → Subject/Fa'il (فَاعِل) → Object/Maf'ool (مَفْعُول)."
+    "explanation": "Arabic verbal sentence order: Verb (فِعْل) → Subject/Fa'il (فَاعِل) → Object/Maf'ool (مَفْعُول)."
   },
   {
-    "id": "q9",
+    "id": "l4-g02",
     "lessonId": 4,
     "type": "multiple-choice",
-    "question": "The Fa'il (subject) always ends with which harakah?",
+    "question": "The Fa'il (subject of verb) always ends with which harakah?",
     "options": ["Fathah (َ/ً)", "Kasrah (ِ/ٍ)", "Dammah (ُ/ٌ)", "Sukoon (ْ)"],
     "correct": 2,
-    "explanation": "The Fa'il always ends with dammah (ُ) or two dammahs (ٌ) — it is in the Rafa' state."
+    "explanation": "The Fa'il is always in the Rafa' state — ending with dammah (ُ) or tanween dammah (ٌ)."
   },
   {
-    "id": "q10",
+    "id": "l5-g01",
     "lessonId": 5,
     "type": "multiple-choice",
     "question": "What does a preposition (حَرْفُ جَرٍّ) do to the noun following it?",
-    "options": [
-      "Gives it dammah (Rafa')",
-      "Gives it fathah (Nasb)",
-      "Gives it kasrah (Jarr/Majroor)",
-      "Removes its vowel (Sukoon)"
-    ],
+    "options": ["Gives it dammah (Rafa')", "Gives it fathah (Nasb)", "Gives it kasrah (Jarr/Majroor)", "Removes its vowel (Sukoon)"],
     "correct": 2,
     "explanation": "Prepositions cause the following noun to become Majroor — ending with kasrah (ِ) or two kasrahs (ٍ)."
   },
   {
-    "id": "q11",
+    "id": "l5-g02",
     "lessonId": 5,
     "type": "multiple-choice",
     "question": "Which preposition means 'in' or 'inside'?",
@@ -119,7 +924,7 @@
     "explanation": "فِي means 'in' or 'inside'. E.g., فِي الْبَيْتِ = in the house."
   },
   {
-    "id": "q12",
+    "id": "l6-g01",
     "lessonId": 6,
     "type": "multiple-choice",
     "question": "What is the attached pronoun for 'his' when added to a noun?",
@@ -128,131 +933,84 @@
     "explanation": "ـهُ (-hu) is the attached pronoun for 'his'. E.g., كِتَابُهُ = his book."
   },
   {
-    "id": "q13",
+    "id": "l6-g02",
     "lessonId": 6,
     "type": "multiple-choice",
     "question": "What is the Arabic detached pronoun for 'we'?",
     "options": ["أَنَا", "هُمْ", "نَحْنُ", "أَنْتُمْ"],
     "correct": 2,
-    "explanation": "نَحْنُ (naḥnu) means 'we'. It is the 1st person plural detached pronoun."
+    "explanation": "نَحْنُ (naḥnu) = we. First person plural detached pronoun."
   },
   {
-    "id": "q14",
+    "id": "l7-g01",
     "lessonId": 7,
     "type": "multiple-choice",
     "question": "Which prefix does NOT belong to the present tense prefixes (أَنَيْتُ)?",
     "options": ["أَ", "نَ", "يَ/تَ", "سَ"],
     "correct": 3,
-    "explanation": "سَ is not a present tense prefix — it is a future marker added before a present tense verb. The four prefixes are: أَ، نَ، يَ، تَ."
+    "explanation": "سَ is a future marker, not a present tense prefix. The four are: أَ، نَ، يَ، تَ."
   },
   {
-    "id": "q15",
+    "id": "l7-g02",
     "lessonId": 7,
     "type": "multiple-choice",
     "question": "What is يَنْصُرُ in passive voice (Majhool)?",
     "options": ["يُنْصِرُ", "يُنْصَرُ", "يَنْصَرُ", "يُنْصُرُ"],
     "correct": 1,
-    "explanation": "Passive present tense: change prefix vowel to dammah AND vowel before last letter to fathah → يُنْصَرُ."
+    "explanation": "Passive present: change prefix vowel to dammah AND vowel before last letter to fathah → يُنْصَرُ."
   },
   {
-    "id": "q16",
+    "id": "l8-g01",
     "lessonId": 8,
     "type": "multiple-choice",
-    "question": "In Arabic, where does the adjective (Sifa) come relative to the noun?",
+    "question": "In Arabic, where does the adjective (Sifa) come relative to the noun it describes?",
     "options": ["Before the noun", "After the noun", "Either before or after", "Separated from the noun"],
     "correct": 1,
-    "explanation": "In Arabic, the adjective (Sifa) ALWAYS comes AFTER the noun it describes, opposite to English."
+    "explanation": "In Arabic the adjective (Sifa) ALWAYS comes AFTER the noun — opposite to English."
   },
   {
-    "id": "q17",
+    "id": "l8-g02",
     "lessonId": 8,
     "type": "multiple-choice",
     "question": "Which phrase correctly means 'the righteous man' in Arabic?",
-    "options": [
-      "الصَّالِحُ الرَّجُلُ",
-      "صَالِحٌ رَجُلٌ",
-      "الرَّجُلُ الصَّالِحُ",
-      "رَجُلٌ صَالِحُ"
-    ],
+    "options": ["الصَّالِحُ الرَّجُلُ", "صَالِحٌ رَجُلٌ", "الرَّجُلُ الصَّالِحُ", "رَجُلٌ صَالِحُ"],
     "correct": 2,
-    "explanation": "الرَّجُلُ الصَّالِحُ — noun first (الرَّجُلُ), then adjective (الصَّالِحُ), both definite with alif-laam."
+    "explanation": "الرَّجُلُ الصَّالِحُ — noun first, then adjective, both definite with alif-laam."
   },
   {
-    "id": "q18",
+    "id": "l9-g01",
     "lessonId": 9,
     "type": "multiple-choice",
     "question": "How is the prohibitive (Nahy) formed in Arabic?",
-    "options": [
-      "Add لَنْ before the verb",
-      "Add لَا before the 2nd person present tense in jazm form",
-      "Remove the prefix from the present tense",
-      "Add مَا before the past tense"
-    ],
+    "options": ["Add لَنْ before the verb", "لَا + 2nd person present tense in jazm form", "Remove the prefix from the present tense", "Add مَا before the past tense"],
     "correct": 1,
     "explanation": "Prohibitive: لَا + 2nd person present tense verb in jazm (sukoon) form. E.g., لَا تَذْهَبْ = Don't go!"
   },
   {
-    "id": "q19",
+    "id": "l9-g02",
     "lessonId": 9,
     "type": "multiple-choice",
     "question": "What is the imperative (command) form of يَذْهَبُ for أَنْتَ?",
     "options": ["يَذْهَبْ", "تَذْهَبْ", "اِذْهَبْ", "ذَهَبَ"],
     "correct": 2,
-    "explanation": "Remove تَ prefix from تَذْهَبُ → ذْهَبْ → add hamza at start → اِذْهَبْ. The connecting hamza gets kasrah when the next letter has sukoon."
+    "explanation": "Remove تَ prefix from تَذْهَبُ → ذْهَبْ → add connecting hamza → اِذْهَبْ."
   },
   {
-    "id": "q20",
+    "id": "l10-g01",
     "lessonId": 10,
     "type": "multiple-choice",
     "question": "How is the dual (Muthanna) formed in the Rafa' state?",
-    "options": [
-      "Add ـُونَ to the singular",
-      "Add ـَانِ to the singular",
-      "Add ـَاتٌ to the singular",
-      "Change internal vowels"
-    ],
+    "options": ["Add ـُونَ to the singular", "Add ـَانِ to the singular", "Add ـَاتٌ to the singular", "Change internal vowels"],
     "correct": 1,
-    "explanation": "Dual in Rafa' state: add ـَانِ to the singular noun. E.g., طَالِبٌ → طَالِبَانِ (two students)."
+    "explanation": "Dual in Rafa': add ـَانِ to the singular. E.g., طَالِبٌ → طَالِبَانِ (two students)."
   },
   {
-    "id": "q21",
+    "id": "l10-g02",
     "lessonId": 10,
     "type": "multiple-choice",
-    "question": "What is the plural of كِتَابٌ (book)?",
+    "question": "What is the broken plural of كِتَابٌ (book)?",
     "options": ["كِتَابَانِ", "كِتَابُونَ", "كُتُبٌ", "كِتَابَاتٌ"],
     "correct": 2,
-    "explanation": "كُتُبٌ is the broken plural of كِتَابٌ. Broken plurals change internal vowel patterns and must be memorized."
-  },
-  {
-    "id": "q22",
-    "lessonId": 1,
-    "type": "arabic-to-english",
-    "question": "Translate: مُحَمَّدٌ طَالِبٌ",
-    "options": ["Muhammad is a teacher.", "Muhammad is a student.", "The student is Muhammad.", "Muhammad studied."],
-    "correct": 1,
-    "explanation": "مُحَمَّدٌ (Muhammad) is the Mubtada, طَالِبٌ (student) is the Khabar. Together: 'Muhammad is a student.'"
-  },
-  {
-    "id": "q23",
-    "lessonId": 2,
-    "type": "arabic-to-english",
-    "question": "Translate: بَابُ الْبَيْتِ",
-    "options": ["The house of the door", "The door of the house", "A door and a house", "Inside the house"],
-    "correct": 1,
-    "explanation": "بَابُ = door (Mudaaf), الْبَيْتِ = the house (Mudaaf Ilayhi). Together: 'the door of the house.'"
-  },
-  {
-    "id": "q24",
-    "lessonId": 5,
-    "type": "arabic-to-english",
-    "question": "Translate: الْكِتَابُ عَلَى الطَّاوِلَةِ",
-    "options": [
-      "The table is in the book.",
-      "The book is under the table.",
-      "The book is on the table.",
-      "A book and a table."
-    ],
-    "correct": 2,
-    "explanation": "الْكِتَابُ = the book (Mubtada), عَلَى الطَّاوِلَةِ = on the table (Khabar as Jar-Majroor)."
+    "explanation": "كُتُبٌ is the broken plural of كِتَابٌ — broken plurals change internal vowel patterns."
   }
 ]
