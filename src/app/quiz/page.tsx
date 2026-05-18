@@ -62,9 +62,10 @@ export default function QuizPage() {
       setSelected(null);
       setShowExplanation(false);
     } else {
-      // Calculate score
-      const correct = Object.entries(answers).filter(
-        ([i, ans]) => ans === questions[parseInt(i)].correct
+      // Include the current answer (selected) which may not yet be in answers state
+      const finalAnswers = selected !== null ? { ...answers, [currentIdx]: selected } : answers;
+      const correct = Object.entries(finalAnswers).filter(
+        ([i, ans]) => (ans as number) === questions[parseInt(i)]?.correct
       ).length;
       const score = Math.round((correct / questions.length) * 100);
       saveQuizScore(`quiz-${Date.now()}`, score);
