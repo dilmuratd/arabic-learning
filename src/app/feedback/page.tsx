@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { MessageSquare, Send, CheckCircle2, AlertCircle, Bug, Lightbulb, Star, HelpCircle } from 'lucide-react';
 
 // Replace with your Formspree form ID after signing up at formspree.io
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xpwrjojq';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mnjrqdkk';
 
 const FEEDBACK_TYPES = [
   { value: 'bug', label: 'Bug Report', icon: Bug, description: 'Something is broken or not working' },
