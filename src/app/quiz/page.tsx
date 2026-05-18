@@ -8,9 +8,12 @@ import { useProgress } from '@/hooks/useProgress';
 import quizzesData from '@/data/quizzes.json';
 import lessonsData from '@/data/lessons.json';
 import type { Quiz } from '@/types';
+import { isLessonEnabled } from '@/config/lessons';
 
-const allQuizzes = quizzesData as Quiz[];
-const lessons = lessonsData;
+const allQuizzes = (quizzesData as Quiz[]).filter(q => isLessonEnabled(
+  lessonsData.find(l => l.id === q.lessonId)?.slug ?? ''
+));
+const lessons = lessonsData.filter(l => isLessonEnabled(l.slug));
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);

@@ -13,7 +13,6 @@ const NAV_LINKS = [
   { href: '/lessons', label: 'Lessons' },
   { href: '/flashcards', label: 'Flashcards' },
   { href: '/grammar-lab', label: 'Grammar Lab' },
-  { href: '/conjugation', label: 'Conjugation' },
   { href: '/quiz', label: 'Quiz' },
   { href: '/textbook', label: 'Textbook' },
 ];

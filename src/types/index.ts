@@ -103,6 +103,20 @@ export interface Lesson {
     soundFemPlural?: string;
     brokenPlural?: string;
   }>;
+  exercises?: Exercise[];
+}
+
+export interface ExerciseItem {
+  number: number;
+  text: string;
+  direction: 'translate-to-arabic' | 'translate-to-english' | 'read-arabic';
+  answer?: string;
+}
+
+export interface Exercise {
+  number: number;
+  instruction: string;
+  items: ExerciseItem[];
 }
 
 export interface FlashCard {

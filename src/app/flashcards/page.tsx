@@ -8,9 +8,12 @@ import { useProgress } from '@/hooks/useProgress';
 import vocabularyData from '@/data/vocabulary.json';
 import lessonsData from '@/data/lessons.json';
 import type { FlashCard } from '@/types';
+import { isLessonEnabled } from '@/config/lessons';
 
-const allCards = vocabularyData as FlashCard[];
-const lessons = lessonsData;
+const allCards = (vocabularyData as FlashCard[]).filter(c => isLessonEnabled(
+  lessonsData.find(l => l.id === c.lesson)?.slug ?? ''
+));
+const lessons = lessonsData.filter(l => isLessonEnabled(l.slug));
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);

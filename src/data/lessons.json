@@ -96,7 +96,75 @@
       "transliteration": "Allāhu Akbaru",
       "english": "Allah is the Greatest.",
       "source": "Adhan (Call to Prayer)"
-    }
+    },
+    "exercises": [
+      {
+        "number": 1,
+        "instruction": "Translate into Arabic.",
+        "items": [
+          { "number": 1, "text": "Haamid is a father.", "direction": "translate-to-arabic" },
+          { "number": 2, "text": "Mahmood is a son.", "direction": "translate-to-arabic" },
+          { "number": 3, "text": "Khalid is an uncle (paternal).", "direction": "translate-to-arabic" },
+          { "number": 4, "text": "Zayd is an uncle (maternal).", "direction": "translate-to-arabic" },
+          { "number": 5, "text": "Bakr is a brother.", "direction": "translate-to-arabic" },
+          { "number": 6, "text": "Sa'eed is a grandfather.", "direction": "translate-to-arabic" },
+          { "number": 7, "text": "Hameed is a grandson.", "direction": "translate-to-arabic" },
+          { "number": 8, "text": "The man is strong.", "direction": "translate-to-arabic" },
+          { "number": 9, "text": "The child (M) is weak.", "direction": "translate-to-arabic" },
+          { "number": 10, "text": "The ice is cold.", "direction": "translate-to-arabic" },
+          { "number": 11, "text": "The water is sweet.", "direction": "translate-to-arabic" },
+          { "number": 12, "text": "The son is small.", "direction": "translate-to-arabic" },
+          { "number": 13, "text": "Hamzah is fat.", "direction": "translate-to-arabic" },
+          { "number": 14, "text": "The brother is pious.", "direction": "translate-to-arabic" }
+        ]
+      },
+      {
+        "number": 2,
+        "instruction": "Translate into Arabic.",
+        "items": [
+          { "number": 1, "text": "The woman is strong.", "direction": "translate-to-arabic" },
+          { "number": 2, "text": "The mother is beautiful.", "direction": "translate-to-arabic" },
+          { "number": 3, "text": "The daughter is a worshipper.", "direction": "translate-to-arabic" },
+          { "number": 4, "text": "The aunt (maternal) is intelligent.", "direction": "translate-to-arabic" },
+          { "number": 5, "text": "The aunt (paternal) is hardworking.", "direction": "translate-to-arabic" },
+          { "number": 6, "text": "The sister is beautiful.", "direction": "translate-to-arabic" },
+          { "number": 7, "text": "The grandmother is thankful.", "direction": "translate-to-arabic" },
+          { "number": 8, "text": "'Aishah is intelligent.", "direction": "translate-to-arabic" },
+          { "number": 9, "text": "Fatimah is small.", "direction": "translate-to-arabic" },
+          { "number": 10, "text": "Maimoonah is a granddaughter.", "direction": "translate-to-arabic" },
+          { "number": 11, "text": "The aunt (paternal) is pious.", "direction": "translate-to-arabic" },
+          { "number": 12, "text": "The girl is fat.", "direction": "translate-to-arabic" },
+          { "number": 13, "text": "The grandmother is pious.", "direction": "translate-to-arabic" },
+          { "number": 14, "text": "The aunt (maternal) is a worshipper.", "direction": "translate-to-arabic" }
+        ]
+      },
+      {
+        "number": 3,
+        "instruction": "Translate into English.",
+        "items": [
+          { "number": 1, "text": "اللَّهُ رَبٌّ", "direction": "translate-to-english" },
+          { "number": 2, "text": "مُحَمَّدٌ (صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ) نَبِيٌّ", "direction": "translate-to-english" },
+          { "number": 3, "text": "الرَّسُولُ صَادِقٌ", "direction": "translate-to-english" },
+          { "number": 4, "text": "الصِّرَاطُ مُسْتَقِيمٌ", "direction": "translate-to-english" },
+          { "number": 5, "text": "مَحْمُودٌ مُسْلِمٌ", "direction": "translate-to-english" },
+          { "number": 6, "text": "الإِنْسَانُ عَبْدٌ", "direction": "translate-to-english" },
+          { "number": 7, "text": "خَالِدٌ قَائِدٌ", "direction": "translate-to-english" },
+          { "number": 8, "text": "القَائِدُ شُجَاعٌ", "direction": "translate-to-english" },
+          { "number": 9, "text": "سَعِيدٌ أَخٌ", "direction": "translate-to-english" },
+          { "number": 10, "text": "الخَالُ عَاقِلٌ", "direction": "translate-to-english" },
+          { "number": 11, "text": "الأَخُ كَرِيمٌ", "direction": "translate-to-english" },
+          { "number": 12, "text": "السَّاعَةُ آتِيَةٌ", "direction": "translate-to-english" },
+          { "number": 13, "text": "عَمْرٌو مُجْتَهِدٌ", "direction": "translate-to-english" },
+          { "number": 14, "text": "طَارِقٌ مُؤَدَّبٌ", "direction": "translate-to-english" },
+          { "number": 15, "text": "البِنْتُ مُؤَدَّبَةٌ", "direction": "translate-to-english" },
+          { "number": 16, "text": "العَمُّ ذَكِيٌّ", "direction": "translate-to-english" },
+          { "number": 17, "text": "الحَفِيدُ مُؤَدَّبٌ وَالجَدُّ رَحِيمٌ", "direction": "translate-to-english" },
+          { "number": 18, "text": "فَاطِمَةُ ذَاهِبَةٌ", "direction": "translate-to-english" },
+          { "number": 19, "text": "حَامِدٌ ذَاهِبٌ", "direction": "translate-to-english" },
+          { "number": 20, "text": "مَحْمُودٌ عَالِمٌ", "direction": "translate-to-english" }
+        ]
+      }
+    ]
   },
   {
     "id": 2,
@@ -185,7 +253,72 @@
       "transliteration": "Bismi-llāhi",
       "english": "In the name of Allah",
       "source": "Al-Fatiha 1:1 — 'اسم' is Mudaaf, 'الله' is Mudaaf Ilayhi"
-    }
+    },
+    "exercises": [
+      {
+        "number": 1,
+        "instruction": "Translate into Arabic.",
+        "items": [
+          { "number": 1, "text": "Haamid's son / son of Hameed", "direction": "translate-to-arabic" },
+          { "number": 2, "text": "Khalid's mother / mother of Khalid", "direction": "translate-to-arabic" },
+          { "number": 3, "text": "Fatimah's sister / sister of Fatimah", "direction": "translate-to-arabic" },
+          { "number": 4, "text": "The house's wall / wall of the house", "direction": "translate-to-arabic" },
+          { "number": 5, "text": "The room's door / door of the room", "direction": "translate-to-arabic" },
+          { "number": 6, "text": "The room's window / window of the room", "direction": "translate-to-arabic" },
+          { "number": 7, "text": "The house's roof / roof of the house", "direction": "translate-to-arabic" },
+          { "number": 8, "text": "The room's ceiling / ceiling of the room", "direction": "translate-to-arabic" },
+          { "number": 9, "text": "Hameed's bed / bed of Hameed", "direction": "translate-to-arabic" },
+          { "number": 10, "text": "The grandfather's pen / pen of the grandfather", "direction": "translate-to-arabic" },
+          { "number": 11, "text": "The sun's heat / heat of the sun", "direction": "translate-to-arabic" }
+        ]
+      },
+      {
+        "number": 2,
+        "instruction": "Translate into English.",
+        "items": [
+          { "number": 1, "text": "يَوْمُ الدِّينِ", "direction": "translate-to-english" },
+          { "number": 2, "text": "إِقَامَةُ الصَّلَاةِ", "direction": "translate-to-english" },
+          { "number": 3, "text": "إِيتَاءُ الزَّكَاةِ", "direction": "translate-to-english" },
+          { "number": 4, "text": "نَاسُ البَلْدَةِ", "direction": "translate-to-english" },
+          { "number": 5, "text": "ضَوْءُ سِرَاجٍ", "direction": "translate-to-english" },
+          { "number": 6, "text": "ظُلْمَةُ اللَّيْلِ", "direction": "translate-to-english" },
+          { "number": 7, "text": "أَصَابِعُ رِجْلٍ", "direction": "translate-to-english" },
+          { "number": 8, "text": "قَلَمُ حَامِدٍ", "direction": "translate-to-english" },
+          { "number": 9, "text": "سِرَاجُ خَالِدٍ", "direction": "translate-to-english" },
+          { "number": 10, "text": "أَمِيرُ المَدِينَةِ", "direction": "translate-to-english" }
+        ]
+      },
+      {
+        "number": 3,
+        "instruction": "Translate into Arabic.",
+        "items": [
+          { "number": 1, "text": "Mahmood's pen is expensive.", "direction": "translate-to-arabic" },
+          { "number": 2, "text": "The house's wall is long.", "direction": "translate-to-arabic" },
+          { "number": 3, "text": "The house's roof is high.", "direction": "translate-to-arabic" },
+          { "number": 4, "text": "Haamid's son is tall.", "direction": "translate-to-arabic" },
+          { "number": 5, "text": "Fatimah's sister is short.", "direction": "translate-to-arabic" },
+          { "number": 6, "text": "Days of Summer are long.", "direction": "translate-to-arabic" },
+          { "number": 7, "text": "Days of Winter are short.", "direction": "translate-to-arabic" },
+          { "number": 8, "text": "Door of the house is high.", "direction": "translate-to-arabic" },
+          { "number": 9, "text": "Ceiling of the room is expensive.", "direction": "translate-to-arabic" }
+        ]
+      },
+      {
+        "number": 4,
+        "instruction": "Translate into English.",
+        "items": [
+          { "number": 1, "text": "ابْنُ الرَّجُلِ عَاقِلٌ", "direction": "translate-to-english" },
+          { "number": 2, "text": "بِنْتُ الامْرَأَةِ طَوِيلَةٌ", "direction": "translate-to-english" },
+          { "number": 3, "text": "بَابُ البَيْتِ جَدِيدٌ", "direction": "translate-to-english" },
+          { "number": 4, "text": "أُمُّ مَحْمُودٍ قَصِيرَةٌ", "direction": "translate-to-english" },
+          { "number": 5, "text": "كِتَابُ عَائِشَةَ قَدِيمٌ", "direction": "translate-to-english" },
+          { "number": 6, "text": "كُرَّاسَةُ آمِنَةَ جَدِيدَةٌ", "direction": "translate-to-english" },
+          { "number": 7, "text": "بَيْتُ حُمَيْدٍ قَدِيمٌ", "direction": "translate-to-english" },
+          { "number": 8, "text": "ابْنُ خَالِدَةَ ذَكِيٌّ", "direction": "translate-to-english" },
+          { "number": 9, "text": "صَلَاةُ السَّفَرِ قَصِيرَةٌ", "direction": "translate-to-english" }
+        ]
+      }
+    ]
   },
   {
     "id": 3,

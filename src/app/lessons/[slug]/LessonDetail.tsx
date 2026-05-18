@@ -5,16 +5,18 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
   CheckCircle2, ArrowLeft, ArrowRight, BookOpen,
-  Lightbulb, List, Star, ChevronRight
+  Lightbulb, List, Star, ChevronRight, PenLine
 } from 'lucide-react';
 import { ArabicText } from '@/components/ArabicText';
 import { ColoredWord } from '@/components/GrammarBadge';
 import { MixedText } from '@/components/MixedText';
 import { useProgress } from '@/hooks/useProgress';
 import lessonsData from '@/data/lessons.json';
-import type { Lesson } from '@/types';
+import vocabularyData from '@/data/vocabulary.json';
+import type { Lesson, FlashCard } from '@/types';
 
 const lessons = lessonsData as Lesson[];
+const allVocabulary = vocabularyData as FlashCard[];
 
 const ROLE_LABELS: Record<string, string> = {
   mubtada: 'Mubtada',
@@ -35,6 +37,7 @@ export default function LessonDetail({ slug }: { slug: string }) {
   if (!lesson) notFound();
 
   const { progress, markLessonComplete } = useProgress();
+  const lessonVocabulary = allVocabulary.filter(w => w.lesson === lesson.id);
   const isCompleted = progress.completedLessons.includes(lesson.id);
 
   const lessonIndex = lessons.findIndex(l => l.slug === slug);
@@ -337,17 +340,57 @@ export default function LessonDetail({ slug }: { slug: string }) {
 
         {/* Vocabulary */}
         <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>
-          <h2 className="text-lg font-semibold text-foreground mb-4">Vocabulary</h2>
+          <h2 className="text-lg font-semibold text-foreground mb-4">
+            Vocabulary
+            <span className="ml-2 text-sm font-normal text-muted-foreground">({lessonVocabulary.length} words)</span>
+          </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
-            {lesson.vocabulary.map((word, i) => (
+            {lessonVocabulary.map((word, i) => (
               <div key={i} className="bg-card border border-border rounded-lg p-3 text-center">
                 <ArabicText size="md" className="block mb-1">{word.arabic}</ArabicText>
                 <div className="text-xs text-muted-foreground italic mb-0.5">{word.transliteration}</div>
                 <div className="text-xs font-medium text-foreground">{word.english}</div>
+                {word.plural && (
+                  <div className="text-xs text-muted-foreground mt-1">pl. <span style={{ fontFamily: "'Amiri', serif" }}>{word.plural}</span></div>
+                )}
               </div>
             ))}
           </div>
         </motion.section>
+
+        {/* Exercises */}
+        {lesson.exercises && lesson.exercises.length > 0 && (
+          <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.28 }}>
+            <div className="flex items-center gap-2 mb-4">
+              <PenLine className="w-4 h-4 text-primary" />
+              <h2 className="text-lg font-semibold text-foreground">Exercises</h2>
+            </div>
+            <div className="space-y-5">
+              {lesson.exercises.map(ex => (
+                <div key={ex.number} className="bg-card border border-border rounded-2xl p-5">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded-full">
+                      Exercise {ex.number}
+                    </span>
+                    <span className="text-sm text-muted-foreground">{ex.instruction}</span>
+                  </div>
+                  <ol className="space-y-2">
+                    {ex.items.map(item => (
+                      <li key={item.number} className="flex gap-3 text-sm">
+                        <span className="text-muted-foreground font-medium w-6 flex-shrink-0">{item.number}.</span>
+                        {item.direction === 'translate-to-english' ? (
+                          <ArabicText size="sm" className="text-foreground leading-relaxed">{item.text}</ArabicText>
+                        ) : (
+                          <span className="text-foreground leading-relaxed">{item.text}</span>
+                        )}
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              ))}
+            </div>
+          </motion.section>
+        )}
 
         {/* Quranic Example */}
         {lesson.quranicExample && (
