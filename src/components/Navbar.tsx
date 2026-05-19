@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { href: '/flashcards', label: 'Flashcards' },
   { href: '/grammar-lab', label: 'Grammar Lab' },
   { href: '/quiz', label: 'Quiz' },
+  { href: '/practice', label: 'Practice' },
   { href: '/textbook', label: 'Textbook' },
   { href: '/feedback', label: 'Feedback' },
 ];
