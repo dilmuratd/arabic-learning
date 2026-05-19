@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { BookOpen, Layers, Zap, Trophy, ArrowRight, Star, Users, Clock } from 'lucide-react';
+import { BookOpen, Layers, Zap, Trophy, ArrowRight, Star, Users, Clock, Volume2 } from 'lucide-react';
 import { ArabicText } from '@/components/ArabicText';
 import { XPBar } from '@/components/XPBar';
 import { useProgress } from '@/hooks/useProgress';
@@ -164,6 +164,23 @@ export default function HomePage() {
             <p className="text-sm text-foreground leading-relaxed text-center" dir="ltr">
               All praise to Allāh, Lord of all the Worlds. I intend to learn and to teach; to remember and to remind; to benefit (myself) and to benefit others; to take and give advantage; to encourage observance of the Book of Allāh and the Sunnah of His Messenger ﷺ; to call towards guidance; to direct towards the good; to seek (thereby) the Countenance of Allāh and His satisfaction, proximity and reward. Transcendent and Exalted is He.
             </p>
+
+            <hr className="border-border" />
+
+            {/* Audio player */}
+            <div className="flex flex-col items-center gap-3">
+              <div className="flex items-center gap-2 text-xs font-medium text-muted-foreground uppercase tracking-wide">
+                <Volume2 className="w-3.5 h-3.5" />
+                Listen &amp; Recite
+              </div>
+              <audio
+                controls
+                className="w-full max-w-md rounded-xl"
+                src="/arabic-learning/niyyah.m4a"
+              >
+                Your browser does not support audio playback.
+              </audio>
+            </div>
           </div>
         </div>
       </section>
