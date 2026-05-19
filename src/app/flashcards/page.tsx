@@ -138,12 +138,13 @@ export default function FlashcardsPage() {
               className="flashcard-container mb-6"
             >
               <div
-                className={`flashcard-inner w-full${flipped ? ' flipped' : ''}`}
+                className={`flashcard-inner w-full cursor-pointer${flipped ? ' flipped' : ''}`}
                 style={{ minHeight: '280px' }}
                 onClick={handleFlip}
               >
                 {/* Front */}
-                <div className="flashcard-front w-full bg-card border-2 border-border rounded-2xl flex flex-col items-center justify-center p-8 cursor-pointer hover:border-primary/40 transition-colors"
+                <div
+                  className="flashcard-front w-full bg-card border-2 border-border rounded-2xl flex flex-col items-center justify-center p-8 hover:border-primary/40 transition-colors"
                   style={{ minHeight: '280px' }}
                 >
                   <div className={`text-xs font-semibold px-2.5 py-1 rounded-full mb-6 ${CATEGORY_COLORS[card.category] ?? 'bg-muted text-muted-foreground'}`}>
@@ -162,9 +163,8 @@ export default function FlashcardsPage() {
 
                 {/* Back */}
                 <div
-                  className={`flashcard-back w-full bg-primary/5 border-2 border-primary/30 rounded-2xl flex flex-col items-center justify-center p-8 cursor-pointer ${flipped ? '' : 'pointer-events-none'}`}
+                  className="flashcard-back w-full bg-primary/5 border-2 border-primary/30 rounded-2xl flex flex-col items-center justify-center p-8"
                   style={{ minHeight: '280px' }}
-                  onClick={handleFlip}
                 >
                   <ArabicText size="3xl" className="block text-center mb-3 text-primary">
                     {card.arabic}
@@ -180,14 +180,6 @@ export default function FlashcardsPage() {
                   <p className="text-xs text-muted-foreground">Lesson {card.lesson}</p>
                 </div>
               </div>
-
-              {/* Invisible flip trigger */}
-              {!flipped && (
-                <div
-                  className="absolute inset-0 cursor-pointer"
-                  onClick={handleFlip}
-                />
-              )}
             </motion.div>
           </AnimatePresence>
         ) : (
