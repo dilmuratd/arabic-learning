@@ -106,7 +106,21 @@ export default function LessonDetail({ slug }: { slug: string }) {
               {lesson.grammarPoints.map((gp, i) => (
                 <div key={i} className="bg-card border border-border rounded-xl p-4">
                   <h3 className="font-semibold text-foreground mb-2 text-sm">
-                    {i + 1}. <MixedText>{gp.title}</MixedText>
+                    {i + 1}.{' '}
+                    {gp.title.includes(' — ') ? (
+                      <>
+                        <span>{gp.title.split(' — ')[0]}</span>
+                        {' — '}
+                        <span
+                          dir="rtl"
+                          style={{ fontFamily: "'Amiri', 'Traditional Arabic', serif", fontSize: '1.1em', unicodeBidi: 'isolate' } as React.CSSProperties}
+                        >
+                          {gp.title.split(' — ')[1]}
+                        </span>
+                      </>
+                    ) : (
+                      <MixedText>{gp.title}</MixedText>
+                    )}
                   </h3>
                   <MixedText className="text-sm text-muted-foreground leading-relaxed">{gp.explanation}</MixedText>
                 </div>
