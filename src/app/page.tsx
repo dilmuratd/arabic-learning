@@ -51,7 +51,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto flex items-start gap-3">
           <Moon className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
           <p className="text-sm text-amber-800 dark:text-amber-300">
-            <span className="font-semibold">Eid ul Adha Break:</span> No class on Tuesday May 26 or Thursday May 28. Classes resume Monday <span className="font-semibold">June 2, in shaa Allah</span>. Eid Mubarak! 🌙
+            <span className="font-semibold">Eid ul Adha Break:</span> No class on Tuesday May 26 and Thursday May 28. Classes resume Tuesday <span className="font-semibold">June 2, in shaa Allah</span>. Eid Mubarak! 🌙
           </p>
         </div>
       </div>
