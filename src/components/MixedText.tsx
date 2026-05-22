@@ -24,7 +24,7 @@ export function MixedText({ children, className, arabicClassName }: MixedTextPro
   const parts = children.split(ARABIC_SPLIT);
 
   return (
-    <span className={className}>
+    <span className={className} dir="ltr">
       {parts.map((part, i) => {
         if (!IS_ARABIC.test(part)) return <Fragment key={i}>{part}</Fragment>;
 
