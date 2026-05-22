@@ -1554,48 +1554,6 @@
     "explanation": "ذَهَبَ (dhahaba) means 'he went'. Common verb you'll see constantly in Arabic texts."
   },
   {
-    "id": "l3-v03",
-    "lessonId": 3,
-    "type": "arabic-to-english",
-    "question": "Translate: كَتَبَ الطَّالِبُ الدَّرْسَ",
-    "options": [
-      "The student read the lesson.",
-      "The student wrote the lesson.",
-      "The student went to school.",
-      "The teacher wrote the lesson."
-    ],
-    "correct": 1,
-    "explanation": "كَتَبَ (he wrote) + الطَّالِبُ (the student, subject فاعل) + الدَّرْسَ (the lesson, object مفعول). Word order in Arabic: Verb → Subject → Object."
-  },
-  {
-    "id": "l3-v04",
-    "lessonId": 3,
-    "type": "arabic-to-english",
-    "question": "Translate: ذَهَبُوا إِلَى الْمَسْجِدِ",
-    "options": [
-      "He went to the mosque.",
-      "She went to the mosque.",
-      "They (f) went to the mosque.",
-      "They went to the mosque."
-    ],
-    "correct": 3,
-    "explanation": "ذَهَبُوا = they went (هُمْ, masculine plural — note the وا suffix). إِلَى = to. الْمَسْجِدِ = the mosque."
-  },
-  {
-    "id": "l3-v05",
-    "lessonId": 3,
-    "type": "arabic-to-english",
-    "question": "Which sentence means 'I wrote a letter'?",
-    "options": [
-      "كَتَبَ رِسَالَةً",
-      "كَتَبْنَا رِسَالَةً",
-      "كَتَبْتُ رِسَالَةً",
-      "كَتَبْتَ رِسَالَةً"
-    ],
-    "correct": 2,
-    "explanation": "كَتَبْتُ = I wrote (أَنَا form — فَعَلْتُ with damma on ت). رِسَالَةً = a letter."
-  },
-  {
     "id": "l4-g01",
     "lessonId": 4,
     "type": "multiple-choice",

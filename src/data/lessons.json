@@ -1705,60 +1705,6 @@
             "answer": "ذَهَبْنَا"
           }
         ]
-      },
-      {
-        "number": 3,
-        "instruction": "Translate into English.",
-        "items": [
-          {
-            "number": 1,
-            "text": "كَتَبَ الطَّالِبُ الدَّرْسَ",
-            "direction": "translate-to-english",
-            "answer": "The student wrote the lesson."
-          },
-          {
-            "number": 2,
-            "text": "ذَهَبَتِ الطَّالِبَةُ إِلَى الْمَدْرَسَةِ",
-            "direction": "translate-to-english",
-            "answer": "The female student went to the school."
-          },
-          {
-            "number": 3,
-            "text": "كَتَبْتُ رِسَالَةً",
-            "direction": "translate-to-english",
-            "answer": "I wrote a letter."
-          },
-          {
-            "number": 4,
-            "text": "ذَهَبُوا إِلَى الْمَسْجِدِ",
-            "direction": "translate-to-english",
-            "answer": "They went to the mosque."
-          },
-          {
-            "number": 5,
-            "text": "جَلَسَتِ الْمَرْأَةُ",
-            "direction": "translate-to-english",
-            "answer": "The woman sat."
-          },
-          {
-            "number": 6,
-            "text": "كَتَبْنَا الْكِتَابَ",
-            "direction": "translate-to-english",
-            "answer": "We wrote the book."
-          },
-          {
-            "number": 7,
-            "text": "ذَهَبَ الرَّجُلُ",
-            "direction": "translate-to-english",
-            "answer": "The man went."
-          },
-          {
-            "number": 8,
-            "text": "كَتَبْتَ الرِّسَالَةَ",
-            "direction": "translate-to-english",
-            "answer": "You (m) wrote the letter."
-          }
-        ]
       }
     ]
   },
