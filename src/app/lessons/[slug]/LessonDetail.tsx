@@ -412,16 +412,21 @@ export default function LessonDetail({ slug }: { slug: string }) {
                     <span className="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded-full">
                       Exercise {ex.number}
                     </span>
-                    <span className="text-sm text-muted-foreground">{ex.instruction}</span>
+                    <MixedText className="text-sm text-muted-foreground" arabicClassName="text-[1.2em]">{ex.instruction}</MixedText>
                   </div>
-                  <ol className="space-y-2">
+                  <ol className="space-y-2.5">
                     {ex.items.map(item => (
-                      <li key={item.number} className="flex gap-3 text-sm">
-                        <span className="text-muted-foreground font-medium w-6 flex-shrink-0">{item.number}.</span>
-                        {item.direction === 'translate-to-english' ? (
-                          <ArabicText size="sm" className="text-foreground leading-relaxed">{item.text}</ArabicText>
+                      <li key={item.number} className="flex gap-3 items-baseline">
+                        <span className="text-muted-foreground font-medium w-6 flex-shrink-0 text-sm">{item.number}.</span>
+                        {/[؀-ۿ]/.test(item.text) ? (
+                          <MixedText
+                            className="text-foreground leading-relaxed"
+                            arabicClassName="text-[1.35em]"
+                          >
+                            {item.text}
+                          </MixedText>
                         ) : (
-                          <span className="text-foreground leading-relaxed">{item.text}</span>
+                          <span className="text-foreground leading-relaxed text-sm">{item.text}</span>
                         )}
                       </li>
                     ))}
