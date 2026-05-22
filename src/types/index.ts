@@ -104,6 +104,25 @@ export interface Lesson {
     brokenPlural?: string;
   }>;
   exercises?: Exercise[];
+  grammarPoints?: Array<{
+    title: string;
+    explanation: string;
+    examples: string[];
+  }>;
+  conjugationChart?: {
+    title: string;
+    subtitle: string;
+    rows: Array<{
+      person: string;
+      personAr: string;
+      pronoun: string;
+      pronounEn: string;
+      form: string;
+      ending: string;
+      gender: string;
+      number: string;
+    }>;
+  };
 }
 
 export interface ExerciseItem {

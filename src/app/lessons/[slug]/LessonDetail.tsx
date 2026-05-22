@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
   CheckCircle2, ArrowLeft, ArrowRight, BookOpen,
-  Lightbulb, List, Star, ChevronRight, PenLine
+  Lightbulb, List, Star, ChevronRight, PenLine, Grid3X3
 } from 'lucide-react';
 import { ArabicText } from '@/components/ArabicText';
 import { ColoredWord } from '@/components/GrammarBadge';
@@ -94,6 +94,26 @@ export default function LessonDetail({ slug }: { slug: string }) {
             ))}
           </div>
         </motion.section>
+
+        {/* Grammar Points */}
+        {lesson.grammarPoints && lesson.grammarPoints.length > 0 && (
+          <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.08 }}>
+            <h2 className="flex items-center gap-2 text-lg font-semibold text-foreground mb-4">
+              <Lightbulb className="w-5 h-5 text-amber-500" />
+              Grammar Points
+            </h2>
+            <div className="space-y-3">
+              {lesson.grammarPoints.map((gp, i) => (
+                <div key={i} className="bg-card border border-border rounded-xl p-4">
+                  <h3 className="font-semibold text-foreground mb-2 text-sm">
+                    {i + 1}. <MixedText>{gp.title}</MixedText>
+                  </h3>
+                  <MixedText className="text-sm text-muted-foreground leading-relaxed">{gp.explanation}</MixedText>
+                </div>
+              ))}
+            </div>
+          </motion.section>
+        )}
 
         {/* Rules */}
         <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }}>
@@ -209,6 +229,70 @@ export default function LessonDetail({ slug }: { slug: string }) {
                   ))}
                 </tbody>
               </table>
+            </div>
+          </motion.section>
+        )}
+
+        {/* Conjugation Chart (فَعَلَ pattern) */}
+        {lesson.conjugationChart && (
+          <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.22 }}>
+            <h2 className="flex items-center gap-2 text-lg font-semibold text-foreground mb-1">
+              <Grid3X3 className="w-5 h-5 text-primary" />
+              {lesson.conjugationChart.title}
+            </h2>
+            <p className="text-sm text-muted-foreground mb-4">
+              <MixedText>{lesson.conjugationChart.subtitle}</MixedText>
+            </p>
+            <div className="overflow-x-auto rounded-xl border border-border mb-4">
+              <table className="w-full text-sm">
+                <thead className="bg-muted/50">
+                  <tr>
+                    <th className="text-left px-3 py-3 font-semibold">Person</th>
+                    <th className="text-left px-3 py-3 font-semibold">Pronoun (Ar)</th>
+                    <th className="text-left px-3 py-3 font-semibold">Pronoun (En)</th>
+                    <th className="text-left px-3 py-3 font-semibold">Number</th>
+                    <th className="text-left px-3 py-3 font-semibold">Form</th>
+                    <th className="text-left px-3 py-3 font-semibold">Ending</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {lesson.conjugationChart.rows.map((row, i) => {
+                    const rowBg =
+                      row.person === '3rd'
+                        ? 'bg-blue-50 dark:bg-blue-950/20'
+                        : row.person === '2nd'
+                        ? 'bg-amber-50 dark:bg-amber-950/20'
+                        : 'bg-emerald-50 dark:bg-emerald-950/20';
+                    return (
+                      <tr key={i} className={`border-t border-border ${rowBg}`}>
+                        <td className="px-3 py-2.5 text-xs font-medium text-muted-foreground">{row.person} ({row.personAr})</td>
+                        <td className="px-3 py-2.5"><ArabicText size="sm">{row.pronoun}</ArabicText></td>
+                        <td className="px-3 py-2.5 text-muted-foreground">{row.pronounEn} ({row.gender})</td>
+                        <td className="px-3 py-2.5 text-xs text-muted-foreground">{row.number}</td>
+                        <td className="px-3 py-2.5"><ArabicText size="lg" className="text-primary font-bold">{row.form}</ArabicText></td>
+                        <td className="px-3 py-2.5 font-mono text-xs text-muted-foreground">{row.ending}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+            <div className="bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded-xl p-4">
+              <p className="text-sm font-semibold text-amber-700 dark:text-amber-300 mb-2">Tips</p>
+              <ul className="space-y-1.5 text-sm text-amber-800 dark:text-amber-200">
+                <li className="flex items-start gap-2">
+                  <span className="mt-0.5 text-amber-500">•</span>
+                  <MixedText>Look for تَ/تِ/تُ → always 2nd or 1st person</MixedText>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-0.5 text-amber-500">•</span>
+                  <MixedText>Dual (two people) always has ا or مَا sound</MixedText>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="mt-0.5 text-amber-500">•</span>
+                  <MixedText>هُوَ = base form, add suffixes for everyone else</MixedText>
+                </li>
+              </ul>
             </div>
           </motion.section>
         )}

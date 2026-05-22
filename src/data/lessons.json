@@ -910,7 +910,7 @@
     "arabicTitle": "الْفِعْلُ الْمَاضِي",
     "arabicTitleSimple": "فِعْلٌ مَاضٍ",
     "lessonNumber": 3,
-    "description": "Learn how to conjugate and use past tense verbs in Arabic in both active and passive voice across all persons, genders, and numbers.",
+    "description": "Learn to conjugate Arabic past tense verbs across all 14 forms — 3rd, 2nd, and 1st person, masculine and feminine, singular, dual, and plural.",
     "color": "amber",
     "icon": "Clock",
     "concepts": [
@@ -1185,46 +1185,138 @@
     },
     "examples": [
       {
-        "arabic": "نَصَرَ حَامِدٌ مَحْمُوداً",
-        "transliteration": "naṣara Ḥāmidun Maḥmūdan",
-        "english": "Hamid helped Mahmood.",
+        "arabic": "كَتَبَ الطَّالِبُ",
+        "transliteration": "kataba aṭ-ṭālibu",
+        "english": "The student wrote (he wrote).",
         "breakdown": [
           {
-            "word": "نَصَرَ",
+            "word": "كَتَبَ",
             "role": "verb",
-            "meaning": "helped"
-          },
-          {
-            "word": "حَامِدٌ",
-            "role": "faail",
-            "meaning": "Hamid (subject)"
-          },
-          {
-            "word": "مَحْمُوداً",
-            "role": "mafool",
-            "meaning": "Mahmood (object)"
-          }
-        ]
-      },
-      {
-        "arabic": "ذَهَبَ الطَّالِبُ إِلَى الْمَسْجِدِ",
-        "transliteration": "dhahaba al-ṭālibu ilā al-masjidi",
-        "english": "The student went to the mosque.",
-        "breakdown": [
-          {
-            "word": "ذَهَبَ",
-            "role": "verb",
-            "meaning": "went"
+            "meaning": "he wrote (فَعَلَ pattern)"
           },
           {
             "word": "الطَّالِبُ",
             "role": "faail",
-            "meaning": "the student"
+            "meaning": "the student (subject)"
+          }
+        ]
+      },
+      {
+        "arabic": "كَتَبَتِ الطَّالِبَةُ",
+        "transliteration": "katabati aṭ-ṭālibatu",
+        "english": "The female student wrote (she wrote).",
+        "breakdown": [
+          {
+            "word": "كَتَبَتِ",
+            "role": "verb",
+            "meaning": "she wrote (فَعَلَتْ pattern)"
+          },
+          {
+            "word": "الطَّالِبَةُ",
+            "role": "faail",
+            "meaning": "the female student"
+          }
+        ]
+      },
+      {
+        "arabic": "ذَهَبَ الرَّجُلُ",
+        "transliteration": "dhahaba ar-rajulu",
+        "english": "The man went (he went).",
+        "breakdown": [
+          {
+            "word": "ذَهَبَ",
+            "role": "verb",
+            "meaning": "he went (فَعَلَ pattern)"
+          },
+          {
+            "word": "الرَّجُلُ",
+            "role": "faail",
+            "meaning": "the man"
+          }
+        ]
+      },
+      {
+        "arabic": "كَتَبْتُ الدَّرْسَ",
+        "transliteration": "katabtu ad-darsa",
+        "english": "I wrote the lesson.",
+        "breakdown": [
+          {
+            "word": "كَتَبْتُ",
+            "role": "verb",
+            "meaning": "I wrote (فَعَلْتُ pattern)"
+          },
+          {
+            "word": "الدَّرْسَ",
+            "role": "mafool",
+            "meaning": "the lesson (object)"
+          }
+        ]
+      },
+      {
+        "arabic": "كَتَبْنَا الدَّرْسَ",
+        "transliteration": "katabnā ad-darsa",
+        "english": "We wrote the lesson.",
+        "breakdown": [
+          {
+            "word": "كَتَبْنَا",
+            "role": "verb",
+            "meaning": "we wrote (فَعَلْنَا pattern)"
+          },
+          {
+            "word": "الدَّرْسَ",
+            "role": "mafool",
+            "meaning": "the lesson (object)"
+          }
+        ]
+      },
+      {
+        "arabic": "كَتَبْتَ الرِّسَالَةَ",
+        "transliteration": "katabta ar-risālata",
+        "english": "You (m) wrote the letter.",
+        "breakdown": [
+          {
+            "word": "كَتَبْتَ",
+            "role": "verb",
+            "meaning": "you wrote (فَعَلْتَ pattern)"
+          },
+          {
+            "word": "الرِّسَالَةَ",
+            "role": "mafool",
+            "meaning": "the letter (object)"
+          }
+        ]
+      },
+      {
+        "arabic": "ذَهَبُوا إِلَى الْمَسْجِدِ",
+        "transliteration": "dhahabū ilā al-masjidi",
+        "english": "They went to the mosque.",
+        "breakdown": [
+          {
+            "word": "ذَهَبُوا",
+            "role": "verb",
+            "meaning": "they went (فَعَلُوا plural pattern)"
           },
           {
             "word": "إِلَى الْمَسْجِدِ",
             "role": "jar-majroor",
             "meaning": "to the mosque"
+          }
+        ]
+      },
+      {
+        "arabic": "جَلَسَ الْأُسْتَاذُ",
+        "transliteration": "jalasa al-ustādhu",
+        "english": "The teacher sat.",
+        "breakdown": [
+          {
+            "word": "جَلَسَ",
+            "role": "verb",
+            "meaning": "he sat (فَعَلَ pattern)"
+          },
+          {
+            "word": "الْأُسْتَاذُ",
+            "role": "faail",
+            "meaning": "the teacher"
           }
         ]
       }
@@ -1276,7 +1368,399 @@
       "transliteration": "wa mā Muḥammadun illā rasūlun",
       "english": "And Muhammad is not but a messenger.",
       "source": "Surah Al-Imran 3:144"
-    }
+    },
+    "grammarPoints": [
+      {
+        "title": "What is Sulasi Mujarrad? (سُلَاسِي مُجَرَّد)",
+        "explanation": "Every Arabic past tense verb is built on three root letters called the Sulasi Mujarrad (ثُلَاثِي مُجَرَّد). The placeholder pattern فَعَلَ (Fa-'a-la) represents these three letters: فَ (fa), عَ (ain), لَ (lam). For example, the verb كَتَبَ (kataba = he wrote) has roots ك-ت-ب.",
+        "examples": []
+      },
+      {
+        "title": "Three Persons in Arabic",
+        "explanation": "Arabic has three grammatical persons: 1) الغائب (Al-Ghaaib) — Third person: he/she/they, the one being talked ABOUT. 2) المُخَاطَب (Al-Mukhaatab) — Second person: you, the one being talked TO. 3) المُتَكَلِّم (Al-Mutakallim) — First person: I/we, the one SPEAKING.",
+        "examples": []
+      },
+      {
+        "title": "Third Person (الغائب) — He/She/They",
+        "explanation": "The 3rd person masculine starts with the base verb فَعَلَ (he). Add ا for dual (فَعَلَا — they two), add وا for plural (فَعَلُوا — they all). For feminine, add تْ to the base (فَعَلَتْ — she), add تَا for dual (فَعَلَتَا), and use فَعَلْنَ for plural (هُنَّ). Trick: dual always has an alif ا or ـا sound.",
+        "examples": []
+      },
+      {
+        "title": "Second Person (المُخَاطَب) — You",
+        "explanation": "All 2nd person forms start with the root + تَ/تِ/تُ (the 'ta' group). Masculine singular: فَعَلْتَ (anta). Feminine singular: فَعَلْتِ (anti — note the kasra under ت). Dual (same for m/f): فَعَلْتُمَا. Masculine plural: فَعَلْتُمْ. Feminine plural: فَعَلْتُنَّ. Trick: the ت is your clue — it appears in EVERY 2nd and 1st person form.",
+        "examples": []
+      },
+      {
+        "title": "First Person (المُتَكَلِّم) — I / We",
+        "explanation": "Only two forms: أَنَا (I) → فَعَلْتُ (note the damma ُ on ت). نَحْنُ (We) → فَعَلْنَا. Easy to remember: I = فَعَلْتُ (ends in ُ), We = فَعَلْنَا (ends in نَا).",
+        "examples": []
+      },
+      {
+        "title": "The Key Pattern — Sukoon on the Middle",
+        "explanation": "Notice that in 2nd and 1st person forms, the لَ becomes لْ (with sukoon/no vowel) before the suffix is added: فَعَلْتَ not فَعَلَتَ. This is a key spelling rule. Only in 3rd person masculine base form (هُوَ) does لَ keep its fatha: فَعَلَ.",
+        "examples": []
+      }
+    ],
+    "conjugationChart": {
+      "title": "Past Tense Conjugation Chart (فَعَلَ)",
+      "subtitle": "Replace فَعَلَ with any 3-letter verb, e.g. كَتَبَ (wrote), ذَهَبَ (went), جَلَسَ (sat)",
+      "rows": [
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُوَ",
+          "pronounEn": "He",
+          "form": "فَعَلَ",
+          "ending": "-a",
+          "gender": "M",
+          "number": "Singular"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُمَا",
+          "pronounEn": "They two",
+          "form": "فَعَلَا",
+          "ending": "-ā",
+          "gender": "M",
+          "number": "Dual"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُمْ",
+          "pronounEn": "They",
+          "form": "فَعَلُوا",
+          "ending": "-ū",
+          "gender": "M",
+          "number": "Plural"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هِيَ",
+          "pronounEn": "She",
+          "form": "فَعَلَتْ",
+          "ending": "-at",
+          "gender": "F",
+          "number": "Singular"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُمَا",
+          "pronounEn": "They two",
+          "form": "فَعَلَتَا",
+          "ending": "-atā",
+          "gender": "F",
+          "number": "Dual"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُنَّ",
+          "pronounEn": "They (f)",
+          "form": "فَعَلْنَ",
+          "ending": "-na",
+          "gender": "F",
+          "number": "Plural"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتَ",
+          "pronounEn": "You (m)",
+          "form": "فَعَلْتَ",
+          "ending": "-ta",
+          "gender": "M",
+          "number": "Singular"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتُمَا",
+          "pronounEn": "You two",
+          "form": "فَعَلْتُمَا",
+          "ending": "-tumā",
+          "gender": "M/F",
+          "number": "Dual"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتُمْ",
+          "pronounEn": "You all (m)",
+          "form": "فَعَلْتُمْ",
+          "ending": "-tum",
+          "gender": "M",
+          "number": "Plural"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتِ",
+          "pronounEn": "You (f)",
+          "form": "فَعَلْتِ",
+          "ending": "-ti",
+          "gender": "F",
+          "number": "Singular"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتُنَّ",
+          "pronounEn": "You all (f)",
+          "form": "فَعَلْتُنَّ",
+          "ending": "-tunna",
+          "gender": "F",
+          "number": "Plural"
+        },
+        {
+          "person": "1st",
+          "personAr": "المتكلم",
+          "pronoun": "أَنَا",
+          "pronounEn": "I",
+          "form": "فَعَلْتُ",
+          "ending": "-tu",
+          "gender": "M/F",
+          "number": "Singular"
+        },
+        {
+          "person": "1st",
+          "personAr": "المتكلم",
+          "pronoun": "نَحْنُ",
+          "pronounEn": "We",
+          "form": "فَعَلْنَا",
+          "ending": "-nā",
+          "gender": "M/F",
+          "number": "Plural"
+        }
+      ]
+    },
+    "exercises": [
+      {
+        "number": 1,
+        "instruction": "Conjugate the verb كَتَبَ (to write) for each pronoun.",
+        "items": [
+          {
+            "number": 1,
+            "text": "هُوَ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبَ"
+          },
+          {
+            "number": 2,
+            "text": "هُمَا (m)",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبَا"
+          },
+          {
+            "number": 3,
+            "text": "هُمْ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبُوا"
+          },
+          {
+            "number": 4,
+            "text": "هِيَ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبَتْ"
+          },
+          {
+            "number": 5,
+            "text": "هُمَا (f)",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبَتَا"
+          },
+          {
+            "number": 6,
+            "text": "هُنَّ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبْنَ"
+          },
+          {
+            "number": 7,
+            "text": "أَنْتَ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبْتَ"
+          },
+          {
+            "number": 8,
+            "text": "أَنْتُمَا",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبْتُمَا"
+          },
+          {
+            "number": 9,
+            "text": "أَنْتُمْ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبْتُمْ"
+          },
+          {
+            "number": 10,
+            "text": "أَنْتِ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبْتِ"
+          },
+          {
+            "number": 11,
+            "text": "أَنْتُنَّ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبْتُنَّ"
+          },
+          {
+            "number": 12,
+            "text": "أَنَا",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبْتُ"
+          },
+          {
+            "number": 13,
+            "text": "نَحْنُ",
+            "direction": "translate-to-arabic",
+            "answer": "كَتَبْنَا"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "instruction": "Conjugate the verb ذَهَبَ (to go) for each pronoun.",
+        "items": [
+          {
+            "number": 1,
+            "text": "هُوَ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبَ"
+          },
+          {
+            "number": 2,
+            "text": "هُمَا (m)",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبَا"
+          },
+          {
+            "number": 3,
+            "text": "هُمْ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبُوا"
+          },
+          {
+            "number": 4,
+            "text": "هِيَ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبَتْ"
+          },
+          {
+            "number": 5,
+            "text": "هُمَا (f)",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبَتَا"
+          },
+          {
+            "number": 6,
+            "text": "هُنَّ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبْنَ"
+          },
+          {
+            "number": 7,
+            "text": "أَنْتَ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبْتَ"
+          },
+          {
+            "number": 8,
+            "text": "أَنْتُمَا",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبْتُمَا"
+          },
+          {
+            "number": 9,
+            "text": "أَنْتُمْ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبْتُمْ"
+          },
+          {
+            "number": 10,
+            "text": "أَنْتِ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبْتِ"
+          },
+          {
+            "number": 11,
+            "text": "أَنْتُنَّ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبْتُنَّ"
+          },
+          {
+            "number": 12,
+            "text": "أَنَا",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبْتُ"
+          },
+          {
+            "number": 13,
+            "text": "نَحْنُ",
+            "direction": "translate-to-arabic",
+            "answer": "ذَهَبْنَا"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "instruction": "Translate into English.",
+        "items": [
+          {
+            "number": 1,
+            "text": "كَتَبَ الطَّالِبُ الدَّرْسَ",
+            "direction": "translate-to-english",
+            "answer": "The student wrote the lesson."
+          },
+          {
+            "number": 2,
+            "text": "ذَهَبَتِ الطَّالِبَةُ إِلَى الْمَدْرَسَةِ",
+            "direction": "translate-to-english",
+            "answer": "The female student went to the school."
+          },
+          {
+            "number": 3,
+            "text": "كَتَبْتُ رِسَالَةً",
+            "direction": "translate-to-english",
+            "answer": "I wrote a letter."
+          },
+          {
+            "number": 4,
+            "text": "ذَهَبُوا إِلَى الْمَسْجِدِ",
+            "direction": "translate-to-english",
+            "answer": "They went to the mosque."
+          },
+          {
+            "number": 5,
+            "text": "جَلَسَتِ الْمَرْأَةُ",
+            "direction": "translate-to-english",
+            "answer": "The woman sat."
+          },
+          {
+            "number": 6,
+            "text": "كَتَبْنَا الْكِتَابَ",
+            "direction": "translate-to-english",
+            "answer": "We wrote the book."
+          },
+          {
+            "number": 7,
+            "text": "ذَهَبَ الرَّجُلُ",
+            "direction": "translate-to-english",
+            "answer": "The man went."
+          },
+          {
+            "number": 8,
+            "text": "كَتَبْتَ الرِّسَالَةَ",
+            "direction": "translate-to-english",
+            "answer": "You (m) wrote the letter."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 4,

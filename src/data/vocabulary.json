@@ -1,96 +1,928 @@
 [
-  { "id": 1, "arabic": "أَبٌ", "transliteration": "abun", "english": "father", "plural": "آبَاءٌ", "lesson": 1, "category": "nouns" },
-  { "id": 2, "arabic": "أُمٌّ", "transliteration": "ummun", "english": "mother", "plural": "أُمَّهَاتٌ", "lesson": 1, "category": "nouns" },
-  { "id": 3, "arabic": "ابْنٌ", "transliteration": "ibnun", "english": "son", "plural": "أَبْنَاءٌ", "lesson": 1, "category": "nouns" },
-  { "id": 4, "arabic": "وَلَدٌ", "transliteration": "waladun", "english": "boy, child", "plural": "أَوْلَادٌ", "lesson": 1, "category": "nouns" },
-  { "id": 5, "arabic": "بِنْتٌ", "transliteration": "bintun", "english": "daughter, girl", "plural": "بَنَاتٌ", "lesson": 1, "category": "nouns" },
-  { "id": 6, "arabic": "عَمٌّ", "transliteration": "ʿammun", "english": "paternal uncle", "plural": "أَعْمَامٌ", "lesson": 1, "category": "nouns" },
-  { "id": 7, "arabic": "عَمَّةٌ", "transliteration": "ʿammatun", "english": "paternal aunt", "plural": "عَمَّاتٌ", "lesson": 1, "category": "nouns" },
-  { "id": 8, "arabic": "خَالٌ", "transliteration": "khālun", "english": "maternal uncle", "plural": "أَخْوَالٌ", "lesson": 1, "category": "nouns" },
-  { "id": 9, "arabic": "خَالَةٌ", "transliteration": "khālatun", "english": "maternal aunt", "plural": "خَالَاتٌ", "lesson": 1, "category": "nouns" },
-  { "id": 10, "arabic": "أَخٌ", "transliteration": "akhun", "english": "brother", "plural": "إِخْوَةٌ", "lesson": 1, "category": "nouns" },
-  { "id": 11, "arabic": "أُخْتٌ", "transliteration": "ukhtun", "english": "sister", "plural": "أَخَوَاتٌ", "lesson": 1, "category": "nouns" },
-  { "id": 12, "arabic": "جَدٌّ", "transliteration": "jaddun", "english": "grandfather", "plural": "أَجْدَادٌ", "lesson": 1, "category": "nouns" },
-  { "id": 13, "arabic": "جَدَّةٌ", "transliteration": "jaddatun", "english": "grandmother", "plural": "جَدَّاتٌ", "lesson": 1, "category": "nouns" },
-  { "id": 14, "arabic": "حَفِيدٌ", "transliteration": "ḥafīdun", "english": "grandson", "plural": "أَحْفَادٌ", "lesson": 1, "category": "nouns" },
-  { "id": 15, "arabic": "حَفِيدَةٌ", "transliteration": "ḥafīdatun", "english": "granddaughter", "lesson": 1, "category": "nouns" },
-  { "id": 16, "arabic": "رَجُلٌ", "transliteration": "rajulun", "english": "man", "plural": "رِجَالٌ", "lesson": 1, "category": "nouns" },
-  { "id": 17, "arabic": "امْرَأَةٌ", "transliteration": "imra'atun", "english": "woman", "plural": "نِسَاءٌ", "lesson": 1, "category": "nouns" },
-  { "id": 18, "arabic": "طِفْلٌ", "transliteration": "ṭiflun", "english": "male child, infant", "plural": "أَطْفَالٌ", "lesson": 1, "category": "nouns" },
-  { "id": 19, "arabic": "طِفْلَةٌ", "transliteration": "ṭiflatun", "english": "female child, infant", "lesson": 1, "category": "nouns" },
-  { "id": 20, "arabic": "رَبٌّ", "transliteration": "rabbun", "english": "Lord", "lesson": 1, "category": "nouns" },
-  { "id": 21, "arabic": "نَبِيٌّ", "transliteration": "nabiyyun", "english": "prophet", "plural": "أَنْبِيَاءٌ", "lesson": 1, "category": "nouns" },
-  { "id": 22, "arabic": "رَسُولٌ", "transliteration": "rasūlun", "english": "messenger", "plural": "رُسُلٌ", "lesson": 1, "category": "nouns" },
-  { "id": 23, "arabic": "صِرَاطٌ", "transliteration": "ṣirāṭun", "english": "path", "lesson": 1, "category": "nouns" },
-  { "id": 24, "arabic": "مُسْلِمٌ", "transliteration": "muslimun", "english": "Muslim", "plural": "مُسْلِمُونَ", "lesson": 1, "category": "nouns" },
-  { "id": 25, "arabic": "إِنْسَانٌ", "transliteration": "insānun", "english": "human being, mankind", "lesson": 1, "category": "nouns" },
-  { "id": 26, "arabic": "عَبْدٌ", "transliteration": "ʿabdun", "english": "slave, servant", "plural": "عِبَادٌ", "lesson": 1, "category": "nouns" },
-  { "id": 27, "arabic": "قَائِدٌ", "transliteration": "qā'idun", "english": "leader, commander", "plural": "قَادَةٌ", "lesson": 1, "category": "nouns" },
-  { "id": 28, "arabic": "السَّاعَةُ", "transliteration": "as-sāʿatu", "english": "the Hour (Day of Resurrection)", "lesson": 1, "category": "nouns" },
-  { "id": 29, "arabic": "مَاءٌ", "transliteration": "mā'un", "english": "water", "plural": "مِيَاهٌ", "lesson": 1, "category": "nouns" },
-  { "id": 30, "arabic": "ثَلْجٌ", "transliteration": "thaljun", "english": "ice, snow", "lesson": 1, "category": "nouns" },
-  { "id": 31, "arabic": "قَوِيٌّ", "transliteration": "qawiyyun", "english": "strong", "plural": "أَقْوِيَاءٌ", "lesson": 1, "category": "adjectives" },
-  { "id": 32, "arabic": "ضَعِيفٌ", "transliteration": "ḍaʿīfun", "english": "weak", "plural": "ضُعَفَاءٌ", "lesson": 1, "category": "adjectives" },
-  { "id": 33, "arabic": "بَارِدٌ", "transliteration": "bāridun", "english": "cold", "lesson": 1, "category": "adjectives" },
-  { "id": 34, "arabic": "عَذْبٌ", "transliteration": "ʿadhbun", "english": "sweet", "lesson": 1, "category": "adjectives" },
-  { "id": 35, "arabic": "صَغِيرٌ", "transliteration": "ṣaghīrun", "english": "small", "lesson": 1, "category": "adjectives" },
-  { "id": 36, "arabic": "سَمِينٌ", "transliteration": "samīnun", "english": "fat", "lesson": 1, "category": "adjectives" },
-  { "id": 37, "arabic": "صَالِحٌ", "transliteration": "ṣāliḥun", "english": "pious", "plural": "صُلَحَاءٌ", "lesson": 1, "category": "adjectives" },
-  { "id": 38, "arabic": "عَابِدٌ", "transliteration": "ʿābidun", "english": "worshipper", "plural": "عُبَّادٌ", "lesson": 1, "category": "adjectives" },
-  { "id": 39, "arabic": "ذَكِيٌّ", "transliteration": "dhakiyyun", "english": "intelligent, smart", "plural": "أَذْكِيَاءٌ", "lesson": 1, "category": "adjectives" },
-  { "id": 40, "arabic": "عَاقِلٌ", "transliteration": "ʿāqilun", "english": "rational, wise", "plural": "عُقَلَاءٌ", "lesson": 1, "category": "adjectives" },
-  { "id": 41, "arabic": "مُجْتَهِدٌ", "transliteration": "mujtahidun", "english": "hardworking, diligent", "plural": "مُجْتَهِدُونَ", "lesson": 1, "category": "adjectives" },
-  { "id": 42, "arabic": "جَمِيلٌ", "transliteration": "jamīlun", "english": "beautiful", "lesson": 1, "category": "adjectives" },
-  { "id": 43, "arabic": "شَاكِرٌ", "transliteration": "shākirun", "english": "thankful, grateful", "plural": "شَاكِرُونَ", "lesson": 1, "category": "adjectives" },
-  { "id": 44, "arabic": "صَادِقٌ", "transliteration": "ṣādiqun", "english": "truthful, honest", "plural": "صَادِقُونَ", "lesson": 1, "category": "adjectives" },
-  { "id": 45, "arabic": "شُجَاعٌ", "transliteration": "shujāʿun", "english": "brave", "lesson": 1, "category": "adjectives" },
-  { "id": 46, "arabic": "كَرِيمٌ", "transliteration": "karīmun", "english": "generous, noble", "plural": "كِرَامٌ", "lesson": 1, "category": "adjectives" },
-  { "id": 47, "arabic": "مُسْتَقِيمٌ", "transliteration": "mustaqīmun", "english": "straight, upright", "lesson": 1, "category": "adjectives" },
-  { "id": 48, "arabic": "مُؤَدَّبٌ", "transliteration": "mu'addabun", "english": "respectful, well-mannered", "lesson": 1, "category": "adjectives" },
-  { "id": 49, "arabic": "رَحِيمٌ", "transliteration": "raḥīmun", "english": "merciful", "lesson": 1, "category": "adjectives" },
-  { "id": 50, "arabic": "ذَاهِبٌ", "transliteration": "dhāhibun", "english": "going (M)", "lesson": 1, "category": "adjectives" },
-  { "id": 51, "arabic": "عَالِمٌ", "transliteration": "ʿālimun", "english": "knowledgeable, scholar", "plural": "عُلَمَاءٌ", "lesson": 1, "category": "adjectives" },
-  { "id": 52, "arabic": "جِدَارٌ", "transliteration": "jidārun", "english": "wall", "plural": "جُدْرَانٌ", "lesson": 2, "category": "nouns" },
-  { "id": 53, "arabic": "دَارٌ", "transliteration": "dārun", "english": "home, abode", "plural": "دُورٌ", "lesson": 2, "category": "nouns" },
-  { "id": 54, "arabic": "بَيْتٌ", "transliteration": "baytun", "english": "house", "plural": "بُيُوتٌ", "lesson": 2, "category": "nouns" },
-  { "id": 55, "arabic": "بَابٌ", "transliteration": "bābun", "english": "door, gate", "plural": "أَبْوَابٌ", "lesson": 2, "category": "nouns" },
-  { "id": 56, "arabic": "شُبَّاكٌ", "transliteration": "shabbākun", "english": "window", "plural": "شَبَابِيكُ", "lesson": 2, "category": "nouns" },
-  { "id": 57, "arabic": "حُجْرَةٌ", "transliteration": "ḥujratun", "english": "room", "plural": "حُجُرَاتٌ", "lesson": 2, "category": "nouns" },
-  { "id": 58, "arabic": "غُرْفَةٌ", "transliteration": "ghurfatun", "english": "room, chamber", "plural": "غُرَفٌ", "lesson": 2, "category": "nouns" },
-  { "id": 59, "arabic": "سَطْحٌ", "transliteration": "saṭḥun", "english": "roof", "plural": "سُطُوحٌ", "lesson": 2, "category": "nouns" },
-  { "id": 60, "arabic": "سَقْفٌ", "transliteration": "saqfun", "english": "ceiling", "plural": "سُقُوفٌ", "lesson": 2, "category": "nouns" },
-  { "id": 61, "arabic": "سَرِيرٌ", "transliteration": "sarīrun", "english": "bed", "plural": "سُرُرٌ", "lesson": 2, "category": "nouns" },
-  { "id": 62, "arabic": "قَلَمٌ", "transliteration": "qalamun", "english": "pen", "plural": "أَقْلَامٌ", "lesson": 2, "category": "nouns" },
-  { "id": 63, "arabic": "حَرٌّ", "transliteration": "ḥarrun", "english": "heat", "lesson": 2, "category": "nouns" },
-  { "id": 64, "arabic": "شَمْسٌ", "transliteration": "shamsun", "english": "sun", "plural": "شُمُوسٌ", "lesson": 2, "category": "nouns" },
-  { "id": 65, "arabic": "يَوْمٌ", "transliteration": "yawmun", "english": "day", "plural": "أَيَّامٌ", "lesson": 2, "category": "nouns" },
-  { "id": 66, "arabic": "دِينٌ", "transliteration": "dīnun", "english": "religion, judgment", "lesson": 2, "category": "nouns" },
-  { "id": 67, "arabic": "إِقَامَةٌ", "transliteration": "iqāmatun", "english": "establishing", "lesson": 2, "category": "nouns" },
-  { "id": 68, "arabic": "صَلَاةٌ", "transliteration": "ṣalātun", "english": "prayer, salah", "lesson": 2, "category": "nouns" },
-  { "id": 69, "arabic": "إِيتَاءٌ", "transliteration": "ītā'un", "english": "giving", "lesson": 2, "category": "nouns" },
-  { "id": 70, "arabic": "زَكَاةٌ", "transliteration": "zakātun", "english": "alms, zakah", "lesson": 2, "category": "nouns" },
-  { "id": 71, "arabic": "بَلْدَةٌ", "transliteration": "baldatun", "english": "city, town", "lesson": 2, "category": "nouns" },
-  { "id": 72, "arabic": "بَلَدٌ", "transliteration": "baladun", "english": "country, city", "plural": "بُلْدَانٌ", "lesson": 2, "category": "nouns" },
-  { "id": 73, "arabic": "مَدِينَةٌ", "transliteration": "madīnatun", "english": "city", "plural": "مُدُنٌ", "lesson": 2, "category": "nouns" },
-  { "id": 74, "arabic": "نَاسٌ", "transliteration": "nāsun", "english": "people", "lesson": 2, "category": "nouns" },
-  { "id": 75, "arabic": "ضَوْءٌ", "transliteration": "ḍaw'un", "english": "light", "plural": "أَضْوَاءٌ", "lesson": 2, "category": "nouns" },
-  { "id": 76, "arabic": "سِرَاجٌ", "transliteration": "sirājun", "english": "lamp, lantern", "plural": "سُرُجٌ", "lesson": 2, "category": "nouns" },
-  { "id": 77, "arabic": "ظُلْمَةٌ", "transliteration": "ẓulmatun", "english": "darkness", "plural": "ظُلُمَاتٌ", "lesson": 2, "category": "nouns" },
-  { "id": 78, "arabic": "لَيْلٌ", "transliteration": "laylun", "english": "night", "lesson": 2, "category": "nouns" },
-  { "id": 79, "arabic": "إِصْبَعٌ", "transliteration": "iṣbaʿun", "english": "finger, toe", "plural": "أَصَابِعُ", "lesson": 2, "category": "nouns" },
-  { "id": 80, "arabic": "رِجْلٌ", "transliteration": "rijlun", "english": "foot, leg", "plural": "أَرْجُلٌ", "lesson": 2, "category": "nouns" },
-  { "id": 81, "arabic": "أَمِيرٌ", "transliteration": "amīrun", "english": "leader, governor", "lesson": 2, "category": "nouns" },
-  { "id": 82, "arabic": "شِتَاءٌ", "transliteration": "shitā'un", "english": "winter", "lesson": 2, "category": "nouns" },
-  { "id": 83, "arabic": "صَيْفٌ", "transliteration": "ṣayfun", "english": "summer", "lesson": 2, "category": "nouns" },
-  { "id": 84, "arabic": "رَبِيعٌ", "transliteration": "rabīʿun", "english": "spring", "lesson": 2, "category": "nouns" },
-  { "id": 85, "arabic": "خَرِيفٌ", "transliteration": "kharīfun", "english": "autumn, fall", "lesson": 2, "category": "nouns" },
-  { "id": 86, "arabic": "سَفَرٌ", "transliteration": "safarun", "english": "journey, travel", "lesson": 2, "category": "nouns" },
-  { "id": 87, "arabic": "كِتَابٌ", "transliteration": "kitābun", "english": "book", "lesson": 2, "category": "nouns" },
-  { "id": 88, "arabic": "كُرَّاسَةٌ", "transliteration": "kurrāsatun", "english": "notebook", "lesson": 2, "category": "nouns" },
-  { "id": 89, "arabic": "طَوِيلٌ", "transliteration": "ṭawīlun", "english": "tall, long", "lesson": 2, "category": "adjectives" },
-  { "id": 90, "arabic": "قَصِيرٌ", "transliteration": "qaṣīrun", "english": "short", "lesson": 2, "category": "adjectives" },
-  { "id": 91, "arabic": "ثَمِينٌ", "transliteration": "thamīnun", "english": "expensive", "lesson": 2, "category": "adjectives" },
-  { "id": 92, "arabic": "رَفِيعٌ", "transliteration": "rafīʿun", "english": "high, lofty", "lesson": 2, "category": "adjectives" },
-  { "id": 93, "arabic": "جَدِيدٌ", "transliteration": "jadīdun", "english": "new", "lesson": 2, "category": "adjectives" },
-  { "id": 94, "arabic": "قَدِيمٌ", "transliteration": "qadīmun", "english": "old, ancient", "lesson": 2, "category": "adjectives" }
+  {
+    "id": 1,
+    "arabic": "أَبٌ",
+    "transliteration": "abun",
+    "english": "father",
+    "plural": "آبَاءٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 2,
+    "arabic": "أُمٌّ",
+    "transliteration": "ummun",
+    "english": "mother",
+    "plural": "أُمَّهَاتٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 3,
+    "arabic": "ابْنٌ",
+    "transliteration": "ibnun",
+    "english": "son",
+    "plural": "أَبْنَاءٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 4,
+    "arabic": "وَلَدٌ",
+    "transliteration": "waladun",
+    "english": "boy, child",
+    "plural": "أَوْلَادٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 5,
+    "arabic": "بِنْتٌ",
+    "transliteration": "bintun",
+    "english": "daughter, girl",
+    "plural": "بَنَاتٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 6,
+    "arabic": "عَمٌّ",
+    "transliteration": "ʿammun",
+    "english": "paternal uncle",
+    "plural": "أَعْمَامٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 7,
+    "arabic": "عَمَّةٌ",
+    "transliteration": "ʿammatun",
+    "english": "paternal aunt",
+    "plural": "عَمَّاتٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 8,
+    "arabic": "خَالٌ",
+    "transliteration": "khālun",
+    "english": "maternal uncle",
+    "plural": "أَخْوَالٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 9,
+    "arabic": "خَالَةٌ",
+    "transliteration": "khālatun",
+    "english": "maternal aunt",
+    "plural": "خَالَاتٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 10,
+    "arabic": "أَخٌ",
+    "transliteration": "akhun",
+    "english": "brother",
+    "plural": "إِخْوَةٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 11,
+    "arabic": "أُخْتٌ",
+    "transliteration": "ukhtun",
+    "english": "sister",
+    "plural": "أَخَوَاتٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 12,
+    "arabic": "جَدٌّ",
+    "transliteration": "jaddun",
+    "english": "grandfather",
+    "plural": "أَجْدَادٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 13,
+    "arabic": "جَدَّةٌ",
+    "transliteration": "jaddatun",
+    "english": "grandmother",
+    "plural": "جَدَّاتٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 14,
+    "arabic": "حَفِيدٌ",
+    "transliteration": "ḥafīdun",
+    "english": "grandson",
+    "plural": "أَحْفَادٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 15,
+    "arabic": "حَفِيدَةٌ",
+    "transliteration": "ḥafīdatun",
+    "english": "granddaughter",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 16,
+    "arabic": "رَجُلٌ",
+    "transliteration": "rajulun",
+    "english": "man",
+    "plural": "رِجَالٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 17,
+    "arabic": "امْرَأَةٌ",
+    "transliteration": "imra'atun",
+    "english": "woman",
+    "plural": "نِسَاءٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 18,
+    "arabic": "طِفْلٌ",
+    "transliteration": "ṭiflun",
+    "english": "male child, infant",
+    "plural": "أَطْفَالٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 19,
+    "arabic": "طِفْلَةٌ",
+    "transliteration": "ṭiflatun",
+    "english": "female child, infant",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 20,
+    "arabic": "رَبٌّ",
+    "transliteration": "rabbun",
+    "english": "Lord",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 21,
+    "arabic": "نَبِيٌّ",
+    "transliteration": "nabiyyun",
+    "english": "prophet",
+    "plural": "أَنْبِيَاءٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 22,
+    "arabic": "رَسُولٌ",
+    "transliteration": "rasūlun",
+    "english": "messenger",
+    "plural": "رُسُلٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 23,
+    "arabic": "صِرَاطٌ",
+    "transliteration": "ṣirāṭun",
+    "english": "path",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 24,
+    "arabic": "مُسْلِمٌ",
+    "transliteration": "muslimun",
+    "english": "Muslim",
+    "plural": "مُسْلِمُونَ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 25,
+    "arabic": "إِنْسَانٌ",
+    "transliteration": "insānun",
+    "english": "human being, mankind",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 26,
+    "arabic": "عَبْدٌ",
+    "transliteration": "ʿabdun",
+    "english": "slave, servant",
+    "plural": "عِبَادٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 27,
+    "arabic": "قَائِدٌ",
+    "transliteration": "qā'idun",
+    "english": "leader, commander",
+    "plural": "قَادَةٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 28,
+    "arabic": "السَّاعَةُ",
+    "transliteration": "as-sāʿatu",
+    "english": "the Hour (Day of Resurrection)",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 29,
+    "arabic": "مَاءٌ",
+    "transliteration": "mā'un",
+    "english": "water",
+    "plural": "مِيَاهٌ",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 30,
+    "arabic": "ثَلْجٌ",
+    "transliteration": "thaljun",
+    "english": "ice, snow",
+    "lesson": 1,
+    "category": "nouns"
+  },
+  {
+    "id": 31,
+    "arabic": "قَوِيٌّ",
+    "transliteration": "qawiyyun",
+    "english": "strong",
+    "plural": "أَقْوِيَاءٌ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 32,
+    "arabic": "ضَعِيفٌ",
+    "transliteration": "ḍaʿīfun",
+    "english": "weak",
+    "plural": "ضُعَفَاءٌ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 33,
+    "arabic": "بَارِدٌ",
+    "transliteration": "bāridun",
+    "english": "cold",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 34,
+    "arabic": "عَذْبٌ",
+    "transliteration": "ʿadhbun",
+    "english": "sweet",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 35,
+    "arabic": "صَغِيرٌ",
+    "transliteration": "ṣaghīrun",
+    "english": "small",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 36,
+    "arabic": "سَمِينٌ",
+    "transliteration": "samīnun",
+    "english": "fat",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 37,
+    "arabic": "صَالِحٌ",
+    "transliteration": "ṣāliḥun",
+    "english": "pious",
+    "plural": "صُلَحَاءٌ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 38,
+    "arabic": "عَابِدٌ",
+    "transliteration": "ʿābidun",
+    "english": "worshipper",
+    "plural": "عُبَّادٌ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 39,
+    "arabic": "ذَكِيٌّ",
+    "transliteration": "dhakiyyun",
+    "english": "intelligent, smart",
+    "plural": "أَذْكِيَاءٌ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 40,
+    "arabic": "عَاقِلٌ",
+    "transliteration": "ʿāqilun",
+    "english": "rational, wise",
+    "plural": "عُقَلَاءٌ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 41,
+    "arabic": "مُجْتَهِدٌ",
+    "transliteration": "mujtahidun",
+    "english": "hardworking, diligent",
+    "plural": "مُجْتَهِدُونَ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 42,
+    "arabic": "جَمِيلٌ",
+    "transliteration": "jamīlun",
+    "english": "beautiful",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 43,
+    "arabic": "شَاكِرٌ",
+    "transliteration": "shākirun",
+    "english": "thankful, grateful",
+    "plural": "شَاكِرُونَ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 44,
+    "arabic": "صَادِقٌ",
+    "transliteration": "ṣādiqun",
+    "english": "truthful, honest",
+    "plural": "صَادِقُونَ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 45,
+    "arabic": "شُجَاعٌ",
+    "transliteration": "shujāʿun",
+    "english": "brave",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 46,
+    "arabic": "كَرِيمٌ",
+    "transliteration": "karīmun",
+    "english": "generous, noble",
+    "plural": "كِرَامٌ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 47,
+    "arabic": "مُسْتَقِيمٌ",
+    "transliteration": "mustaqīmun",
+    "english": "straight, upright",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 48,
+    "arabic": "مُؤَدَّبٌ",
+    "transliteration": "mu'addabun",
+    "english": "respectful, well-mannered",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 49,
+    "arabic": "رَحِيمٌ",
+    "transliteration": "raḥīmun",
+    "english": "merciful",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 50,
+    "arabic": "ذَاهِبٌ",
+    "transliteration": "dhāhibun",
+    "english": "going (M)",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 51,
+    "arabic": "عَالِمٌ",
+    "transliteration": "ʿālimun",
+    "english": "knowledgeable, scholar",
+    "plural": "عُلَمَاءٌ",
+    "lesson": 1,
+    "category": "adjectives"
+  },
+  {
+    "id": 52,
+    "arabic": "جِدَارٌ",
+    "transliteration": "jidārun",
+    "english": "wall",
+    "plural": "جُدْرَانٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 53,
+    "arabic": "دَارٌ",
+    "transliteration": "dārun",
+    "english": "home, abode",
+    "plural": "دُورٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 54,
+    "arabic": "بَيْتٌ",
+    "transliteration": "baytun",
+    "english": "house",
+    "plural": "بُيُوتٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 55,
+    "arabic": "بَابٌ",
+    "transliteration": "bābun",
+    "english": "door, gate",
+    "plural": "أَبْوَابٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 56,
+    "arabic": "شُبَّاكٌ",
+    "transliteration": "shabbākun",
+    "english": "window",
+    "plural": "شَبَابِيكُ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 57,
+    "arabic": "حُجْرَةٌ",
+    "transliteration": "ḥujratun",
+    "english": "room",
+    "plural": "حُجُرَاتٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 58,
+    "arabic": "غُرْفَةٌ",
+    "transliteration": "ghurfatun",
+    "english": "room, chamber",
+    "plural": "غُرَفٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 59,
+    "arabic": "سَطْحٌ",
+    "transliteration": "saṭḥun",
+    "english": "roof",
+    "plural": "سُطُوحٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 60,
+    "arabic": "سَقْفٌ",
+    "transliteration": "saqfun",
+    "english": "ceiling",
+    "plural": "سُقُوفٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 61,
+    "arabic": "سَرِيرٌ",
+    "transliteration": "sarīrun",
+    "english": "bed",
+    "plural": "سُرُرٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 62,
+    "arabic": "قَلَمٌ",
+    "transliteration": "qalamun",
+    "english": "pen",
+    "plural": "أَقْلَامٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 63,
+    "arabic": "حَرٌّ",
+    "transliteration": "ḥarrun",
+    "english": "heat",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 64,
+    "arabic": "شَمْسٌ",
+    "transliteration": "shamsun",
+    "english": "sun",
+    "plural": "شُمُوسٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 65,
+    "arabic": "يَوْمٌ",
+    "transliteration": "yawmun",
+    "english": "day",
+    "plural": "أَيَّامٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 66,
+    "arabic": "دِينٌ",
+    "transliteration": "dīnun",
+    "english": "religion, judgment",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 67,
+    "arabic": "إِقَامَةٌ",
+    "transliteration": "iqāmatun",
+    "english": "establishing",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 68,
+    "arabic": "صَلَاةٌ",
+    "transliteration": "ṣalātun",
+    "english": "prayer, salah",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 69,
+    "arabic": "إِيتَاءٌ",
+    "transliteration": "ītā'un",
+    "english": "giving",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 70,
+    "arabic": "زَكَاةٌ",
+    "transliteration": "zakātun",
+    "english": "alms, zakah",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 71,
+    "arabic": "بَلْدَةٌ",
+    "transliteration": "baldatun",
+    "english": "city, town",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 72,
+    "arabic": "بَلَدٌ",
+    "transliteration": "baladun",
+    "english": "country, city",
+    "plural": "بُلْدَانٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 73,
+    "arabic": "مَدِينَةٌ",
+    "transliteration": "madīnatun",
+    "english": "city",
+    "plural": "مُدُنٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 74,
+    "arabic": "نَاسٌ",
+    "transliteration": "nāsun",
+    "english": "people",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 75,
+    "arabic": "ضَوْءٌ",
+    "transliteration": "ḍaw'un",
+    "english": "light",
+    "plural": "أَضْوَاءٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 76,
+    "arabic": "سِرَاجٌ",
+    "transliteration": "sirājun",
+    "english": "lamp, lantern",
+    "plural": "سُرُجٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 77,
+    "arabic": "ظُلْمَةٌ",
+    "transliteration": "ẓulmatun",
+    "english": "darkness",
+    "plural": "ظُلُمَاتٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 78,
+    "arabic": "لَيْلٌ",
+    "transliteration": "laylun",
+    "english": "night",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 79,
+    "arabic": "إِصْبَعٌ",
+    "transliteration": "iṣbaʿun",
+    "english": "finger, toe",
+    "plural": "أَصَابِعُ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 80,
+    "arabic": "رِجْلٌ",
+    "transliteration": "rijlun",
+    "english": "foot, leg",
+    "plural": "أَرْجُلٌ",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 81,
+    "arabic": "أَمِيرٌ",
+    "transliteration": "amīrun",
+    "english": "leader, governor",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 82,
+    "arabic": "شِتَاءٌ",
+    "transliteration": "shitā'un",
+    "english": "winter",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 83,
+    "arabic": "صَيْفٌ",
+    "transliteration": "ṣayfun",
+    "english": "summer",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 84,
+    "arabic": "رَبِيعٌ",
+    "transliteration": "rabīʿun",
+    "english": "spring",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 85,
+    "arabic": "خَرِيفٌ",
+    "transliteration": "kharīfun",
+    "english": "autumn, fall",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 86,
+    "arabic": "سَفَرٌ",
+    "transliteration": "safarun",
+    "english": "journey, travel",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 87,
+    "arabic": "كِتَابٌ",
+    "transliteration": "kitābun",
+    "english": "book",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 88,
+    "arabic": "كُرَّاسَةٌ",
+    "transliteration": "kurrāsatun",
+    "english": "notebook",
+    "lesson": 2,
+    "category": "nouns"
+  },
+  {
+    "id": 89,
+    "arabic": "طَوِيلٌ",
+    "transliteration": "ṭawīlun",
+    "english": "tall, long",
+    "lesson": 2,
+    "category": "adjectives"
+  },
+  {
+    "id": 90,
+    "arabic": "قَصِيرٌ",
+    "transliteration": "qaṣīrun",
+    "english": "short",
+    "lesson": 2,
+    "category": "adjectives"
+  },
+  {
+    "id": 91,
+    "arabic": "ثَمِينٌ",
+    "transliteration": "thamīnun",
+    "english": "expensive",
+    "lesson": 2,
+    "category": "adjectives"
+  },
+  {
+    "id": 92,
+    "arabic": "رَفِيعٌ",
+    "transliteration": "rafīʿun",
+    "english": "high, lofty",
+    "lesson": 2,
+    "category": "adjectives"
+  },
+  {
+    "id": 93,
+    "arabic": "جَدِيدٌ",
+    "transliteration": "jadīdun",
+    "english": "new",
+    "lesson": 2,
+    "category": "adjectives"
+  },
+  {
+    "id": 94,
+    "arabic": "قَدِيمٌ",
+    "transliteration": "qadīmun",
+    "english": "old, ancient",
+    "lesson": 2,
+    "category": "adjectives"
+  },
+  {
+    "arabic": "كَتَبَ",
+    "transliteration": "kataba",
+    "english": "he wrote",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 95
+  },
+  {
+    "arabic": "ذَهَبَ",
+    "transliteration": "dhahaba",
+    "english": "he went",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 96
+  },
+  {
+    "arabic": "جَلَسَ",
+    "transliteration": "jalasa",
+    "english": "he sat",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 97
+  },
+  {
+    "arabic": "دَخَلَ",
+    "transliteration": "dakhala",
+    "english": "he entered",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 98
+  },
+  {
+    "arabic": "خَرَجَ",
+    "transliteration": "kharaja",
+    "english": "he went out",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 99
+  },
+  {
+    "arabic": "فَتَحَ",
+    "transliteration": "fataha",
+    "english": "he opened",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 100
+  },
+  {
+    "arabic": "أَكَلَ",
+    "transliteration": "akala",
+    "english": "he ate",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 101
+  },
+  {
+    "arabic": "شَرِبَ",
+    "transliteration": "shariba",
+    "english": "he drank",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 102
+  },
+  {
+    "arabic": "نَصَرَ",
+    "transliteration": "nasara",
+    "english": "he helped / aided",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 103
+  },
+  {
+    "arabic": "رَجَعَ",
+    "transliteration": "raja'a",
+    "english": "he returned",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 104
+  },
+  {
+    "arabic": "سَمِعَ",
+    "transliteration": "sami'a",
+    "english": "he heard",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 105
+  },
+  {
+    "arabic": "ضَرَبَ",
+    "transliteration": "daraba",
+    "english": "he struck / hit",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 106
+  },
+  {
+    "arabic": "قَرَأَ",
+    "transliteration": "qara'a",
+    "english": "he read",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 107
+  },
+  {
+    "arabic": "نَظَرَ",
+    "transliteration": "nadhara",
+    "english": "he looked",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 108
+  },
+  {
+    "arabic": "حَمَلَ",
+    "transliteration": "hamala",
+    "english": "he carried",
+    "category": "verbs",
+    "lesson": 3,
+    "id": 109
+  }
 ]
