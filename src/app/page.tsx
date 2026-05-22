@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { BookOpen, Layers, Zap, Trophy, ArrowRight, Star, Users, Clock, Volume2 } from 'lucide-react';
+import { BookOpen, Layers, Zap, Trophy, ArrowRight, Star, Users, Clock, Volume2, Moon } from 'lucide-react';
 import { ArabicText } from '@/components/ArabicText';
 import { XPBar } from '@/components/XPBar';
 import { useProgress } from '@/hooks/useProgress';
@@ -45,6 +45,16 @@ export default function HomePage() {
           In the name of Allah, the Most Gracious, the Most Merciful
         </p>
       </section>
+
+      {/* Eid Notice Banner */}
+      <div className="bg-amber-50 dark:bg-amber-950/30 border-y border-amber-200 dark:border-amber-800 px-4 py-3">
+        <div className="max-w-3xl mx-auto flex items-start gap-3">
+          <Moon className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
+          <p className="text-sm text-amber-800 dark:text-amber-300">
+            <span className="font-semibold">Eid ul Adha Break:</span> No class on Tuesday May 26 or Thursday May 28. Classes resume Monday <span className="font-semibold">June 2, in shaa Allah</span>. Eid Mubarak! 🌙
+          </p>
+        </div>
+      </div>
 
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-br from-emerald-50 via-background to-teal-50 dark:from-emerald-950/20 dark:via-background dark:to-teal-950/20 py-20 px-4">
