@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Trophy, RotateCcw, ChevronRight, CheckCircle2, XCircle, Lightbulb, Filter } from 'lucide-react';
 import { ArabicText } from '@/components/ArabicText';
+import { MixedText } from '@/components/MixedText';
 import { useProgress } from '@/hooks/useProgress';
 import quizzesData from '@/data/quizzes.json';
 import lessonsData from '@/data/lessons.json';
@@ -186,13 +187,15 @@ export default function QuizPage() {
                 <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-3">
                   {currentQuestion.type === 'arabic-to-english' ? 'Arabic → English' : 'Grammar Knowledge'}
                 </div>
-                <p className="text-lg font-semibold text-foreground mb-2">{currentQuestion.question}</p>
+                <p className="text-lg font-semibold text-foreground mb-2">
+                  <MixedText>{currentQuestion.question}</MixedText>
+                </p>
 
-                {/* Show Arabic text larger if it's in the question */}
-                {currentQuestion.question.match(/[؀-ۿ]/) && (
+                {/* Show Arabic text larger if the question is primarily Arabic */}
+                {currentQuestion.type === 'arabic-to-english' && currentQuestion.question.match(/[؀-ۿ]/) && (
                   <div className="bg-muted/30 rounded-xl p-4 text-center mt-2">
                     <ArabicText size="2xl">
-                      {currentQuestion.question.match(/[؀-ۿ\s]+/)?.[0]?.trim() ?? ''}
+                      {currentQuestion.question.match(/[؀-ۿ][؀-ۿݐ-ݿ\sً-ٟ]*/)?.[0]?.trim() ?? ''}
                     </ArabicText>
                   </div>
                 )}
@@ -213,8 +216,10 @@ export default function QuizPage() {
                         i === currentQuestion.correct ? <CheckCircle2 className="w-4 h-4" /> : i === selected ? <XCircle className="w-4 h-4" /> : String.fromCharCode(65 + i)
                       ) : String.fromCharCode(65 + i)}
                     </div>
-                    <span className={`text-sm font-medium flex-1 ${opt.match(/[؀-ۿ]/) ? 'arabic-text text-xl' : ''}`}>
-                      {opt}
+                    <span className="text-sm font-medium flex-1">
+                      {opt.match(/[؀-ۿ]/) ? (
+                        <ArabicText size="lg">{opt}</ArabicText>
+                      ) : opt}
                     </span>
                   </motion.button>
                 ))}

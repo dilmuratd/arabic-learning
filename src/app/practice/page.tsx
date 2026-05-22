@@ -253,15 +253,13 @@ export default function PracticePage() {
 
                 {/* Prompt */}
                 <div className="mb-5">
-                  {!isArabicDirection ? (
-                    <div className="bg-muted/30 rounded-xl p-5 text-center">
-                      <ArabicText size="lg">{currentItem.text}</ArabicText>
-                    </div>
-                  ) : (
-                    <p className="text-lg font-semibold text-foreground leading-relaxed">
-                      {currentItem.text}
-                    </p>
-                  )}
+                  <div className="bg-muted/30 rounded-xl p-5 text-center">
+                    {/[؀-ۿ]/.test(currentItem.text) ? (
+                      <ArabicText size="xl">{currentItem.text}</ArabicText>
+                    ) : (
+                      <p className="text-lg font-semibold text-foreground leading-relaxed">{currentItem.text}</p>
+                    )}
+                  </div>
                 </div>
 
                 {/* Textarea */}

@@ -218,34 +218,7 @@ export default function LessonDetail({ slug }: { slug: string }) {
           </motion.section>
         )}
 
-        {/* Conjugation Table */}
-        {lesson.conjugationTable && (
-          <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
-            <h2 className="text-lg font-semibold text-foreground mb-4">Conjugation Table — نَصَرَ (to help)</h2>
-            <div className="overflow-x-auto rounded-xl border border-border">
-              <table className="w-full text-sm">
-                <thead className="bg-muted/50">
-                  <tr>
-                    <th className="text-left px-4 py-3 font-semibold">Pronoun</th>
-                    <th className="text-left px-4 py-3 font-semibold">Verb Form</th>
-                    <th className="text-left px-4 py-3 font-semibold">Transliteration</th>
-                    <th className="text-left px-4 py-3 font-semibold">English</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {lesson.conjugationTable.active.map((row, i) => (
-                    <tr key={i} className="border-t border-border hover:bg-muted/30 transition-colors">
-                      <td className="px-4 py-2.5"><ArabicText size="sm">{row.pronoun}</ArabicText></td>
-                      <td className="px-4 py-2.5"><ArabicText size="md" className="text-primary font-bold">{row.form}</ArabicText></td>
-                      <td className="px-4 py-2.5 text-muted-foreground italic">{row.transliteration}</td>
-                      <td className="px-4 py-2.5">{row.english}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </motion.section>
-        )}
+        {/* Conjugation Table — shown when lesson covers it */}
 
         {/* Conjugation Chart (فَعَلَ pattern) */}
         {lesson.conjugationChart && (
@@ -364,38 +337,7 @@ export default function LessonDetail({ slug }: { slug: string }) {
           </motion.section>
         )}
 
-        {/* Imperative Table */}
-        {lesson.imperativeTable && (
-          <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
-            <h2 className="text-lg font-semibold text-foreground mb-4">Imperative & Prohibitive — نَصَرَ (to help)</h2>
-            <div className="overflow-x-auto rounded-xl border border-border">
-              <table className="w-full text-sm">
-                <thead className="bg-muted/50">
-                  <tr>
-                    <th className="text-left px-4 py-3 font-semibold">Pronoun</th>
-                    <th className="text-left px-4 py-3 font-semibold text-green-600 dark:text-green-400">Imperative (أَمْرٌ)</th>
-                    <th className="text-left px-4 py-3 font-semibold text-red-600 dark:text-red-400">Prohibitive (نَهْيٌ)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {lesson.imperativeTable.map((row, i) => (
-                    <tr key={i} className="border-t border-border hover:bg-muted/30">
-                      <td className="px-4 py-2.5"><ArabicText size="sm">{row.pronoun}</ArabicText></td>
-                      <td className="px-4 py-2.5">
-                        <ArabicText size="md" className="text-green-600 dark:text-green-400 font-bold">{row.imperative}</ArabicText>
-                        <span className="text-xs text-muted-foreground ml-2">({row.english})</span>
-                      </td>
-                      <td className="px-4 py-2.5">
-                        <ArabicText size="sm" className="text-red-600 dark:text-red-400">{row.prohibitive}</ArabicText>
-                        <span className="text-xs text-muted-foreground ml-2">({row.prohibitiveEnglish})</span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </motion.section>
-        )}
+        {/* Imperative Table — shown when Lesson 9 is covered */}
 
         {/* Plural Table */}
         {lesson.pluralTable && (

@@ -1540,169 +1540,85 @@
     "exercises": [
       {
         "number": 1,
-        "instruction": "Conjugate the verb كَتَبَ (to write) for each pronoun.",
+        "instruction": "Write the فَعَلَ pattern form for each pronoun.",
         "items": [
           {
             "number": 1,
             "text": "هُوَ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبَ"
+            "answer": "فَعَلَ"
           },
           {
             "number": 2,
             "text": "هُمَا (m)",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبَا"
+            "answer": "فَعَلَا"
           },
           {
             "number": 3,
             "text": "هُمْ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبُوا"
+            "answer": "فَعَلُوا"
           },
           {
             "number": 4,
             "text": "هِيَ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبَتْ"
+            "answer": "فَعَلَتْ"
           },
           {
             "number": 5,
             "text": "هُمَا (f)",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبَتَا"
+            "answer": "فَعَلَتَا"
           },
           {
             "number": 6,
             "text": "هُنَّ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبْنَ"
+            "answer": "فَعَلْنَ"
           },
           {
             "number": 7,
             "text": "أَنْتَ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبْتَ"
+            "answer": "فَعَلْتَ"
           },
           {
             "number": 8,
             "text": "أَنْتُمَا",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبْتُمَا"
+            "answer": "فَعَلْتُمَا"
           },
           {
             "number": 9,
             "text": "أَنْتُمْ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبْتُمْ"
+            "answer": "فَعَلْتُمْ"
           },
           {
             "number": 10,
             "text": "أَنْتِ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبْتِ"
+            "answer": "فَعَلْتِ"
           },
           {
             "number": 11,
             "text": "أَنْتُنَّ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبْتُنَّ"
+            "answer": "فَعَلْتُنَّ"
           },
           {
             "number": 12,
             "text": "أَنَا",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبْتُ"
+            "answer": "فَعَلْتُ"
           },
           {
             "number": 13,
             "text": "نَحْنُ",
             "direction": "translate-to-arabic",
-            "answer": "كَتَبْنَا"
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "instruction": "Conjugate the verb ذَهَبَ (to go) for each pronoun.",
-        "items": [
-          {
-            "number": 1,
-            "text": "هُوَ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبَ"
-          },
-          {
-            "number": 2,
-            "text": "هُمَا (m)",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبَا"
-          },
-          {
-            "number": 3,
-            "text": "هُمْ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبُوا"
-          },
-          {
-            "number": 4,
-            "text": "هِيَ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبَتْ"
-          },
-          {
-            "number": 5,
-            "text": "هُمَا (f)",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبَتَا"
-          },
-          {
-            "number": 6,
-            "text": "هُنَّ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبْنَ"
-          },
-          {
-            "number": 7,
-            "text": "أَنْتَ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبْتَ"
-          },
-          {
-            "number": 8,
-            "text": "أَنْتُمَا",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبْتُمَا"
-          },
-          {
-            "number": 9,
-            "text": "أَنْتُمْ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبْتُمْ"
-          },
-          {
-            "number": 10,
-            "text": "أَنْتِ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبْتِ"
-          },
-          {
-            "number": 11,
-            "text": "أَنْتُنَّ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبْتُنَّ"
-          },
-          {
-            "number": 12,
-            "text": "أَنَا",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبْتُ"
-          },
-          {
-            "number": 13,
-            "text": "نَحْنُ",
-            "direction": "translate-to-arabic",
-            "answer": "ذَهَبْنَا"
+            "answer": "فَعَلْنَا"
           }
         ]
       }
