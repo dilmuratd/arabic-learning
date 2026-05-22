@@ -3,7 +3,7 @@
 export const LESSON_FLAGS: Record<string, boolean> = {
   'mubtada-khabar':        true,   // Lesson 1 — Subject and Predicate
   'mudaaf-mudaaf-ilayhi':  true,   // Lesson 2 — Possessive Construction
-  'past-tense':            false,  // Lesson 3 — Past Tense Verb
+  'past-tense':            true,   // Lesson 3 — Past Tense Verb
   'fail-mafool':           false,  // Lesson 4 — Verb, Subject, Object
   'prepositions':          false,  // Lesson 5 — Prepositions
   'pronouns':              false,  // Lesson 6 — Pronouns
