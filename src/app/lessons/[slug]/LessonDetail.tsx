@@ -255,12 +255,18 @@ export default function LessonDetail({ slug }: { slug: string }) {
                       row.gender === 'M'   ? 'مُذَكَّر' :
                       row.gender === 'F'   ? 'مُؤَنَّث' :
                                             'مُذَكَّر / مُؤَنَّث';
+                    const numberAr =
+                      row.number === 'Singular' ? 'مُفْرَد' :
+                      row.number === 'Dual'     ? 'مُثَنَّى' :
+                                                  'جَمْع';
                     return (
                       <tr key={i} className={`border-t border-border ${rowBg}`}>
                         <td className="px-3 py-2.5 text-xs font-medium text-muted-foreground">{row.person} ({row.personAr})</td>
                         <td className="px-3 py-2.5"><ArabicText size="sm">{row.pronoun}</ArabicText></td>
                         <td className="px-3 py-2.5 text-muted-foreground">{row.pronounEn}</td>
-                        <td className="px-3 py-2.5 text-xs text-muted-foreground">{row.number}</td>
+                        <td className="px-3 py-2.5 text-xs text-muted-foreground whitespace-nowrap">
+                          {row.number} (<ArabicText size="sm" className="inline text-foreground">{numberAr}</ArabicText>)
+                        </td>
                         <td className="px-3 py-2.5 text-xs text-muted-foreground whitespace-nowrap">
                           {row.gender} (<ArabicText size="sm" className="inline text-foreground">{genderAr}</ArabicText>)
                         </td>
