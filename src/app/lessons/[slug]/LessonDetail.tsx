@@ -238,6 +238,7 @@ export default function LessonDetail({ slug }: { slug: string }) {
                     <th className="text-left px-3 py-3 font-semibold">Pronoun (Ar)</th>
                     <th className="text-left px-3 py-3 font-semibold">Pronoun (En)</th>
                     <th className="text-left px-3 py-3 font-semibold">Number</th>
+                    <th className="text-left px-3 py-3 font-semibold">Gender</th>
                     <th className="text-left px-3 py-3 font-semibold">Form</th>
                     <th className="text-left px-3 py-3 font-semibold">Ending</th>
                   </tr>
@@ -250,12 +251,20 @@ export default function LessonDetail({ slug }: { slug: string }) {
                         : row.person === '2nd'
                         ? 'bg-amber-50 dark:bg-amber-950/20'
                         : 'bg-emerald-50 dark:bg-emerald-950/20';
+                    const genderAr =
+                      row.gender === 'M'   ? 'مُذَكَّر' :
+                      row.gender === 'F'   ? 'مُؤَنَّث' :
+                                            'مُذَكَّر / مُؤَنَّث';
                     return (
                       <tr key={i} className={`border-t border-border ${rowBg}`}>
                         <td className="px-3 py-2.5 text-xs font-medium text-muted-foreground">{row.person} ({row.personAr})</td>
                         <td className="px-3 py-2.5"><ArabicText size="sm">{row.pronoun}</ArabicText></td>
-                        <td className="px-3 py-2.5 text-muted-foreground">{row.pronounEn} ({row.gender})</td>
+                        <td className="px-3 py-2.5 text-muted-foreground">{row.pronounEn}</td>
                         <td className="px-3 py-2.5 text-xs text-muted-foreground">{row.number}</td>
+                        <td className="px-3 py-2.5">
+                          <span className="text-xs text-muted-foreground block">{row.gender}</span>
+                          <ArabicText size="sm" className="text-foreground">{genderAr}</ArabicText>
+                        </td>
                         <td className="px-3 py-2.5"><ArabicText size="lg" className="text-primary font-bold">{row.form}</ArabicText></td>
                         <td className="px-3 py-2.5 font-mono text-xs text-muted-foreground">{row.ending}</td>
                       </tr>
