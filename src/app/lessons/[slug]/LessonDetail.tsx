@@ -261,9 +261,8 @@ export default function LessonDetail({ slug }: { slug: string }) {
                         <td className="px-3 py-2.5"><ArabicText size="sm">{row.pronoun}</ArabicText></td>
                         <td className="px-3 py-2.5 text-muted-foreground">{row.pronounEn}</td>
                         <td className="px-3 py-2.5 text-xs text-muted-foreground">{row.number}</td>
-                        <td className="px-3 py-2.5">
-                          <span className="text-xs text-muted-foreground block">{row.gender}</span>
-                          <ArabicText size="sm" className="text-foreground">{genderAr}</ArabicText>
+                        <td className="px-3 py-2.5 text-xs text-muted-foreground whitespace-nowrap">
+                          {row.gender} (<ArabicText size="sm" className="inline text-foreground">{genderAr}</ArabicText>)
                         </td>
                         <td className="px-3 py-2.5"><ArabicText size="lg" className="text-primary font-bold">{row.form}</ArabicText></td>
                         <td className="px-3 py-2.5 font-mono text-xs text-muted-foreground">{row.ending}</td>
