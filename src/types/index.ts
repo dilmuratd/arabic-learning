@@ -123,6 +123,20 @@ export interface Lesson {
       number: string;
     }>;
   };
+  passiveConjugationChart?: {
+    title: string;
+    subtitle: string;
+    rows: Array<{
+      person: string;
+      personAr: string;
+      pronoun: string;
+      pronounEn: string;
+      form: string;
+      ending: string;
+      gender: string;
+      number: string;
+    }>;
+  };
 }
 
 export interface ExerciseItem {

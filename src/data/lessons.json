@@ -1399,6 +1399,11 @@
         "title": "The Key Pattern — Sukoon on the Middle",
         "explanation": "Notice that in 2nd and 1st person forms, the لَ becomes لْ (with sukoon/no vowel) before the suffix is added: فَعَلْتَ not فَعَلَتَ. This is a key spelling rule. Only in 3rd person masculine base form (هُوَ) does لَ keep its fatha: فَعَلَ.",
         "examples": []
+      },
+      {
+        "title": "Changing Active Voice to Passive Voice — الْمَجْهُولُ",
+        "explanation": "To convert a past tense verb from active (مَعْرُوفٌ) to passive (مَجْهُولٌ), apply two vowel changes to فَعَلَ: (1) Put a dammah (ُ) on the first letter: فَ → فُ. (2) Put a kasrah (ِ) on the second letter: عَ → عِ. Result: فَعَلَ → فُعِلَ, meaning \"he was done upon.\" The same suffix pattern used in active voice applies — only the first two vowels change.",
+        "examples": []
       }
     ],
     "conjugationChart": {
@@ -1622,7 +1627,143 @@
           }
         ]
       }
-    ]
+    ],
+    "passiveConjugationChart": {
+      "title": "Passive Voice Conjugation Chart (فُعِلَ)",
+      "subtitle": "الْفِعْلُ الْمَاضِي الْمَجْهُولُ — Past Tense Verb in Passive Voice",
+      "rows": [
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُوَ",
+          "pronounEn": "He",
+          "form": "فُعِلَ",
+          "ending": "-a",
+          "gender": "M",
+          "number": "Singular"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُمَا",
+          "pronounEn": "They two",
+          "form": "فُعِلَا",
+          "ending": "-ā",
+          "gender": "M",
+          "number": "Dual"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُمْ",
+          "pronounEn": "They",
+          "form": "فُعِلُوا",
+          "ending": "-ū",
+          "gender": "M",
+          "number": "Plural"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هِيَ",
+          "pronounEn": "She",
+          "form": "فُعِلَتْ",
+          "ending": "-at",
+          "gender": "F",
+          "number": "Singular"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُمَا",
+          "pronounEn": "They two",
+          "form": "فُعِلَتَا",
+          "ending": "-atā",
+          "gender": "F",
+          "number": "Dual"
+        },
+        {
+          "person": "3rd",
+          "personAr": "الغائب",
+          "pronoun": "هُنَّ",
+          "pronounEn": "They (f)",
+          "form": "فُعِلْنَ",
+          "ending": "-na",
+          "gender": "F",
+          "number": "Plural"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتَ",
+          "pronounEn": "You (m)",
+          "form": "فُعِلْتَ",
+          "ending": "-ta",
+          "gender": "M",
+          "number": "Singular"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتُمَا",
+          "pronounEn": "You two",
+          "form": "فُعِلْتُمَا",
+          "ending": "-tumā",
+          "gender": "M/F",
+          "number": "Dual"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتُمْ",
+          "pronounEn": "You all (m)",
+          "form": "فُعِلْتُمْ",
+          "ending": "-tum",
+          "gender": "M",
+          "number": "Plural"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتِ",
+          "pronounEn": "You (f)",
+          "form": "فُعِلْتِ",
+          "ending": "-ti",
+          "gender": "F",
+          "number": "Singular"
+        },
+        {
+          "person": "2nd",
+          "personAr": "المخاطب",
+          "pronoun": "أَنْتُنَّ",
+          "pronounEn": "You all (f)",
+          "form": "فُعِلْتُنَّ",
+          "ending": "-tunna",
+          "gender": "F",
+          "number": "Plural"
+        },
+        {
+          "person": "1st",
+          "personAr": "المتكلم",
+          "pronoun": "أَنَا",
+          "pronounEn": "I",
+          "form": "فُعِلْتُ",
+          "ending": "-tu",
+          "gender": "M/F",
+          "number": "Singular"
+        },
+        {
+          "person": "1st",
+          "personAr": "المتكلم",
+          "pronoun": "نَحْنُ",
+          "pronounEn": "We",
+          "form": "فُعِلْنَا",
+          "ending": "-nā",
+          "gender": "M/F",
+          "number": "Plural"
+        }
+      ]
+    }
   },
   {
     "id": 4,

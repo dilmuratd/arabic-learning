@@ -298,6 +298,91 @@ export default function LessonDetail({ slug }: { slug: string }) {
           </motion.section>
         )}
 
+        {/* Passive Conjugation Chart (فُعِلَ pattern) */}
+        {lesson.passiveConjugationChart && (
+          <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.24 }}>
+            <h2 className="flex items-center gap-2 text-lg font-semibold text-foreground mb-1">
+              <Grid3X3 className="w-5 h-5 text-purple-500" />
+              {lesson.passiveConjugationChart.title}
+            </h2>
+            <p className="text-sm text-muted-foreground mb-4">
+              <MixedText>{lesson.passiveConjugationChart.subtitle}</MixedText>
+            </p>
+            {/* Rule box */}
+            <div className="bg-purple-50 dark:bg-purple-950/20 border border-purple-200 dark:border-purple-800 rounded-xl p-4 mb-4">
+              <p className="text-sm font-semibold text-purple-700 dark:text-purple-300 mb-2">The Rule: فَعَلَ → فُعِلَ</p>
+              <ul className="space-y-1 text-sm text-purple-800 dark:text-purple-200">
+                <li className="flex items-start gap-2">
+                  <span className="text-purple-500">①</span>
+                  <MixedText>First letter: change fathah to dammah — فَ → فُ</MixedText>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-purple-500">②</span>
+                  <MixedText>Second letter: change fathah to kasrah — عَ → عِ</MixedText>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-purple-500">③</span>
+                  <MixedText>All suffixes stay the same as the active voice</MixedText>
+                </li>
+              </ul>
+            </div>
+            <div className="overflow-x-auto rounded-xl border border-border">
+              <table className="w-full text-sm">
+                <thead className="bg-muted/50">
+                  <tr>
+                    <th className="text-left px-3 py-3 font-semibold">Person</th>
+                    <th className="text-left px-3 py-3 font-semibold">Pronoun (Ar)</th>
+                    <th className="text-left px-3 py-3 font-semibold">Pronoun (En)</th>
+                    <th className="text-left px-3 py-3 font-semibold">Number</th>
+                    <th className="text-left px-3 py-3 font-semibold">Gender</th>
+                    <th className="text-left px-3 py-3 font-semibold">Form</th>
+                    <th className="text-left px-3 py-3 font-semibold">English</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {lesson.passiveConjugationChart.rows.map((row, i) => {
+                    const rowBg =
+                      row.person === '3rd'
+                        ? 'bg-blue-50 dark:bg-blue-950/20'
+                        : row.person === '2nd'
+                        ? 'bg-amber-50 dark:bg-amber-950/20'
+                        : 'bg-emerald-50 dark:bg-emerald-950/20';
+                    const genderAr =
+                      row.gender === 'M'   ? 'مُذَكَّر' :
+                      row.gender === 'F'   ? 'مُؤَنَّث' :
+                                            'مُذَكَّر / مُؤَنَّث';
+                    const numberAr =
+                      row.number === 'Singular' ? 'مُفْرَد' :
+                      row.number === 'Dual'     ? 'مُثَنَّى' :
+                                                  'جَمْع';
+                    const passiveEnglish =
+                      row.pronounEn === 'He'         ? 'He was done.' :
+                      row.pronounEn === 'She'        ? 'She was done.' :
+                      row.pronounEn === 'I'          ? 'I was done.' :
+                      row.pronounEn === 'We'         ? 'We were done.' :
+                                                       `${row.pronounEn} were done.`;
+                    return (
+                      <tr key={i} className={`border-t border-border ${rowBg}`}>
+                        <td className="px-3 py-2.5 text-xs font-medium text-muted-foreground">{row.person} ({row.personAr})</td>
+                        <td className="px-3 py-2.5"><ArabicText size="sm">{row.pronoun}</ArabicText></td>
+                        <td className="px-3 py-2.5 text-muted-foreground">{row.pronounEn}</td>
+                        <td className="px-3 py-2.5 text-xs text-muted-foreground whitespace-nowrap">
+                          {row.number} (<ArabicText size="sm" className="inline text-foreground">{numberAr}</ArabicText>)
+                        </td>
+                        <td className="px-3 py-2.5 text-xs text-muted-foreground whitespace-nowrap">
+                          {row.gender} (<ArabicText size="sm" className="inline text-foreground">{genderAr}</ArabicText>)
+                        </td>
+                        <td className="px-3 py-2.5"><ArabicText size="lg" className="text-purple-600 dark:text-purple-400 font-bold">{row.form}</ArabicText></td>
+                        <td className="px-3 py-2.5 text-xs text-muted-foreground">{passiveEnglish}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </motion.section>
+        )}
+
         {/* Pronoun Tables */}
         {lesson.pronounTable && (
           <motion.section initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}>
