@@ -1781,34 +1781,34 @@
         "transliteration": "Fiʿl",
         "english": "Verb",
         "color": "amber",
-        "description": "The action being performed. In Arabic, the verb comes FIRST in a verbal sentence."
+        "description": "The action being done. In a verbal sentence, the verb always comes FIRST."
       },
       {
         "term": "فَاعِلٌ",
-        "transliteration": "Fāʿil",
-        "english": "Subject / Doer",
+        "transliteration": "Faail",
+        "english": "Subject (Doer)",
         "color": "blue",
-        "description": "The person or thing performing the action. Always ends with dammah (ُ) or two dammahs (ٌ). Comes second."
+        "description": "The person doing the action. Gets a dammah or two dammahs. Comes second."
       },
       {
         "term": "مَفْعُولٌ",
-        "transliteration": "Mafʿūl",
+        "transliteration": "Mafool",
         "english": "Object",
         "color": "red",
-        "description": "The person or thing to which the action is done. Always ends with fathah (َ) or two fathahs (ً). Comes third."
+        "description": "The person or thing the action is done to. Gets a fathah or two fathahs. Comes third."
       }
     ],
     "rules": [
-      "Arabic verbal sentence order: Verb → Fa'il → Maf'ool (opposite to English).",
-      "The Fa'il always ends with dammah (ُ) or two dammahs (ٌ) — it is in the rafa' state.",
-      "The Maf'ool always ends with fathah (َ) or two fathahs (ً) — it is in the nasb state.",
-      "If a word has alif-laam (ال), it takes single dammah/fathah; without it, two dammahs/fathahs (tanween).",
-      "Mudaaf-Mudaaf Ilayhi combinations can serve as Fa'il or Maf'ool."
+      "Arabic verbal sentence order: Verb (فِعْلٌ) then Subject (فَاعِلٌ) then Object (مَفْعُولٌ).",
+      "The فَاعِلٌ always takes dammah (ُ) or tanween dammah (ٌ) — rafa state.",
+      "The مَفْعُولٌ always takes fathah (َ) or tanween fathah (ً) — nasb state.",
+      "If alif-laam (ال) is present, tanween drops to a single harakah: خَادِمٌ becomes الْخَادِمُ.",
+      "A mudaaf-mudaaf ilayhi combination can act as a faail or mafool. The case ending shows only on the mudaaf."
     ],
     "examples": [
       {
-        "arabic": "نَصَرَ حَامِدٌ مَحْمُوداً",
-        "transliteration": "naṣara Ḥāmidun Maḥmūdan",
+        "arabic": "نَصَرَ حَامِدٌ مَحْمُودًا",
+        "transliteration": "nasara Hamidun Mahmoodan",
         "english": "Hamid helped Mahmood.",
         "breakdown": [
           {
@@ -1822,15 +1822,15 @@
             "meaning": "Hamid (doer)"
           },
           {
-            "word": "مَحْمُوداً",
+            "word": "مَحْمُودًا",
             "role": "mafool",
             "meaning": "Mahmood (receiver)"
           }
         ]
       },
       {
-        "arabic": "فَتَحَ خَادِمٌ بَاباً",
-        "transliteration": "fataḥa khādimun bāban",
+        "arabic": "فَتَحَ خَادِمٌ بَابًا",
+        "transliteration": "fataha khadimun baban",
         "english": "A servant opened a door.",
         "breakdown": [
           {
@@ -1844,16 +1844,16 @@
             "meaning": "a servant"
           },
           {
-            "word": "بَاباً",
+            "word": "بَابًا",
             "role": "mafool",
             "meaning": "a door"
           }
         ]
       },
       {
-        "arabic": "فَتَحَ خَادِمُ مَحْمُودٍ بَابَ الْبَيْتِ",
-        "transliteration": "fataḥa khādimu Maḥmūdin bāba al-bayti",
-        "english": "Mahmood's servant opened the door of the house.",
+        "arabic": "فَتَحَ الْخَادِمُ الْبَابَ",
+        "transliteration": "fataha al-khadimu al-baba",
+        "english": "The servant opened the door.",
         "breakdown": [
           {
             "word": "فَتَحَ",
@@ -1861,14 +1861,46 @@
             "meaning": "opened"
           },
           {
-            "word": "خَادِمُ مَحْمُودٍ",
+            "word": "الْخَادِمُ",
             "role": "faail",
-            "meaning": "Mahmood's servant"
+            "meaning": "the servant"
           },
           {
-            "word": "بَابَ الْبَيْتِ",
+            "word": "الْبَابَ",
             "role": "mafool",
-            "meaning": "the door of the house"
+            "meaning": "the door"
+          }
+        ]
+      },
+      {
+        "arabic": "فَتَحَ خَادِمُ مَحْمُودٍ بَابَ الْبَيْتِ",
+        "transliteration": "fataha khadimu Mahmudin baba al-bayti",
+        "english": "Mahmood servant opened the door of the house.",
+        "breakdown": [
+          {
+            "word": "فَتَحَ",
+            "role": "verb",
+            "meaning": "opened"
+          },
+          {
+            "word": "خَادِمُ",
+            "role": "faail",
+            "meaning": "servant of"
+          },
+          {
+            "word": "مَحْمُودٍ",
+            "role": "mudaaf-ilayhi",
+            "meaning": "Mahmood"
+          },
+          {
+            "word": "بَابَ",
+            "role": "mafool",
+            "meaning": "door of"
+          },
+          {
+            "word": "الْبَيْتِ",
+            "role": "mudaaf-ilayhi",
+            "meaning": "the house"
           }
         ]
       }
@@ -1916,11 +1948,33 @@
       }
     ],
     "quranicExample": {
-      "arabic": "كَتَبَ اللَّهُ لَأَغْلِبَنَّ",
-      "transliteration": "kataba Allāhu la-aghlibanna",
-      "english": "Allah has decreed: 'I will surely overcome...'",
-      "source": "Surah Al-Mujadila 58:21"
-    }
+      "arabic": "وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا",
+      "transliteration": "wa-allama Adama al-asmaaa kullaha",
+      "english": "And He taught Adam the names of all things.",
+      "source": "Surah Al-Baqarah 2:31"
+    },
+    "grammarPoints": [
+      {
+        "title": "Word Order: Verb First",
+        "explanation": "Unlike English (Subject-Verb-Object), Arabic verbal sentences follow Verb-Subject-Object order. Example: نَصَرَ حَامِدٌ مَحْمُودًا means Hamid helped Mahmood. The verb نَصَرَ comes first, then the doer حَامِدٌ, then the receiver مَحْمُودًا.",
+        "examples": []
+      },
+      {
+        "title": "Case Endings: Dammah vs Fathah",
+        "explanation": "The فَاعِلٌ is marked by dammah (ُ) — single dammah with alif-laam, two dammahs (tanween) without it. The مَفْعُولٌ is marked by fathah (َ) — single fathah with alif-laam, two fathahs (tanween) without it. This tells you who did what even without context.",
+        "examples": []
+      },
+      {
+        "title": "Alif-Laam Drops Tanween",
+        "explanation": "When alif-laam (ال) is added, the double harakah (tanween) becomes single. So خَادِمٌ (a servant) becomes الْخَادِمُ (the servant), and بَابًا (a door) becomes الْبَابَ (the door). Example: فَتَحَ الْخَادِمُ الْبَابَ — The servant opened the door.",
+        "examples": []
+      },
+      {
+        "title": "Mudaaf as Faail or Mafool",
+        "explanation": "A possessive construction can fill the role of faail or mafool. The case ending shows on the mudaaf only, not the mudaaf ilayhi. Also, the mudaaf never takes alif-laam or tanween. Example: فَتَحَ خَادِمُ مَحْمُودٍ الْبَابَ — Mahmood's servant opened the door.",
+        "examples": []
+      }
+    ]
   },
   {
     "id": 5,

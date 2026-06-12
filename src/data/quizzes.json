@@ -1554,34 +1554,6 @@
     "explanation": "ذَهَبَ (dhahaba) means 'he went'. Common verb you'll see constantly in Arabic texts."
   },
   {
-    "id": "l4-g01",
-    "lessonId": 4,
-    "type": "multiple-choice",
-    "question": "What is the correct word order in an Arabic verbal sentence?",
-    "options": [
-      "Subject → Verb → Object",
-      "Object → Verb → Subject",
-      "Verb → Subject → Object",
-      "Subject → Object → Verb"
-    ],
-    "correct": 2,
-    "explanation": "Arabic verbal sentence order: Verb (فِعْل) → Subject/Fa'il (فَاعِل) → Object/Maf'ool (مَفْعُول)."
-  },
-  {
-    "id": "l4-g02",
-    "lessonId": 4,
-    "type": "multiple-choice",
-    "question": "The Fa'il (subject of verb) always ends with which harakah?",
-    "options": [
-      "Fathah (َ/ً)",
-      "Kasrah (ِ/ٍ)",
-      "Dammah (ُ/ٌ)",
-      "Sukoon (ْ)"
-    ],
-    "correct": 2,
-    "explanation": "The Fa'il is always in the Rafa' state — ending with dammah (ُ) or tanween dammah (ٌ)."
-  },
-  {
     "id": "l5-g01",
     "lessonId": 5,
     "type": "multiple-choice",
@@ -1748,5 +1720,243 @@
     ],
     "correct": 2,
     "explanation": "كُتُبٌ is the broken plural of كِتَابٌ — broken plurals change internal vowel patterns."
+  },
+  {
+    "id": "l4-g01",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "What is the correct word order in an Arabic verbal sentence?",
+    "options": [
+      "Subject then Verb then Object",
+      "Verb then Subject then Object",
+      "Object then Verb then Subject",
+      "Verb then Object then Subject"
+    ],
+    "correct": 1,
+    "explanation": "Arabic verbal sentences follow Verb (فِعْلٌ) then Subject (فَاعِلٌ) then Object (مَفْعُولٌ)."
+  },
+  {
+    "id": "l4-g02",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "What case ending does the فَاعِلٌ (subject) take?",
+    "options": [
+      "Fathah or two fathahs",
+      "Dammah or two dammahs",
+      "Kasrah or two kasrahs",
+      "Sukoon"
+    ],
+    "correct": 1,
+    "explanation": "The فَاعِلٌ is in the rafa state and always takes dammah or tanween dammah."
+  },
+  {
+    "id": "l4-g03",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "What case ending does the مَفْعُولٌ (object) take?",
+    "options": [
+      "Dammah or two dammahs",
+      "Kasrah or two kasrahs",
+      "Fathah or two fathahs",
+      "Sukoon"
+    ],
+    "correct": 2,
+    "explanation": "The مَفْعُولٌ is in the nasb state and always takes fathah or tanween fathah."
+  },
+  {
+    "id": "l4-g04",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "What is the meaning of فَاعِلٌ?",
+    "options": [
+      "Object",
+      "Verb",
+      "Subject and Doer",
+      "Preposition"
+    ],
+    "correct": 2,
+    "explanation": "فَاعِلٌ means the subject or doer — the person performing the action."
+  },
+  {
+    "id": "l4-g05",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "What is the meaning of مَفْعُولٌ?",
+    "options": [
+      "Subject",
+      "Verb",
+      "Preposition",
+      "Object"
+    ],
+    "correct": 3,
+    "explanation": "مَفْعُولٌ means the object — the person or thing the action is done to."
+  },
+  {
+    "id": "l4-g06",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "In the sentence نَصَرَ حَامِدٌ مَحْمُودًا, which word is the فَاعِلٌ?",
+    "options": [
+      "نَصَرَ",
+      "حَامِدٌ",
+      "مَحْمُودًا",
+      "None of the above"
+    ],
+    "correct": 1,
+    "explanation": "حَامِدٌ has two dammahs (tanween dammah) so it is the فَاعِلٌ (doer)."
+  },
+  {
+    "id": "l4-g07",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "In the sentence نَصَرَ حَامِدٌ مَحْمُودًا, which word is the مَفْعُولٌ?",
+    "options": [
+      "نَصَرَ",
+      "حَامِدٌ",
+      "مَحْمُودًا",
+      "None of the above"
+    ],
+    "correct": 2,
+    "explanation": "مَحْمُودًا has two fathahs (tanween fathah) so it is the مَفْعُولٌ (receiver)."
+  },
+  {
+    "id": "l4-g08",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "When alif-laam (ال) is added to a word, what happens to tanween?",
+    "options": [
+      "Tanween doubles",
+      "Tanween stays the same",
+      "Tanween drops to a single harakah",
+      "The word gains sukoon"
+    ],
+    "correct": 2,
+    "explanation": "Alif-laam drops tanween to a single harakah: خَادِمٌ becomes الْخَادِمُ."
+  },
+  {
+    "id": "l4-g09",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "How do you say \"The servant opened the door\" in Arabic?",
+    "options": [
+      "فَتَحَ خَادِمٌ بَابًا",
+      "فَتَحَ الْخَادِمُ الْبَابَ",
+      "الْبَابَ فَتَحَ الْخَادِمُ",
+      "فَتَحَ بَابًا خَادِمٌ"
+    ],
+    "correct": 1,
+    "explanation": "With alif-laam on both words: فَتَحَ الْخَادِمُ الْبَابَ. Tanween drops to a single harakah."
+  },
+  {
+    "id": "l4-g10",
+    "lessonId": 4,
+    "type": "grammar",
+    "question": "When a mudaaf acts as a faail or mafool, where does the case ending appear?",
+    "options": [
+      "On the mudaaf ilayhi only",
+      "On both mudaaf and mudaaf ilayhi",
+      "On the mudaaf only",
+      "On neither"
+    ],
+    "correct": 2,
+    "explanation": "The case ending shows on the mudaaf alone. The mudaaf ilayhi always stays in jarr state."
+  },
+  {
+    "id": "l4-v01",
+    "lessonId": 4,
+    "type": "vocabulary",
+    "question": "What does نَصَرَ mean?",
+    "options": [
+      "he ate",
+      "he helped",
+      "he read",
+      "he heard"
+    ],
+    "correct": 1,
+    "explanation": "نَصَرَ means he helped."
+  },
+  {
+    "id": "l4-v02",
+    "lessonId": 4,
+    "type": "vocabulary",
+    "question": "What does كَتَبَ mean?",
+    "options": [
+      "he wrote",
+      "he cooked",
+      "he broke",
+      "he defeated"
+    ],
+    "correct": 0,
+    "explanation": "كَتَبَ means he wrote."
+  },
+  {
+    "id": "l4-v03",
+    "lessonId": 4,
+    "type": "vocabulary",
+    "question": "What does ضَرَبَ mean?",
+    "options": [
+      "he heard",
+      "he profited",
+      "he hit and beat",
+      "he tore"
+    ],
+    "correct": 2,
+    "explanation": "ضَرَبَ means he hit or he beat."
+  },
+  {
+    "id": "l4-v04",
+    "lessonId": 4,
+    "type": "vocabulary",
+    "question": "What does سَمِعَ mean?",
+    "options": [
+      "he worshipped",
+      "he heard",
+      "he cheated",
+      "he ate"
+    ],
+    "correct": 1,
+    "explanation": "سَمِعَ means he heard."
+  },
+  {
+    "id": "l4-v05",
+    "lessonId": 4,
+    "type": "vocabulary",
+    "question": "Which verb means \"he worshipped\"?",
+    "options": [
+      "خَدَعَ",
+      "رَبِحَ",
+      "عَبَدَ",
+      "هَزَمَ"
+    ],
+    "correct": 2,
+    "explanation": "عَبَدَ means he worshipped."
+  },
+  {
+    "id": "l4-v06",
+    "lessonId": 4,
+    "type": "vocabulary",
+    "question": "What does قَرَأَ mean?",
+    "options": [
+      "he read",
+      "he cooked",
+      "he broke",
+      "he made"
+    ],
+    "correct": 0,
+    "explanation": "قَرَأَ means he read."
+  },
+  {
+    "id": "l4-v07",
+    "lessonId": 4,
+    "type": "vocabulary",
+    "question": "What does جَعَلَ mean?",
+    "options": [
+      "he helped",
+      "he tore",
+      "he made something into something",
+      "he stopped"
+    ],
+    "correct": 2,
+    "explanation": "جَعَلَ means he made (someone into someone or something into something)."
   }
 ]

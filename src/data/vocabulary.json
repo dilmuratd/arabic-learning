@@ -924,5 +924,125 @@
     "category": "verbs",
     "lesson": 3,
     "id": 109
+  },
+  {
+    "id": 110,
+    "arabic": "قَرَأَ",
+    "transliteration": "qara'a",
+    "english": "he read",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 111,
+    "arabic": "مَنَعَ",
+    "transliteration": "mana'a",
+    "english": "he stopped (someone)",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 112,
+    "arabic": "كَتَبَ",
+    "transliteration": "kataba",
+    "english": "he wrote",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 113,
+    "arabic": "هَزَمَ",
+    "transliteration": "hazama",
+    "english": "he defeated",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 114,
+    "arabic": "طَبَخَ",
+    "transliteration": "tabacha",
+    "english": "he cooked",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 115,
+    "arabic": "أَكَلَ",
+    "transliteration": "akala",
+    "english": "he ate",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 116,
+    "arabic": "ضَرَبَ",
+    "transliteration": "daraba",
+    "english": "he hit, he beat",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 117,
+    "arabic": "عَبَدَ",
+    "transliteration": "abada",
+    "english": "he worshipped",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 118,
+    "arabic": "كَسَرَ",
+    "transliteration": "kasara",
+    "english": "he broke (something physical)",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 119,
+    "arabic": "خَرَقَ",
+    "transliteration": "kharagha",
+    "english": "he tore",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 120,
+    "arabic": "نَصَرَ",
+    "transliteration": "nasara",
+    "english": "he helped",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 121,
+    "arabic": "خَدَعَ",
+    "transliteration": "khada'a",
+    "english": "he cheated, he deceived",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 122,
+    "arabic": "رَبِحَ",
+    "transliteration": "rabiha",
+    "english": "he profited",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 123,
+    "arabic": "سَمِعَ",
+    "transliteration": "sami'a",
+    "english": "he heard",
+    "lesson": 4,
+    "category": "verb"
+  },
+  {
+    "id": 124,
+    "arabic": "جَعَلَ",
+    "transliteration": "ja'ala",
+    "english": "he made (someone/something into)",
+    "lesson": 4,
+    "category": "verb"
   }
 ]
